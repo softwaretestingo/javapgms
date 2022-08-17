@@ -1,38 +1,43 @@
 package com.softwaretestingo.interviewprograms;
 public class SecondLargestNoEx3 
 {
-	public static int getSecondLargest(int[] arr, int n) 
+	static void secondLargest(int arr[], int arr_size)
 	{
-		int largest=getLargest(arr,n);
-		int res=-1;
-		
-		for(int i=0;i<n;i++)
-		{
-			if(arr[i]!=arr[largest])
-			{
-				if (res == -1)
-					res =i;
-				else if (arr[i]>arr[res])
-					res=i;
-			}
-		}
-		return res;
-	}
-	static int getLargest(int[] arr, int n)
-	{
-		int largest=0;
-		for (int i=1;i<n;i++)
-		{
-			if (arr[i]<arr[largest])
-				largest=i;
+		int i, first, second;
 
+		if (arr_size < 2)
+		{
+			System.out.printf(" Invalid Input ");
+			return;
 		}
-		return largest;
+
+		int largest = second = Integer.MIN_VALUE;
+
+		// Find the largest element
+		for(i = 0; i < arr_size; i++)
+		{
+			largest = Math.max(largest, arr[i]);
+		}
+
+		// Find the second largest element
+		for(i = 0; i < arr_size; i++)
+		{
+			if (arr[i] != largest)
+				second = Math.max(second, arr[i]);
+		}
+		if (second == Integer.MIN_VALUE)
+			System.out.printf("There is no second " +
+					"largest element\n");
+		else
+			System.out.printf("The second largest " +
+					"element is %d\n", second);
 	}
+
 	public static void main(String[] args) 
 	{
-		int a[] = { 11,10,4, 15, 16, 13, 2 };
-		int aSize=a.length;
-		System.out.println("Second Largest: " +getSecondLargest(a, aSize ));
+		int arr[] = { 12, 35, 1, 10, 34, 1 };
+		int n = arr.length;
+
+		secondLargest(arr, n);
 	}
 }
