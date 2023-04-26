@@ -3,7 +3,14 @@ public class InstanceOfEx1
 {
 	public static void main(String[] args) 
 	{
-		InstanceOfEx1 obj=new InstanceOfEx1();
-		System.out.println(obj instanceof InstanceOfEx1);
+		String abc="Hello World";
+		if(abc instanceof String) 
+		{
+		   System.out.println("abc is an instance of String");
+		} 
+		else 
+		{
+		   System.out.println("abc is not an instance of String");
+		}
 	}
 }

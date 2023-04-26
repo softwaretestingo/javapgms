@@ -1,15 +1,23 @@
 package com.softwaretestingo.Basic;
-interface intef
+interface Vehicle_interface 
 {
+    public void drive();
 }
-class test1 implements intef
+class Car implements Vehicle_interface 
 {
+    public void drive() 
+    {
+        System.out.println("The car is driving");
+    }
 }
-public class InstanceOfEx3 extends test1
+public class InstanceOfEx3
 {
 	public static void main(String[] args) 
 	{
-		InstanceOfEx3 obj=new InstanceOfEx3();
-		System.out.println(obj instanceof intef);
+		Vehicle_interface vehicle = new Car();
+        if(vehicle instanceof Vehicle_interface) 
+        {
+            vehicle.drive();
+        }
 	}
 }

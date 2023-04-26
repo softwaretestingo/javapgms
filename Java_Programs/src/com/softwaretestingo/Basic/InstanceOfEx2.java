@@ -1,11 +1,27 @@
 package com.softwaretestingo.Basic;
-class abc{}
-public class InstanceOfEx2 extends abc
+class Animal
+{
+    public void makeSound() 
+    {
+        System.out.println("The animal makes a sound");
+    }
+}
+class Dog extends Animal 
+{
+    public void makeSound() 
+    {
+        System.out.println("The dog barks");
+    }
+}
+public class InstanceOfEx2
 {
 	public static void main(String[] args) 
 	{
-		InstanceOfEx2 obj=new InstanceOfEx2();
-		System.out.println(obj instanceof InstanceOfEx2);
-		System.out.println(obj instanceof abc);
+		Animal animal = new Dog();
+        if(animal instanceof Dog) 
+        {
+            Dog dog = (Dog) animal;
+            dog.makeSound();
+        }
 	}
 }
