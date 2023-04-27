@@ -6,7 +6,7 @@ class a112
 class b112 extends a112
 {
 	int i=20;
-	///int j=40;
+	//int j=40;
 }
 public class ReferEnceExample 
 {
