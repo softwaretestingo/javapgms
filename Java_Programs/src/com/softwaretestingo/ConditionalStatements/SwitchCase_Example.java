@@ -1,23 +1,39 @@
 package com.softwaretestingo.ConditionalStatements;
-
 public class SwitchCase_Example 
 {
 	public static void main(String[] args) 
 	{
-		int i = 2; 
-        switch (i) 
-        { 
-        case 0: 
-            System.out.println("i is zero."); 
-            break; 
-        case 1: 
-            System.out.println("i is one."); 
-            break; 
-        case 2: 
-            System.out.println("i is two."); 
-            break; 
-        default: 
-            System.out.println("i is greater than 2."); 
-        } 
+		int dayOfWeek = 2;
+		String dayString;
+
+		switch (dayOfWeek) {
+		case 1:
+			dayString = "Monday";
+			break;
+		case 2:
+			dayString = "Tuesday";
+			break;
+		case 3:
+			dayString = "Wednesday";
+			break;
+		case 4:
+			dayString = "Thursday";
+			break;
+		case 5:
+			dayString = "Friday";
+			break;
+		case 6:
+			dayString = "Saturday";
+			break;
+		case 7:
+			dayString = "Sunday";
+			break;
+		default:
+			dayString = "Invalid day";
+			break;
+		}
+
+		System.out.println("Today is " + dayString);
+
 	}
 }
