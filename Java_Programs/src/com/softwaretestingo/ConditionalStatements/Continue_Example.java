@@ -1,5 +1,4 @@
 package com.softwaretestingo.ConditionalStatements;
-
 public class Continue_Example 
 {
 	public static void main(String[] args) 
