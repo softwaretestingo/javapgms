@@ -23,7 +23,7 @@ public class FindMissingDuplicateNumberEX3
 				System.out.println("Repeating = " + i);
 			}
 		}
-		for (int i = 1; i <= max; i++)
+		for (int i = 1; i < max; i++)
 		{
 			if (numberMap.get(i) == null) 
 			{
