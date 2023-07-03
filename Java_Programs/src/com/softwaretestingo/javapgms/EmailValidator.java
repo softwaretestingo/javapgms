@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 /**
  * Java email validation program
  * 
- * @author SoftwareTestingo admin
+ * @author SoftwareTestingo
  *
  */
 public class EmailValidator 
