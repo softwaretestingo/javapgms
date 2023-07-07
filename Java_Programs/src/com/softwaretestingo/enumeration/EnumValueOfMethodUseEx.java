@@ -9,7 +9,7 @@ public class EnumValueOfMethodUseEx
 	public static void main(String[] args) 
 	{
 		Days d;
-		d=Days.valueOf("FRIDAY1");	
+		d=Days.valueOf("FRIDAY");	
 		
 		System.out.println(d);
 	}

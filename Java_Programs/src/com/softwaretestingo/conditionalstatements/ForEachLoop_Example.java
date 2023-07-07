@@ -1,5 +1,4 @@
 package com.softwaretestingo.conditionalstatements;
-
 public class ForEachLoop_Example 
 {
 	public static void main(String args[])

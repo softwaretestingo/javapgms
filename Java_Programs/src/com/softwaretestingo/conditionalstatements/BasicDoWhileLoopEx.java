@@ -1,7 +1,7 @@
 package com.softwaretestingo.conditionalstatements;
 import java.util.Scanner;
-public class BasicDoWhileLoopEx {
-
+public class BasicDoWhileLoopEx 
+{
 	public static void main(String[] args) 
 	{
 		Scanner input = new Scanner(System.in);
