@@ -1,0 +1,11 @@
+package com.softwaretestingo.string;
+public class StringSplitEx10 
+{
+	public static void main(String[] args) 
+	{
+		String str="Welcome@to@SoftwareTestingo@Blog ";
+		String arr[]=str.split("@", -2);
+		for (String a : arr)
+			System.out.println(a);
+	}
+}

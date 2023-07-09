@@ -18,7 +18,5 @@ public class CompareToExample1
 		System.out.println(s1.compareTo(s4));  
 		//Return 17 because "S" is 17 times greater than "S"
 		System.out.println(s1.compareTo(s5));  
-
 	}
-
 }
