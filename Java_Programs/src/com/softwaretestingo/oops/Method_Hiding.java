@@ -1,5 +1,4 @@
 package com.softwaretestingo.oops;
-
 class bus
 {
 	public static void driver()

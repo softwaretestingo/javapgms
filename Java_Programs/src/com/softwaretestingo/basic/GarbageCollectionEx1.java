@@ -7,6 +7,6 @@ public class GarbageCollectionEx1
 		String str = "Welcome to SoftwareTestingo"; 
 		// String object referenced by variable str is eligible for GC.
 		str = null; 
-	    System.out.println("str eligible for GC: " + str);
+		System.out.println("str eligible for GC: " + str);
 	}
 }

@@ -1,5 +1,4 @@
 package com.softwaretestingo.basic;
-
 public class GarbageCollectionEx2 
 {
 	public static void main(String[] args) 
