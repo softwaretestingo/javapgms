@@ -11,7 +11,7 @@ public class InterviewPrograms29_1
 		String[] inputArr=input.split(" ");
 		String outputStr = "" ;
 		int j = 0 ;
-		for (int i = inputArr.length-1; i>=0 ; i-- ) 
+		for (int i=inputArr.length-1; i>=0 ; i-- ) 
 		{
 			++ j ;
 			String indexedStr = "";
@@ -22,7 +22,8 @@ public class InterviewPrograms29_1
 					indexedStr = indexedStr + inputArr[i].charAt(k);
 				}
 			}
-			else {
+			else 
+			{
 				indexedStr=inputArr[i];
 			}
 			outputStr = outputStr + " " + indexedStr;

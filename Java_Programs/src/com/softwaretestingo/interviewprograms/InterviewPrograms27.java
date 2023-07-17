@@ -10,11 +10,13 @@ public class InterviewPrograms27
 	{
 		String str = "reverse me without split";
 		Stack st=new Stack<Character>();
-		for (int i = 0; i < str.length(); ++i) {
+		for (int i = 0; i < str.length(); ++i) 
+		{
 			if (str.charAt(i) != ' ')
 				st.push(str.charAt(i));
 			else {
-				while (st.empty() == false) {
+				while (st.empty() == false) 
+				{
 					System.out.print(st.pop());
 				}
 				System.out.print(" ");

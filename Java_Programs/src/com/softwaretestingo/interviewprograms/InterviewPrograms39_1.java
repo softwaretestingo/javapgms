@@ -1,9 +1,6 @@
 package com.softwaretestingo.interviewprograms;
-
-import java.util.Stack;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 public class InterviewPrograms39_1 
 {
 	/*

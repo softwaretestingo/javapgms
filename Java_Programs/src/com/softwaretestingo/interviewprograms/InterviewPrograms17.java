@@ -11,8 +11,7 @@ public class InterviewPrograms17
 	{
 		TreeMap<Character,Integer> map1 = new TreeMap<Character,Integer>();
 		String S1="AcBCbDEdea";
-		System.out.println("GivenInitialString:");
-		System.out.println(S1);
+		System.out.println("Given Initial String :"+S1);
 		char[] array = S1.toLowerCase().toCharArray();
 		for(char c:array)
 		{
@@ -26,7 +25,7 @@ public class InterviewPrograms17
 			}
 		}
 		Set<Character> set=map1.keySet();
-		System.out.println("TheStringGetsTransformedtotheBelowFormat:");
+		System.out.print("The String Gets Transformed to the Below Format:");
 		for(Character character:set)
 		{
 			if(map1.get(character)==2)

@@ -1,14 +1,15 @@
-package com.softwaretestingo.mpradhanpgms;
-public class ChangeCase {
-
-	public static void main(String[] args) {
-
+package com.softwaretestingo.interviewprograms;
+public class ChangeCase 
+{
+	public static void main(String[] args) 
+	{
 		String s="Automation Testing";
 		char[] ch=s.toCharArray();
 
 		StringBuffer sb= new StringBuffer(s);
 
-		for (int i = 0; i < ch.length; i++) {
+		for (int i = 0; i < ch.length; i++) 
+		{
 
 			if(Character.isLowerCase(s.charAt(i)))
 			{

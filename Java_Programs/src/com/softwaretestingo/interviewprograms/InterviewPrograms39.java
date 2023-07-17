@@ -1,7 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-
 import java.util.Stack;
-
 public class InterviewPrograms39 
 {
 	/*

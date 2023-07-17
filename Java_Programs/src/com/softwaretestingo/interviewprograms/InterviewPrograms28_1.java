@@ -1,8 +1,6 @@
 package com.softwaretestingo.interviewprograms;
-
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
 public class InterviewPrograms28_1 
 {
 	/*

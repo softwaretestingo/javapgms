@@ -5,8 +5,8 @@ import java.util.Map.Entry;
 public class InterviewPrograms7 
 {
 	/*
-	 * Input= sssqqwws 
-	 * Output= s3q2w2s
+	 * Input= abbcccdeee 
+	 * Output= a1b2c3d1e3
 	 */
 	public static void main(String[] args) 
 	{

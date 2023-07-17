@@ -1,5 +1,4 @@
 package com.softwaretestingo.interviewprograms;
-
 public class InterviewPrograms15 
 {
 	/*
@@ -9,7 +8,7 @@ public class InterviewPrograms15
 	public static void main(String[] args) 
 	{
 		int n = 1230 ;
-		String s = String.format ( "%05d" , n ) ; // to get 1230 to 01230
+		String s = String.format ( "%05d",n); // to get 1230 to 01230
 		System.out.println ( s ) ;
 		int len = s.length ( ) ;
 		String rev = "" ;

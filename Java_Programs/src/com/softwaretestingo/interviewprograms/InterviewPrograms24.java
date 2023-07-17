@@ -6,10 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 public class InterviewPrograms24 
 {
-	
+
 	/*
 	 * Input:- asd fgh dgf "asgh qtyr yty" uiyu "qwe yui" 
 	 * Output:- 
@@ -24,6 +23,7 @@ public class InterviewPrograms24
 	 * 
 	 * 
 	 * Need to Work On This
+	 * NOT WORKING
 	 */
 	public static void main(String[] args) throws IOException 
 	{
@@ -50,7 +50,7 @@ public class InterviewPrograms24
 			}
 			for (int i=0; i<=matchList.size()-1; i++ ) 
 			{
-				System.out.print(matchList.get(i));
+				System.out.println(matchList.get(i));
 			}
 
 		}

@@ -1,5 +1,4 @@
 package com.softwaretestingo.interviewprograms;
-
 public class InterviewPrograms28 
 {
 	/*

@@ -1,20 +1,18 @@
-package com.softwaretestingo.mpradhanpgms;
-
+package com.softwaretestingo.interviewprograms;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 import java.util.Map.Entry;
-
-public class StringDuplicateCharCountFinder {
-
+public class StringDuplicateCharCountFinder 
+{
 	public void dupCharcount(String s)
 	{
 		Map<Character, Integer> baseMap= new HashMap<Character, Integer>();
 
 		char carry[]=s.toCharArray();
 
-		for (char c : carry) {
+		for (char c : carry) 
+		{
 			if(baseMap.containsKey(c))
 			{
 				// If character is present in map incrementing it's count by 1
@@ -28,13 +26,12 @@ public class StringDuplicateCharCountFinder {
 		}
 
 		// Traverse the HashMap, check if the count of the character is greater than 1 then print the character and its frequency
-		for (Map.Entry<Character, Integer> entry : baseMap.entrySet()) {
-
+		for (Map.Entry<Character, Integer> entry : baseMap.entrySet()) 
+		{
 			if(entry.getValue()>1)
 			{
 				System.out.println(entry.getKey()  + " : "  + entry.getValue());
 			}
-
 		}
 		/*Set<Character> keys = baseMap.keySet();  
 		for (Character ch : keys) {  
@@ -45,16 +42,16 @@ public class StringDuplicateCharCountFinder {
 
 		Integer min = Collections.min(baseMap.values());
 
-		for (Entry<Character, Integer> c : baseMap.entrySet()) {
-
+		for (Entry<Character, Integer> c : baseMap.entrySet()) 
+		{
 			if(c.getValue().equals(min))
 			{
 				System.out.println(c.getKey() +"-"+ c.getValue());
 			}
 		}
 	}  
-	public static void main(String[] args) {
-
+	public static void main(String[] args) 
+	{
 		StringDuplicateCharCountFinder obj = new StringDuplicateCharCountFinder();
 		obj.dupCharcount("monoj kumar pradhan ");
 	}

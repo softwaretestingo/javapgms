@@ -1,9 +1,9 @@
-package com.softwaretestingo.mpradhanpgms;
-                         // Print duplicate character in a string //
-public class StringDuplicateChar {
-
-	public static void main(String[] args) {
-
+package com.softwaretestingo.interviewprograms;
+// Print duplicate character in a string //
+public class StringDuplicateChar 
+{
+	public static void main(String[] args) 
+	{
 		String string1 = "monojo";  
 		int count;  
 
@@ -12,10 +12,13 @@ public class StringDuplicateChar {
 
 		//Counts each character present in the string  
 
-		for(int i = 0; i <string.length; i++) {  
+		for(int i = 0; i <string.length; i++) 
+		{  
 			count = 1;  
-			for(int j = i+1; j <string.length; j++) {  
-				if(string[i] == string[j] && string[i] != ' ') {  
+			for(int j = i+1; j <string.length; j++) 
+			{  
+				if(string[i] == string[j] && string[i] != ' ') 
+				{  
 					count++;  
 					//Set string[j] to 0 to avoid printing visited character  
 					string[j] = '0';  

@@ -21,7 +21,6 @@ public class InterviewPrograms25
 			a[a.length-1]=fE ; // put first element at last position
 		}
 		System.out.println("Array after " + nor + " rotations " + Arrays.toString(a));
-
 	}
 
 }

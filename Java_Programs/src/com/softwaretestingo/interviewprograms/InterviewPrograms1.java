@@ -2,13 +2,16 @@ package com.softwaretestingo.interviewprograms;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Map;
-/*Input String arr[] = {"Rama", "Test", "Type", "Tata"}
-Output should be  - "RTTTaeypmsptatea" */
 public class InterviewPrograms1 
 {
+	// For More Programs Visit: https://www.softwaretestingo.com/
+	
+	/*Input String arr[] = {"Rama", "Test", "Type", "Tata"}
+	Output should be  - "RTTTaeypmsptatea" */
 	public static void main(String[] args) 
 	{
 		String arr[] = {"Rama", "Test", "Type", "Tata"};
+		System.out.println("Inpu Array Is: "+ "{\"Rama\", \"Test\", \"Type\", \"Tata\"}");
 		LinkedHashMap<Integer, ArrayList<String>> map= new LinkedHashMap<>();
 		String ans="";
 		for (int i = 0; i<=arr.length-1; i++) {
@@ -35,6 +38,6 @@ public class InterviewPrograms1
 				ans=ans+l1.get(i);
 			}
 		}
-		System.out.println(ans);
+		System.out.println("Expected Output Is: "+ans);
 	}
 }

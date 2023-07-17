@@ -1,8 +1,6 @@
 package com.softwaretestingo.interviewprograms;
-
 import java.util.HashMap;
 import java.util.LinkedList;
-
 public class InterviewPrograms36_1 
 {
 	// Given an expression string exp, write a program to examine whether the pairs and the orders of “{“, “}”, “(“, “)”, “[“, “]” are correct in exp.

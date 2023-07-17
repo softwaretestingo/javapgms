@@ -14,8 +14,8 @@ public class InterviewPrograms10
 	static void append(char ch[]) 
 	{
 		char[] ch1=ch.clone();
-		System.out.println(ch);
-		System.out.println(ch1);
+		//System.out.println(ch);
+		//System.out.println(ch1);
 		char[] result= new char[0];
 		StringBuilder sb = new StringBuilder();
 		for(int i=0;i<ch.length;i++)

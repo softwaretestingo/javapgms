@@ -1,9 +1,8 @@
-package com.softwaretestingo.mpradhanpgms;
-
-public class Palindrome_Prog5 {
-
-	public static void main(String[] args) {
-		
+package com.softwaretestingo.interviewprograms;
+public class Palindrome_Prog5 
+{
+	public static void main(String[] args) 
+	{	
 		int sum=0,temp;
 		int n=5405;
 		temp=n;

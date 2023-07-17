@@ -1,11 +1,9 @@
-package com.softwaretestingo.mpradhanpgms;
-
+package com.softwaretestingo.interviewprograms;
 import java.util.Scanner;
-
-public class OddEven_Prog2 {
-
-	public static void main(String[] args) {
-
+public class OddEven_Prog2 
+{
+	public static void main(String[] args) 
+	{
 		Scanner num = new Scanner(System.in);
 		System.out.println("Enter a number");
 
@@ -17,6 +15,5 @@ public class OddEven_Prog2 {
 		}
 		else
 			System.out.println("The input number is odd");
-
 	}
 }

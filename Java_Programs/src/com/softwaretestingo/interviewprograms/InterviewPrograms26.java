@@ -1,8 +1,6 @@
 package com.softwaretestingo.interviewprograms;
-
 import java.util.ArrayList;
 import java.util.List;
-
 public class InterviewPrograms26 
 {
 	/*

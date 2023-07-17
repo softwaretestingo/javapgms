@@ -1,5 +1,4 @@
 package com.softwaretestingo.interviewprograms;
-import java.util.LinkedList;
 public class InterviewPrograms21_2 
 {
 	/*

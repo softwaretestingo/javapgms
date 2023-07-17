@@ -7,7 +7,7 @@ public class InterviewPrograms31_1
 	 */
 	public static void main(String[] args) 
 	{
-		String str = "badTyx";
+		String str = "amZgxY";
 		int currentmax = 0 ;
 		for (Character c : str.toCharArray()) 
 		{

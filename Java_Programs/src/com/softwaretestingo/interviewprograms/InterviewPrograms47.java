@@ -21,7 +21,7 @@ public class InterviewPrograms47
 		{
 			hm.put(c, hm.getOrDefault(c, 0) + 1);
 		}
-		System.out.println(" frequency map of the String is " + hm);
+		System.out.println("frequency map of the String is " + hm);
 
 		hm.entrySet().stream()
 		.sorted(Map.Entry. <Character, Integer>comparingByValue())

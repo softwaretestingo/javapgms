@@ -1,16 +1,14 @@
 package com.softwaretestingo.interviewprograms;
-
 import java.util.Arrays;
-
 public class InterviewPrograms23 
 {
 	/*
 	 * input :list1--[3,R,M,4,89,f] 
-	 * OutPut:list2--[3,4,89,R,M,f]
+	 * OutPut:list2--[3,4,89,M,R,f]
 	 */
 	public static void main(String[] args) 
 	{
-		String[] arr = pushAllCharToRight(new String[] {"3" ,"R", "M" , "4" , "89" , "f" , "hello"});
+		String[] arr = pushAllCharToRight(new String[] {"3" ,"R", "M" , "4" , "89" , "f"});
 		System.out.println(Arrays.toString(arr));
 	}
 	public static String[] pushAllCharToRight(String[] array)

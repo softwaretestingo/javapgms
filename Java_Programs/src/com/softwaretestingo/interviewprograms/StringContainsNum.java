@@ -1,11 +1,9 @@
-package com.softwaretestingo.mpradhanpgms;
-
-public class StringContainsNum {
-	
-	public static void main(String[] args) {
-		
-		String s="%i a#m m@o$noj346";
-		
+package com.softwaretestingo.interviewprograms;
+public class StringContainsNum 
+{	
+	public static void main(String[] args) 
+	{	
+		String s="%i a#m m@o$noj346";	
 		int digits=0;
 		
 		for(int i=0;i<s.length();i++)

@@ -1,9 +1,8 @@
-package com.softwaretestingo.mpradhanpgms;
-
-public class SmallandLargeNum {
-	
-	public static void main(String[] args) {
-		
+package com.softwaretestingo.interviewprograms;
+public class SmallandLargeNum 
+{	
+	public static void main(String[] args) 
+	{	
 		int numArr[]= {99,2,55,6,88,-1};
 		int small=numArr[0];
 		int larg=numArr[0];
@@ -14,11 +13,11 @@ public class SmallandLargeNum {
 			{
 				larg=numArr[i];
 			}	
-			else if(numArr[i]<small){
+			else if(numArr[i]<small)
+			{
 				small=numArr[i];
 			}
 		}
 		System.err.println(small +" " +larg);
 	}
-
 }

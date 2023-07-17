@@ -1,6 +1,6 @@
 package com.softwaretestingo.interviewprograms;
 import java.util.HashMap;
-public class InterviewProgram45 
+public class InterviewPrograms45 
 {
 	/*
 	 * Input INDIA 

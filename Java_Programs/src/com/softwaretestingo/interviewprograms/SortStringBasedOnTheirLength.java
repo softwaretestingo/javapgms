@@ -1,9 +1,8 @@
-package com.softwaretestingo.mpradhanpgms;
-
-public class SortStringBasedOnTheirLength {
-
-	public static void main(String[] args) {
-
+package com.softwaretestingo.interviewprograms;
+public class SortStringBasedOnTheirLength 
+{
+	public static void main(String[] args) 
+	{
 		String str="this interview is for CBA";
 		String temp;
 		String []sw=str.split(" ");
@@ -20,8 +19,8 @@ public class SortStringBasedOnTheirLength {
 				}
 			}
 		}
-		for (int i = 0; i < sw.length; i++) {
-
+		for (int i = 0; i < sw.length; i++) 
+		{
 			System.out.print(sw[i]+ " ");
 		}
 	}

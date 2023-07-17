@@ -15,7 +15,7 @@ public class InterviewPrograms10_1
 			String str=arr[i]+arr[i];
 			AL.add(str);
 		}
-		System.out.println(arr);
+		//System.out.println(arr);
 		System.out.println(AL);
 	}
 }

@@ -7,6 +7,7 @@ public class InterviewPrograms2_1
 	public static void main(String[] args) 
 	{
 		String input = "today10is20my30interview";
+		System.out.println("Input:  "+input);
 		StringBuilder res = new StringBuilder ( );
 		StringBuilder temp = new StringBuilder ( );
 		for ( int i = 0 ; i < input.length ( ) ; i ++ )
@@ -30,7 +31,7 @@ public class InterviewPrograms2_1
 			}
 		}
 
-		res.append ( temp ) ;
-		System.out.println ( res.toString ( ) ) ;
+		res.append(temp);
+		System.out.println("Output: "+res.toString());
 	}
 }

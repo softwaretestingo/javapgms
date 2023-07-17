@@ -1,12 +1,9 @@
-package com.softwaretestingo.mpradhanpgms;
-
+package com.softwaretestingo.interviewprograms;
 import java.util.Scanner;
-
-public class PalindromeNum {
-
-
-	public static void main(String[] args) {
-
+public class PalindromeNum 
+{
+	public static void main(String[] args) 
+	{
 		Scanner sc= new Scanner(System.in);
 		System.out.println("please enter num");
 		int num=sc.nextInt();
@@ -18,7 +15,6 @@ public class PalindromeNum {
 		{
 			rev=rev*10+num%10;
 			num=num/10;
-
 		}
 		System.out.println(rev);
 

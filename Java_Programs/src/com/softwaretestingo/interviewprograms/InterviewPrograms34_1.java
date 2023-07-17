@@ -1,7 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-
 import java.util.HashSet;
-
 public class InterviewPrograms34_1
 {
 	/*

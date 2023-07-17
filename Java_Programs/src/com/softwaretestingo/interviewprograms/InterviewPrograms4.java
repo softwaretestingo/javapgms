@@ -1,11 +1,8 @@
 package com.softwaretestingo.interviewprograms;
-
 import java.util.LinkedList;
 import java.util.List;
-
 public class InterviewPrograms4 
 {
-
 	/*
 	 * Input string: "dadeadrs" 
 	 * Output: "dddaaers"

@@ -44,7 +44,7 @@ public class InterviewPrograms13
 		}
 		for(Integer d:list1)
 		{
-			System.out.print(d);
+			System.out.print(d+",");
 		}
 	}
 }

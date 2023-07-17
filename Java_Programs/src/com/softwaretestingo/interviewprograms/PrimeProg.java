@@ -1,11 +1,9 @@
-package com.softwaretestingo.mpradhanpgms;
-
+package com.softwaretestingo.interviewprograms;
 import java.util.Scanner;
-
-public class PrimeProg {
-
-	public static void main(String[] args) {
-
+public class PrimeProg 
+{
+	public static void main(String[] args) 
+	{
 		/*String s="monoj1";
 		char []m=s.toCharArray();
 		for(int i=0;i<m.length;i++)
@@ -30,5 +28,4 @@ public class PrimeProg {
 		else
 			System.out.println("Not a prime number ");        
 	} 
-
 }

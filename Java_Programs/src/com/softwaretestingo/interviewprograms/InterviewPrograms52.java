@@ -1,7 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-
 import java.util.Arrays;
-
 public class InterviewPrograms52 
 {
 	/*
