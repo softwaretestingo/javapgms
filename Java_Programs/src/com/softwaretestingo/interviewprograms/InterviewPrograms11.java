@@ -1,5 +1,4 @@
 package com.softwaretestingo.interviewprograms;
-
 public class InterviewPrograms11 
 {
 	/*
@@ -25,7 +24,7 @@ public class InterviewPrograms11
 			else
 			{
 				re = re + s.charAt ( i ) + count ;
-				count = 1 ;
+				count=1;
 			}
 
 		}

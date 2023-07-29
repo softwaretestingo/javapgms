@@ -1,5 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-public class PatternNumber 
+public class InterviewPrograms64_PatternNumber 
 {	
 	/*
 	 * 1 

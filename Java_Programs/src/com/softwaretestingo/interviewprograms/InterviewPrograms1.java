@@ -39,5 +39,7 @@ public class InterviewPrograms1
 			}
 		}
 		System.out.println("Expected Output Is: "+ans);
+		String sy="RTTTaeypmsptatea";
+		System.out.println(sy.length());
 	}
 }

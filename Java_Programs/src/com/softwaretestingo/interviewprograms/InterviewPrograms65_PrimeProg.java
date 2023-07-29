@@ -1,6 +1,6 @@
 package com.softwaretestingo.interviewprograms;
 import java.util.Scanner;
-public class PrimeProg 
+public class InterviewPrograms65_PrimeProg 
 {
 	public static void main(String[] args) 
 	{

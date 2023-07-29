@@ -6,7 +6,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-public class CharOccAscendingValues 
+public class InterviewPrograms57_CharOccAscendingValues 
 {
 	public static void main(String[] args) 
 	{

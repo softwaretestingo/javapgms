@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
-public class StringDuplicateCharCountFinder 
+public class InterviewPrograms78_StringDuplicateCharCountFinder 
 {
 	public void dupCharcount(String s)
 	{
@@ -52,7 +52,7 @@ public class StringDuplicateCharCountFinder
 	}  
 	public static void main(String[] args) 
 	{
-		StringDuplicateCharCountFinder obj = new StringDuplicateCharCountFinder();
+		InterviewPrograms78_StringDuplicateCharCountFinder obj = new InterviewPrograms78_StringDuplicateCharCountFinder();
 		obj.dupCharcount("monoj kumar pradhan ");
 	}
 }

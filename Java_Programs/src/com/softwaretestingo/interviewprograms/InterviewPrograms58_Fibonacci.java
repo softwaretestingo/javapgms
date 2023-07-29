@@ -1,5 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-public class Fibonacci_Prog4 
+public class InterviewPrograms58_Fibonacci 
 {
 	public static void main(String[] args) 
 	{	

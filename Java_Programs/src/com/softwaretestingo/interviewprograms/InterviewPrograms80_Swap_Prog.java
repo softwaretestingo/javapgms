@@ -1,5 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-public class Swap_Prog1 
+public class InterviewPrograms80_Swap_Prog 
 {
 	public static void main(String args[])
 	{

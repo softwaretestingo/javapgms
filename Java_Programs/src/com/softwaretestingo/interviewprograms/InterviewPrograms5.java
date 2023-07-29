@@ -4,11 +4,11 @@ public class InterviewPrograms5
 	/*
 	 * 
 	 * Input/Expected Output: 
-	 * int[] intArray = { 3, 8, 2, 3, 3, 2 }; // Output : 3
-	 * int[] intArray1 = { 7, 1, 2, 8, 2 }; // Output : 2 
-	 * int[] intArray2 = { 3, 1, 4, 1, 5 }; // Output : 0 
-	 * int[] intArray3 = { 5, 5, 5, 5, 5, 5 }; // Output : 0
-	 * int[] intArray4 = { 5, 5, 5, 5, 5 }; // Output : 5
+	 * int[] intArray = {3,8,2,3,3,2}; // Output : 3
+	 * int[] intArray1 = {7,1,2,8,2}; // Output : 2 
+	 * int[] intArray2 = {3,1,4,1,5}; // Output : 0 
+	 * int[] intArray3 = {5,5,5,5,5,5}; // Output : 0
+	 * int[] intArray4 = {5,5,5,5,5}; // Output : 5
 	 * NotWorking
 	 */	
 	public static void main(String[] args) 

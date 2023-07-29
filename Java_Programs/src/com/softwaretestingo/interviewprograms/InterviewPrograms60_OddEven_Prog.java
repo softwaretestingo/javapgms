@@ -1,6 +1,6 @@
 package com.softwaretestingo.interviewprograms;
 import java.util.Scanner;
-public class OddEven_Prog2 
+public class InterviewPrograms60_OddEven_Prog 
 {
 	public static void main(String[] args) 
 	{

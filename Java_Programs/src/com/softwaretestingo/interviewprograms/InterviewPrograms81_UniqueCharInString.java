@@ -1,5 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-public class UniqueCharInString 
+public class InterviewPrograms81_UniqueCharInString 
 {
 	public static void main(String[] args) 
 	{

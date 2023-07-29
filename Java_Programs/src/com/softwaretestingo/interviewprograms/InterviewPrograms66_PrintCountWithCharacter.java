@@ -1,7 +1,7 @@
 package com.softwaretestingo.interviewprograms;
 import java.util.HashMap;
 import java.util.Map;
-public class PrintCountWithCharacter 
+public class InterviewPrograms66_PrintCountWithCharacter 
 {
 	public static void m1(String s)
 	{

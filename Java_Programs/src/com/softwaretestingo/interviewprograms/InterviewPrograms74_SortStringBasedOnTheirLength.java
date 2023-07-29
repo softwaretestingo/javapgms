@@ -1,5 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-public class SortStringBasedOnTheirLength 
+public class InterviewPrograms74_SortStringBasedOnTheirLength 
 {
 	public static void main(String[] args) 
 	{

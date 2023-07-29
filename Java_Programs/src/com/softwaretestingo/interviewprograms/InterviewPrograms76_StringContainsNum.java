@@ -1,5 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-public class StringContainsNum 
+public class InterviewPrograms76_StringContainsNum 
 {	
 	public static void main(String[] args) 
 	{	

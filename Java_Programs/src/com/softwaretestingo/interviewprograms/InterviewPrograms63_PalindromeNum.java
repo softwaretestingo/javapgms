@@ -1,6 +1,6 @@
 package com.softwaretestingo.interviewprograms;
 import java.util.Scanner;
-public class PalindromeNum 
+public class InterviewPrograms63_PalindromeNum 
 {
 	public static void main(String[] args) 
 	{

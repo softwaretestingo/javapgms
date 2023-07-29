@@ -1,5 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-public class ChangeCase 
+public class InterviewPrograms56_ChangeCase 
 {
 	public static void main(String[] args) 
 	{

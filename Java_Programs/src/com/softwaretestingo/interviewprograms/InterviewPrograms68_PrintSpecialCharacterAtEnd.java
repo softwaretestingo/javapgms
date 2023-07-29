@@ -1,5 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-public class PrintSpecialCharacterAtEnd 
+public class InterviewPrograms68_PrintSpecialCharacterAtEnd 
 {	
 	public static void main(String[] args) 
 	{	

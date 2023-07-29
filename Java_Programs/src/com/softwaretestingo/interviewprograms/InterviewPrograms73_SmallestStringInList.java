@@ -1,7 +1,7 @@
 package com.softwaretestingo.interviewprograms;
 import java.util.ArrayList;
 import java.util.List;
-public class SmallestStringInList 
+public class InterviewPrograms73_SmallestStringInList 
 {
 	public static void main(String[] args) 
 	{

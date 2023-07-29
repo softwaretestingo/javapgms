@@ -1,5 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-public class SmallandLargeNum 
+public class InterviewPrograms72_SmallandLargeNum 
 {	
 	public static void main(String[] args) 
 	{	

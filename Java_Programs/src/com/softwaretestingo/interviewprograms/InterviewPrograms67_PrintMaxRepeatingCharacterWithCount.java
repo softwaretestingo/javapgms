@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
-public class PrintMaxRepeatingCharacterWithCount 
+public class InterviewPrograms67_PrintMaxRepeatingCharacterWithCount 
 {	
 	public static void main(String[] args) 
 	{	

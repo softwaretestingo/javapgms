@@ -1,6 +1,6 @@
 package com.softwaretestingo.interviewprograms;
 // Print duplicate character in a string //
-public class StringDuplicateChar 
+public class InterviewPrograms77_StringDuplicateChar 
 {
 	public static void main(String[] args) 
 	{

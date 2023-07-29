@@ -3,7 +3,7 @@ public class InterviewPrograms35
 {
 	/*
 	 * Input - Ramakant 
-	 * Output - R1a1m1a1k1a2n1t1 
+	 * Output - R1a1m1a2k1a3n1t1 
 	 * I have to take input string and in output will print no of occurance after each character
 	 */
 	public static void main(String[] args) 

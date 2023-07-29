@@ -1,5 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-public class StringRevProg 
+public class InterviewPrograms79_StringRevProg 
 {	
 	public static void main(String[] args) 
 	{	

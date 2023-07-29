@@ -1,5 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-public class OddEvenInArray_Prog3 
+public class InterviewPrograms61_OddEvenInArray_Prog 
 {
 	public static void main(String[] args) 
 	{

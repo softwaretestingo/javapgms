@@ -1,5 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-public class RevWord 
+public class InterviewPrograms71_RevWord 
 {
 	public static void main(String[] args) 
 	{

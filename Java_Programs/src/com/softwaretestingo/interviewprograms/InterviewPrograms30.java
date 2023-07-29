@@ -3,7 +3,7 @@ public class InterviewPrograms30
 {
 	/*
 	 * Input :Hello world,welcome to my world,my world 
-	 * Output:world hello ,world my to welcome ,world 
+	 * Output:world Hello ,world my to welcome ,world my  
 	 * my Condition: without using predefined function
 	 */
 	public static void main(String[] args) 

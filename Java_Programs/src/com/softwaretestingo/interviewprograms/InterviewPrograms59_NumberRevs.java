@@ -1,6 +1,6 @@
 package com.softwaretestingo.interviewprograms;
 import java.util.Scanner;
-public class NumberRevs 
+public class InterviewPrograms59_NumberRevs 
 {	
 	public static void main(String[] args) 
 	{

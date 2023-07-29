@@ -18,5 +18,4 @@ public class InterviewPrograms3_1
 		}
 		System.out.println("The substring 'le' is repeated " + count + " times in the given string.");
 	}
-
 }

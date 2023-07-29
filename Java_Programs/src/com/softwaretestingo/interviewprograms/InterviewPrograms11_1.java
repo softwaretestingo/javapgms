@@ -2,13 +2,13 @@ package com.softwaretestingo.interviewprograms;
 public class InterviewPrograms11_1 
 {
 	/*
-	 * Input string =AAAADDDCCCA 
-	 * Output= A4D3C3A1
+	 * Input string =abbcccdeee 
+	 * Output= a1b2c3d1e3
 	 */
 	public static void main(String[] args) 
 	{
 		StringBuilder sb = new StringBuilder();
-		String str = "AAAADDDCCCA";
+		String str = "abbcccdeee";
 		String[] strArray = str.split("");
 		int i = 0 ;
 		while ( i < strArray.length ) 

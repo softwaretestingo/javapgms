@@ -1,5 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-public class Palindrome_Prog5 
+public class InterviewPrograms62_Palindrome_Prog 
 {
 	public static void main(String[] args) 
 	{	

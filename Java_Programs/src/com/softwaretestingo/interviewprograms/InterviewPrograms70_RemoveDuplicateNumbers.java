@@ -1,5 +1,5 @@
 package com.softwaretestingo.interviewprograms;
-public class RemoveDuplicateNumbers  
+public class InterviewPrograms70_RemoveDuplicateNumbers  
 {
 	public static void main(String[] args) 
 	{

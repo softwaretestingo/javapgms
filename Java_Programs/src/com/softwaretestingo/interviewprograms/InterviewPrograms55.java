@@ -22,7 +22,7 @@ public class InterviewPrograms55
 			for (int j=a.length-1;j>=0;j--)
 			{
 				sum=a[i]+a[j];
-				if(sum==10 && a[i]<=a[j])
+				if(sum==10 && a[i]<=a[j] && a[i]!=a[j])
 				{
 					System.out.println("("+a[i]+","+a[j]+")");
 				}
