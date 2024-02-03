@@ -1,5 +1,5 @@
 package com.softwaretestingo.programsonnumbers;
-public class FibonacciSequenceNumbersEx1 
+public class FibonacciSequenceNumbersWhileLoop 
 {
 	public static void main(String[] args) 
 	{
@@ -8,7 +8,7 @@ public class FibonacciSequenceNumbersEx1
 
 		while (i <= n) 
 		{
-			System.out.print(firstTerm + ", ");
+			System.out.print(firstTerm + " ");
 
 			int nextTerm = firstTerm + secondTerm;
 			firstTerm = secondTerm;
