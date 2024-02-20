@@ -19,8 +19,5 @@ public class SortingEmpName
 		{
 			System.out.println(e.empno + "  " + e.ename);
 		}
-
-
 	}
-
 }
