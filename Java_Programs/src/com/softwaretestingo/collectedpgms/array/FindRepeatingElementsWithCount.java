@@ -3,7 +3,7 @@ package com.softwaretestingo.collectedpgms.array;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FindRepeatingElements {
+public class FindRepeatingElementsWithCount {
 
     public static void main(String[] args) {
 

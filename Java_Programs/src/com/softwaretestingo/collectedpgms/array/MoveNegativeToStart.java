@@ -26,6 +26,23 @@ public class MoveNegativeToStart {
         }
 
         System.out.print(Arrays.toString(tempArr));
+        System.out.println();
+        System.out.println("Another Solution");
+  
+		for(int i=0;i<arr.length;i++)
+		{
+			int temp=0;
+			for(int j=i+1;j<arr.length;j++)
+			{
+				if(arr[i]>arr[j])
+				{
+					temp=arr[j];
+					arr[j]=arr[i];
+					arr[i]=temp;
+				}
+			}
+		}
+		System.out.println(Arrays.toString(arr));
     }
 }
 

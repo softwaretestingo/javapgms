@@ -4,7 +4,12 @@ public class RemoveVowlesFromString {
 
     public static void main(String[] args){
 
-        String word="aeiouppl";
+        String word="manoj";
+        for(int i=word.length()-1;i>=0;i--)
+        {
+        	System.out.print(word.charAt(i));
+        }
+        	
         String lowerCase=word.toLowerCase();
         char[] c=lowerCase.toCharArray();
 
