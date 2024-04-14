@@ -1,6 +1,13 @@
 package com.softwaretestingo.accessmodifier;
 class parent
 {
+	/**
+	 * 
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 */
 	public static void foo() 
 	{
 		System.out.println("Inside foo method in parent class");

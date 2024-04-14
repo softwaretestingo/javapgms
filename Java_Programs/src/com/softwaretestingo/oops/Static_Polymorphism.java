@@ -1,7 +1,14 @@
 package com.softwaretestingo.oops;
-
 class PolymorphismEx
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Static Polymorphism Example
+	 * 
+	 */
 	public void displayString(String str)
 	{
 		System.out.println("Single Parameterized Display Method Executed");

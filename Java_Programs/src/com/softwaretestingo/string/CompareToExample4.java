@@ -1,6 +1,14 @@
 package com.softwaretestingo.string;
 public class CompareToExample4 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Compare Two Strings Using compareTo() Method
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		// Initializing Strings

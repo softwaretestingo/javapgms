@@ -1,7 +1,14 @@
 package com.softwaretestingo.basic;
-
 class basevehicle
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Static Binding Example
+	 * @param args
+	 */
 	public static void speed()
 	{
 		System.out.println("The Speed Of Vehicle Class");

@@ -1,6 +1,14 @@
 package com.softwaretestingo.basic;
 public class GarbageCollectionEx3 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Garbage Collection Example
+	 * @param args
+	 */
 	public void finalize()
 	{
 		System.out.println("Finalize method called");

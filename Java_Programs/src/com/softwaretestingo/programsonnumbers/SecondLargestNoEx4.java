@@ -3,6 +3,14 @@ import java.util.Arrays;
 import java.util.Scanner;
 public class SecondLargestNoEx4 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find The Second Largest Number From Array
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		Scanner scanner = new Scanner(System.in);

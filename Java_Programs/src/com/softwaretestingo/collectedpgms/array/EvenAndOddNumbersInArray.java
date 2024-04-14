@@ -1,23 +1,32 @@
 package com.softwaretestingo.collectedpgms.array;
-
 import java.util.Arrays;
 import java.util.List;
-
-public class EvenAndOddNumbersInArray {
-
-    public static void main(String[] args) {
+public class EvenAndOddNumbersInArray 
+{
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find the Odd and Even Numbers Of the Array
+	 * 
+	 */
+    public static void main(String[] args) 
+    {
         int a[] = {1, 2, 3, 4, 5, 6, 7, 8};
 
         //Extracting even numbers
-        for (int i = 0; i < a.length - 1; i++) {
+        for (int i = 0; i < a.length - 1; i++) 
+        {
             if (a[i] % 2 == 0) {
                 System.out.println("Even numbers in array are " + a[i]);
             }
 
-
             //Extracting odd numbers
-            for (int j = 0; j < a.length - 1; j++) {
-                if (a[j] % 2 != 0) {
+            for (int j = 0; j < a.length - 1; j++) 
+            {
+                if (a[j] % 2 != 0) 
+                {
                     System.out.println("Odd numbers in array are " + a[j]);
                 }
             }
@@ -31,4 +40,3 @@ public class EvenAndOddNumbersInArray {
         }
     }
 }
-

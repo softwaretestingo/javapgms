@@ -1,6 +1,14 @@
 package com.softwaretestingo.inheritance;
 class classAA
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Check Hybrid Inheritance Example
+	 * 
+	 */
 	public void displayA()
 	{
 		System.out.println("Class A Method");

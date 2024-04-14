@@ -1,5 +1,4 @@
 package com.softwaretestingo.basic;
-
 class DefaultAccessModifier_Example 
 {
 	public static void main(String[] args) 

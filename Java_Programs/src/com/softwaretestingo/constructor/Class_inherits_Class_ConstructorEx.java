@@ -1,6 +1,14 @@
 package com.softwaretestingo.constructor;
 class a
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Inherits Class Constructor Example
+	 * 
+	 */
    a()
    {
       System.out.println("Super Class Constructor Called");

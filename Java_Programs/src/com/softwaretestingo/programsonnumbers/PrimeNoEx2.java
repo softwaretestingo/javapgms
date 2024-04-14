@@ -2,6 +2,14 @@ package com.softwaretestingo.programsonnumbers;
 import java.util.Scanner;
 public class PrimeNoEx2 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find Number is a Prime Number
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		Scanner sc=new Scanner(System.in);

@@ -1,6 +1,14 @@
 package com.softwaretestingo.constructor;
 class Base
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Constructor Chaining With Super Keyword Example
+	 * 
+	 */
 	String name;
 
 	// constructor 1

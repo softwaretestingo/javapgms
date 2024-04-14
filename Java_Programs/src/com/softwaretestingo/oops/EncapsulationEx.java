@@ -1,6 +1,14 @@
 package com.softwaretestingo.oops;
 public class EncapsulationEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Encapsulation Example
+	 * 
+	 */
 	private String name;
 	private int age;
 

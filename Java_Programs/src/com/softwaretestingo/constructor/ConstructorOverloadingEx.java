@@ -1,7 +1,14 @@
 package com.softwaretestingo.constructor;
-
 public class ConstructorOverloadingEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Constructor Overloading Example
+	 * 
+	 */
 	ConstructorOverloadingEx()
 	{
 		System.out.println("Default Constructor is called");
@@ -15,5 +22,4 @@ public class ConstructorOverloadingEx
 		ConstructorOverloadingEx obj=new ConstructorOverloadingEx();
 		ConstructorOverloadingEx obj1=new ConstructorOverloadingEx("Softwaretestingo");
 	}
-
 }

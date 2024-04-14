@@ -1,18 +1,28 @@
 package com.softwaretestingo.collectedpgms.array;
-
-public class FindMaxMinDiff {
-
-    public static void main(String[] args){
+public class FindMaxMinDiff
+{
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find the Max and Min Value Of The Array and Also Find the Difference Between Max & Min
+	 * 
+	 */
+    public static void main(String[] args)
+    {
         int [] arr = {10,90,2,40,1,25,11};
          int max=0;
          int min=arr[0];;
 
-         for(int i=0 ;i<arr.length;i++){
-        	 
-             if(arr[i]>max){
+         for(int i=0 ;i<arr.length;i++)
+         {	 
+             if(arr[i]>max)
+             {
                  max=arr[i];
              }
-             else if(arr[i]<min){
+             else if(arr[i]<min)
+             {
 
                  min=arr[i];
              }

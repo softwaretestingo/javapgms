@@ -1,6 +1,14 @@
 package com.softwaretestingo.operators;
 public class RelationalOperatorsEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Relational Operator Example
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		int a = 20, b = 10; 

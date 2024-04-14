@@ -2,6 +2,14 @@ package com.softwaretestingo.programsonnumbers;
 import java.util.Arrays;
 public class SecondLargestNoEx2 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find The Second Largest Number From Array
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		int array[] = {10, 20, 25, 63, 96, 57};

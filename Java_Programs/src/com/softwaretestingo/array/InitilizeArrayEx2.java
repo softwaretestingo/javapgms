@@ -1,6 +1,14 @@
 package com.softwaretestingo.array;
 public class InitilizeArrayEx2 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Declare, Initialize and Print the Array Elements
+	 * @param args
+	 */
 	public static void main(String[] args) 
 	{
 		//Array Declaration

@@ -2,6 +2,14 @@ package com.softwaretestingo.programsonnumbers;
 import java.util.Scanner;
 public class ReverseNumberEx3 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Reverse a Number
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		int num=0;

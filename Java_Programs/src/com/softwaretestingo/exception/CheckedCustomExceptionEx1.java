@@ -3,6 +3,14 @@ import java.util.ArrayList;
 // Create A Checked Custom exception
 class customexception1 extends Exception
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Custom Checked Exception Example
+	 * 
+	 */
 	public customexception1(String message) 
 	{
 		// Call the Constructor of Exception Class

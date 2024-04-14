@@ -2,6 +2,14 @@ package com.softwaretestingo.string;
 import java.util.Arrays;
 public class ArraytoStringEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Convert Array to String
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		boolean[] boolArray = new boolean[] { false, true, false, false }; 
@@ -30,7 +38,5 @@ public class ArraytoStringEx
 
 		short[] shortArray = new short[] { 1, 2, 3, 4 }; 
 		System.out.println("String of short Array: "+Arrays.toString(shortArray));
-
 	}
-
 }

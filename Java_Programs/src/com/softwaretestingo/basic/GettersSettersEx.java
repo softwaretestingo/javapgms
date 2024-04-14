@@ -1,6 +1,14 @@
 package com.softwaretestingo.basic;
 class accessormutator
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Getter and Setter Method Example
+	 * @param args
+	 */
 	//private variable
 	private int value=10;
 

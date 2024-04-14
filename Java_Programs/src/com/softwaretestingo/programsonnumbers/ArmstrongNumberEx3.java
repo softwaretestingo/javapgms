@@ -2,6 +2,14 @@ package com.softwaretestingo.programsonnumbers;
 import java.util.Scanner;
 public class ArmstrongNumberEx3 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Armstrong Number Example
+	 * 
+	 */
 	static boolean isArmstrong(int number)   
 	{
 		int originalNumber, remainder=0, result=0, count=0;   

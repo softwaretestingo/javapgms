@@ -1,6 +1,14 @@
 package com.softwaretestingo.string;
 public class EqualsDemo1 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Compare Two Strings Using equals() Method
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		String s1="SoftwareTestingo";  

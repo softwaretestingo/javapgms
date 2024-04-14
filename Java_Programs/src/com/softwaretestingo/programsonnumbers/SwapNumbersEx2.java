@@ -1,6 +1,14 @@
 package com.softwaretestingo.programsonnumbers;
 public class SwapNumbersEx2 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Swap Two Numbers With Out Using Third Variable
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 	    int a=5;

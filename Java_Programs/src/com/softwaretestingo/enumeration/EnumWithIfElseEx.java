@@ -1,6 +1,14 @@
 package com.softwaretestingo.enumeration;
 public class EnumWithIfElseEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Use Enum With If Else Statement
+	 * 
+	 */
 	enum WeekDays
 	{ 
 		SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY 

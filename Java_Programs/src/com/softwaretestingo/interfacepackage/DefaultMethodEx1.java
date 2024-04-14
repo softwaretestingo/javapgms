@@ -1,6 +1,14 @@
 package com.softwaretestingo.interfacepackage;
 interface interfaceWithDefaultMethod
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Default Method Example
+	 * 
+	 */
 	//abstract method
 	void method1();
 	

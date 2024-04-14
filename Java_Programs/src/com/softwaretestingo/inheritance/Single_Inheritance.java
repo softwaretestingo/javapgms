@@ -1,7 +1,14 @@
 package com.softwaretestingo.inheritance;
-
 class Single_ParentClass
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Single Inheritance Example
+	 * 
+	 */
 	public void parent_method()
 	{
 		System.out.println("Parent Class Method");

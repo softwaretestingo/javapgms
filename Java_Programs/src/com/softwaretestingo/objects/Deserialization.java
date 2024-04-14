@@ -3,7 +3,14 @@ import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 public class Deserialization 
 {
-
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Deserialization Example
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		Student sd = null;
@@ -14,9 +21,9 @@ public class Deserialization
 			sd = (Student) in.readObject();
 			in.close();
 			fileIn.close();
-		} catch (Exception ex)
+		} 
+		catch (Exception ex)
 		{
-
 			System.out.println("Employee class not found");
 			ex.printStackTrace();
 			return;

@@ -1,6 +1,14 @@
 package com.softwaretestingo.basic;
 public class StaticBlock_Example 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Static Block Example
+	 * @param args
+	 */
 	static int num;
 	static String mystr;
 	static

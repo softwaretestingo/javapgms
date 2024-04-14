@@ -4,6 +4,14 @@ import java.util.Collections;
 import java.util.List;
 public class SecondSmallestSecondLargestEx4 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find Second Lowest & Second Largest Number From Array
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		List<Integer> list=Arrays.asList(11,6,2,978,78,45,87,23,9,11,76,56);

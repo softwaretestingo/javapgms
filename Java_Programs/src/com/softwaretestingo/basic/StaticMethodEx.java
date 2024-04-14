@@ -1,6 +1,14 @@
 package com.softwaretestingo.basic;
 public class StaticMethodEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Static Keyword Example
+	 * @param args
+	 */
 	//Static Variable
 	static int a=10;
 	

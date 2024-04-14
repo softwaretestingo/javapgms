@@ -1,13 +1,20 @@
 package com.softwaretestingo.constructor;
 class MySingleton
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Singleton Class
+	 * 
+	 */
 	static MySingleton object = null;
 	public int number = 10;
 
 	// private constructor
 	private MySingleton() 
 	{
-
 	}
 
 	// Factory method to provide the users with object
@@ -21,7 +28,6 @@ class MySingleton
 }
 public class PrivateConstructorEx 
 {
-
 	public static void main(String[] args) 
 	{
 		MySingleton obj1=MySingleton.displayInstance();
@@ -33,5 +39,4 @@ public class PrivateConstructorEx
 		System.out.println("The Value of Number Variable of Object 1 :"+obj1.number);
 		System.out.println("The Value of Number Variable of Object 2 :"+obj2.number);
 	}
-
 }

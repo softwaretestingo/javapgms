@@ -1,11 +1,19 @@
 package com.softwaretestingo.array;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
 public class SearchStringFromArrayEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: From a String Array Find a Specific String and Also Find the String Position
+	 * @param args
+	 * @throws NumberFormatException
+	 * @throws IOException
+	 */
 	public static void main(String[] args) throws NumberFormatException, IOException 
 	{
 		int size;
@@ -19,7 +27,6 @@ public class SearchStringFromArrayEx
 		System.out.println("Enter " + size + " Strings: ");
 		for(int i=0;i<size;i++)
 		{
-			
 			arr[i]=br.readLine();
 		}
 		

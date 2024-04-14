@@ -1,7 +1,14 @@
 package com.softwaretestingo.inheritance;
-
 class ParentClass1
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Multiple Inheritance Example
+	 * 
+	 */
 	public void parentMethod1()
 	{
 		System.out.println("Parent Method Called");

@@ -2,6 +2,14 @@ package com.softwaretestingo.conversionprograms;
 import java.util.Scanner;
 public class BinarytoDecimalEx2 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Convert Binary To Decimal Using Math.pow()
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		Scanner scn = new Scanner(System.in);

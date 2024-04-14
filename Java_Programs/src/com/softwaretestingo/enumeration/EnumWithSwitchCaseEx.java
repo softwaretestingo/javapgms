@@ -1,6 +1,14 @@
 package com.softwaretestingo.enumeration;
 enum AllDirections 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Using Enum With Switch Case
+	 * 
+	 */
 	NORTH,
 	SOUTH,
 	EAST,

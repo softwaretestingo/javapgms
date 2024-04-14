@@ -1,6 +1,14 @@
 package com.softwaretestingo.basic;
 abstract class Shape 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: instanceof Keyword Example
+	 * @param args
+	 */
 	abstract void draw();
 }
 class Rectangle extends Shape 

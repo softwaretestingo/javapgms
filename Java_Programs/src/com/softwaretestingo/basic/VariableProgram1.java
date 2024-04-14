@@ -1,6 +1,14 @@
 package com.softwaretestingo.basic;
 public class VariableProgram1 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: How to Declare Variables Example
+	 * @param args
+	 */
 	public static void main(String[] args) 
 	{
 		/*This example we are see how to declare a variable first and later 
@@ -19,7 +27,5 @@ public class VariableProgram1
 		System.out.println("The Value Of num:-"+num);
 		System.out.println("The Value Of ch:-"+ch);
 		System.out.println("The Value Of str:-"+str);
-
 	}
-
 }

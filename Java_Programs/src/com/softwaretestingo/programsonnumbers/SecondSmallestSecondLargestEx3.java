@@ -1,6 +1,14 @@
 package com.softwaretestingo.programsonnumbers;
 public class SecondSmallestSecondLargestEx3 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find Second Lowest & Second Largest Number From Array
+	 * 
+	 */
 	static private int secondSmallest(int[] arr, int n)
 	{
 		if (n < 2)

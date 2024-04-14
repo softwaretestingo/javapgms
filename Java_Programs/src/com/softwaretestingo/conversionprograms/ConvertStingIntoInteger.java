@@ -1,6 +1,14 @@
 package com.softwaretestingo.conversionprograms;
-public class ConvertInttoSting 
+public class ConvertStingIntoInteger 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Convert String to Integer Using Integer.valueOf()  
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		String str = "123";

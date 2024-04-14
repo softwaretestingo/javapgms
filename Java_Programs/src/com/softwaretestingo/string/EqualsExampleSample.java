@@ -1,6 +1,14 @@
 package com.softwaretestingo.string;
 class Employee 
 { 
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Compare Two Strings Using equals() Method
+	 * 
+	 */
 	private String name;
 	private int age;
 	Employee(String name, int age)

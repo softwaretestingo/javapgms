@@ -1,11 +1,17 @@
 package com.softwaretestingo.datatypes;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
 public class ConvertCharToInt 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Convert Char into Int
+	 * 
+	 */
 	public static void main(String[] args) throws IOException 
 	{
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));

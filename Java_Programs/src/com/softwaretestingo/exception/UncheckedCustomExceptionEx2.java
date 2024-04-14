@@ -3,6 +3,14 @@ import java.util.ArrayList;
 // Create A Unchecked Custom exception
 class customexception2 extends RuntimeException
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Custom Unchecked Exception
+	 * 
+	 */
 	public customexception2(String message) 
 	{
 		// Call the Constructor of RuntimeException Class

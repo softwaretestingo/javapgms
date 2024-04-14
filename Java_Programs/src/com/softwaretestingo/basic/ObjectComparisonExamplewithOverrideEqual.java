@@ -1,6 +1,14 @@
 package com.softwaretestingo.basic;
 class employeer
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: How to Compare Two Objects
+	 * @param args
+	 */
 	// attributes of class1
 	String name;
 	int age;

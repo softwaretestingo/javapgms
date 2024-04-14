@@ -2,6 +2,14 @@ package com.softwaretestingo.programsonnumbers;
 import java.util.Scanner;
 public class PalindromeNumberEx3 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find Number is a Palindrome number Using Recursion
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		int originalNumber, temp, finalNumber=0;

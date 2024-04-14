@@ -2,6 +2,14 @@ package com.softwaretestingo.basic;
 import java.util.Scanner;
 public class ScannerClassEx1 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Scanner Class Example
+	 * @param args
+	 */
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System. in );
@@ -26,7 +34,7 @@ public class ScannerClassEx1
 		double salary = sc.nextDouble();
 		
 		// Print the values to check if the input was correctly obtained. 
-		System.out.println("\nName: " + name);
+		System.out.println("Name: " + name);
 		System.out.println("Post: " + post);
 		System.out.println("Gender: " + gender);
 		System.out.println("Age: " + age);

@@ -2,6 +2,14 @@ package com.softwaretestingo.operators;
 import java.util.Scanner;
 public class LogicalOperatorsEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Logical Operator Example
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		String uid = "software"; 

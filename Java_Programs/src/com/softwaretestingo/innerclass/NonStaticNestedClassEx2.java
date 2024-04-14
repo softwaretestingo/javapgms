@@ -1,6 +1,14 @@
 package com.softwaretestingo.innerclass;
 public class NonStaticNestedClassEx2 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Non Static Nested Class Example
+	 * 
+	 */
 	// private variable of the outer class
 	private int value = 50;
 

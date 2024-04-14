@@ -2,6 +2,14 @@ package com.softwaretestingo.patternprograms;
 import java.util.Scanner;
 public class NumberPatternEx2 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Number Pattern Program Example
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		// Create a new Scanner object

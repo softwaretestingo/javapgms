@@ -1,6 +1,14 @@
 package com.softwaretestingo.constructor;
 public class ConstructorChainingEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Constructor Chaining Example
+	 * 
+	 */
 	private String name;
 	private int age;
 

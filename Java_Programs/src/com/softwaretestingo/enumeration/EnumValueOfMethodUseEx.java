@@ -1,7 +1,14 @@
 package com.softwaretestingo.enumeration;
-
 public class EnumValueOfMethodUseEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Get The Value From ENUM using  valueOf()
+	 * 
+	 */
 	enum Days
 	{
 		SUNDAY,MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY

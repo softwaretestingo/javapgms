@@ -1,7 +1,14 @@
 package com.softwaretestingo.basic;
-
 public class StaticVariable_Example 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Static Variable Initialization Example
+	 * @param args
+	 */
 	static int count=0;
 	public void increment()
 	{

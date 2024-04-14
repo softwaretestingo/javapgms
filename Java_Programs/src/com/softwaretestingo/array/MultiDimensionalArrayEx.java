@@ -1,6 +1,14 @@
 package com.softwaretestingo.array;
 public class MultiDimensionalArrayEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Print Multi-Dimensional Array Values
+	 * @param args
+	 */
 	public static void main(String[] args) 
 	{
 		// declaring and initializing 2D array

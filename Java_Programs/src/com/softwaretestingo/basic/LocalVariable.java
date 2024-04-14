@@ -1,7 +1,14 @@
 package com.softwaretestingo.basic;
-
 public class LocalVariable 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Local Variable Example
+	 * @param args
+	 */
 	String myVar="Outside Local Test Method";
 	//Local Method
 	public void localTestMethod()

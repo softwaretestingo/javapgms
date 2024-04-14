@@ -4,6 +4,14 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 public class Serialization 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Serialization Example
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		Student sd=new Student();

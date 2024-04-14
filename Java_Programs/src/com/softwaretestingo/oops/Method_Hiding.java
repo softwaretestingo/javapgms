@@ -1,6 +1,14 @@
 package com.softwaretestingo.oops;
 class bus
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Method Hiding Example
+	 * 
+	 */
 	public static void driver()
 	{
 		System.out.println("Driver Method Of Bus Class Executed");

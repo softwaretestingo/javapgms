@@ -1,6 +1,14 @@
 package com.softwaretestingo.programsonnumbers;
-public class OddandEvenNumber 
+public class OddAndEvenNumber 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find Number Is a Odd Or Even Number 
+	 *  
+	 */
 	public static void main(String[] args) 
 	{
 		int x=5;

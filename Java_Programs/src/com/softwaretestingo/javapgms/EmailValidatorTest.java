@@ -1,6 +1,14 @@
 package com.softwaretestingo.javapgms;
 public class EmailValidatorTest 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Email Validation Test
+	 * 
+	 */
 	// list of valid email addresses
 	private static final String[] validEmailIds = new String[] { "softwaretestingo@yahoo.com", "softwaretestingo-100@yahoo.com",
 			"softwaretestingo.100@yahoo.com", "softwaretestingo111@softwaretestingo.com", "softwaretestingo-100@softwaretestingo.net",

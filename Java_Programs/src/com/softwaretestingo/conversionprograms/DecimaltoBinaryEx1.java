@@ -2,6 +2,14 @@ package com.softwaretestingo.conversionprograms;
 import java.util.Scanner;
 public class DecimaltoBinaryEx1 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Convert Decimal to Binary Using Integer.toBinaryString()
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);

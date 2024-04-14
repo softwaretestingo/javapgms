@@ -1,6 +1,13 @@
 package com.softwaretestingo.basic;
 class cEx
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Initialize Variable With the Help of Constructor 
+	 */
 	String name;
 	int id;
 	public cEx(String name, int id) 

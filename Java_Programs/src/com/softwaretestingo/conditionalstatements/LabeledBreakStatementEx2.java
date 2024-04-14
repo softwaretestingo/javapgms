@@ -1,6 +1,14 @@
 package com.softwaretestingo.conditionalstatements;
 public class LabeledBreakStatementEx2 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Labelled Continue Statement Example
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		lab1:

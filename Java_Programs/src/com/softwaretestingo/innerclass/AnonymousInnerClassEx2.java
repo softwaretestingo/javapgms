@@ -1,7 +1,14 @@
 package com.softwaretestingo.innerclass;
-//Java anonymous class that implements an interface
 public class AnonymousInnerClassEx2 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Java anonymous class that implements an interface
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		// Implementing Runnable Interface and overriding run()

@@ -2,6 +2,14 @@ package com.softwaretestingo.conversionprograms;
 import java.util.Scanner;
 public class BinarytoDecimalEx1 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Convert Binary To Decimal Using Integer.parseInt()
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		Scanner scn = new Scanner(System.in);
@@ -17,6 +25,5 @@ public class BinarytoDecimalEx1
         // printing the values of binary and decimal equivalent
         System.out.println("Binary Number : " + binaryNumber);
         System.out.println("Decimal Number Equivalent : " + decimalNumber);
-
 	}
 }

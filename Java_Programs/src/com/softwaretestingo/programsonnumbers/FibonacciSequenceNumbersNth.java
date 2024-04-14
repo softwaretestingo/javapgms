@@ -1,8 +1,15 @@
 package com.softwaretestingo.programsonnumbers;
-
 import java.util.Scanner;
 public class FibonacciSequenceNumbersNth 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find Nth Fibonacci Sequence Numbers 
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		int n;

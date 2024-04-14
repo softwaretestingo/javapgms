@@ -1,6 +1,14 @@
 package com.softwaretestingo.programsonnumbers;
 public class SecondLowestNoEx1 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find The Second Lowest Number From Array
+	 * 
+	 */
 	static int secSmallest(int arr[], int n)
 	{
 		int first = Integer.MAX_VALUE, second = Integer.MAX_VALUE;

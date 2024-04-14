@@ -1,6 +1,14 @@
 package com.softwaretestingo.innerclass;
 public class LocalInnerClassEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Local Inner Class Example
+	 * 
+	 */
 	int outerVariable = 100;
 	static int staticOuterVariable = 200;
 
@@ -22,12 +30,10 @@ public class LocalInnerClassEx
 				return outerVariable + staticOuterVariable + finalLocalVariable +
 						innerVariable + parameter;
 			}
-		}
-		
+		}		
 		//Local Class will be instantiated with in the Block
 		LocalInnerClass localobj=new LocalInnerClass();
 		return localobj.getSum(20);
-
 	}
 	public static void main(String[] args) 
 	{

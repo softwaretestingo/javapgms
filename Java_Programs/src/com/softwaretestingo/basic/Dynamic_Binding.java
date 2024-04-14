@@ -1,7 +1,13 @@
 package com.softwaretestingo.basic;
-
 class basevehicleclass
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Dynamic Binding Example
+	 */
 	public void speed()
 	{
 		System.out.println("The Speed Of Vehicle Class");

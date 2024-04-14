@@ -1,6 +1,14 @@
 package com.softwaretestingo.basic;
 class Animal
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: instanceof Keyword Example
+	 * @param args
+	 */
 	public void makeSound() 
 	{
 		System.out.println("The animal makes a sound");
@@ -20,7 +28,6 @@ public class InstanceOfEx2
 		//We Can call any method of Dog class using animal reference
 		//Upcasting
 		Animal animal = new Dog();
-		
 		
 		if(animal instanceof Dog) 
 		{

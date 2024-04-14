@@ -1,6 +1,11 @@
 package com.softwaretestingo.abstraction;
 abstract class AbstractDemo
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 */
 	//Concrete Method
 	public void myMethod()
 	{

@@ -1,9 +1,17 @@
 package com.softwaretestingo.collectedpgms.numbers;
-
 //without using third variable
-public class SwapTwoNumbers{
-
-    public void swapWithoutThirdVariable(){
+public class SwapTwoNumbers
+{
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Swap Two Numbers With & Without Third Variable
+	 * 
+	 */
+    public void swapWithoutThirdVariable()
+    {
         int a=10;
         int b=20;
         a=a+b;//10+20=30
@@ -13,7 +21,8 @@ public class SwapTwoNumbers{
         System.out.println("Value of b is " +b);
     }
 
-    public void withThirdVariable(){
+    public void withThirdVariable()
+    {
         int a=10;
         int b=20;
         int temp;
@@ -29,7 +38,3 @@ public class SwapTwoNumbers{
     swapTwoNumbers.withThirdVariable();
     }
 }
-
-
-
-

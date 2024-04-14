@@ -1,6 +1,14 @@
 package com.softwaretestingo.array;
 public class ReturnArrayEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: How to Return Array
+	 * @param args
+	 */
 	public static void main(String[] args) 
 	{
 		int arr[] = method1();

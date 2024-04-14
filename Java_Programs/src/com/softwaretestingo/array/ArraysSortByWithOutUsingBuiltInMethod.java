@@ -1,6 +1,14 @@
 package com.softwaretestingo.array;
-public class ArraysSort02 
+public class ArraysSortByWithOutUsingBuiltInMethod 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Sort the Array With out using any Built in Methods of Java
+	 * @param args
+	 */
 	public static void main(String[] args) 
 	{
 		int[] arr = new int[] { 78, 34, 1, 3, 90, 34, -1, -4, 6, 55, 20, -65 };

@@ -1,7 +1,14 @@
 package com.softwaretestingo.inheritance;
-
 interface interface1
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Multiple Inheritance Interface Example
+	 * 
+	 */
 	default	void parentMethod1()
 	{
 		System.out.println("Interface1 Method Called");

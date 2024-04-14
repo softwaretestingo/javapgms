@@ -1,13 +1,21 @@
 package com.softwaretestingo.collectedpgms.numbers;
-
-public class CountNumberOfDigits {
-
-    public static void main(String[] args){
-
+public class CountNumberOfDigits 
+{
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find The Number Of Digits
+	 * 
+	 */
+    public static void main(String[] args)
+    {
         int num=12345;
         int count=0;
 
-        while(num>0){
+        while(num>0)
+        {
             num=num/10;
             count ++;
         }

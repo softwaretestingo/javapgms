@@ -1,6 +1,14 @@
 package com.softwaretestingo.innerclass;
 public class StaticNestedClassEx2 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Static Nested Class Example
+	 * 
+	 */
 	// static member
 	static int outer_x = 10;
 
@@ -9,7 +17,6 @@ public class StaticNestedClassEx2
 
 	// private member
 	private static int outer_private = 30;
-
 
 	// static nested class
 	static class StaticNestedClass

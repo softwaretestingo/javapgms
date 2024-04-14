@@ -1,6 +1,14 @@
 package com.softwaretestingo.constructor;
 public class DefaultconstructorCallingVSStatic 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Default Constructor & Static Block Example
+	 * 
+	 */
 	DefaultconstructorCallingVSStatic ()
 	{
 		System.out.println ("Default Constructor Called");
@@ -14,5 +22,4 @@ public class DefaultconstructorCallingVSStatic
 		DefaultconstructorCallingVSStatic obj =
 				new DefaultconstructorCallingVSStatic ();
 	}
-
 }

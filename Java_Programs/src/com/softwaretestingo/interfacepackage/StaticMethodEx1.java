@@ -1,6 +1,14 @@
 package com.softwaretestingo.interfacepackage;
 interface interfaceWithStaticMethod
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Interface With Static Method With Example
+	 * 
+	 */
 	// Abstract Method
 	void method1();
 	

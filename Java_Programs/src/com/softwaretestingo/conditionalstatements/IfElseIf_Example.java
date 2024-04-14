@@ -1,7 +1,14 @@
 package com.softwaretestingo.conditionalstatements;
-
 public class IfElseIf_Example 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: If Else If Conditional Statement
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		int i = 20; 

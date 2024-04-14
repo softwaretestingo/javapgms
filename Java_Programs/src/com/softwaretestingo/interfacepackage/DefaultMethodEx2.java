@@ -1,6 +1,14 @@
 package com.softwaretestingo.interfacepackage;
 interface interfaceWithDefaultMethod1
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Default Method Example
+	 * 
+	 */
 	default void method1()
 	{
 		System.out.println("Default Method Of Parent Interface");

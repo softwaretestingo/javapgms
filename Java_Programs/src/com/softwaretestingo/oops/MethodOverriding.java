@@ -1,7 +1,14 @@
 package com.softwaretestingo.oops;
-
 class MethodOverridingEx1
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Method Overriding Example
+	 * 
+	 */
 	public void speed()
 	{
 		System.out.println("Parent Speed method Executed");

@@ -1,7 +1,14 @@
 package com.softwaretestingo.basic;
-
 class Vehicle
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Method Example
+	 * @param args
+	 */
 	public void speed()
 	{
 		System.out.println("Speed Method of Vehicle Class Executed");
@@ -23,6 +30,5 @@ public class MethodDispatch extends Vehicle
 		
 		obj.speed();
 		obj1.speed();
-
 	}
 }

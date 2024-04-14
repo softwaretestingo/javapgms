@@ -1,7 +1,14 @@
 package com.softwaretestingo.string;
 public class GetUpperCaseLetterFromString 
 {
-	//Write a program to get all upper-case letters in a given String.
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Write a program to get all upper-case letters in a given String.
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		String str = "Welcome To SoftwareTestingO Blog";

@@ -1,6 +1,14 @@
 package com.softwaretestingo.operators;
 public class ArithmaticOperatorEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Arithmatic Operator Example
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		int a = 11, b = 22; 

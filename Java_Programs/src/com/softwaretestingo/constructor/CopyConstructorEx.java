@@ -1,6 +1,14 @@
 package com.softwaretestingo.constructor;
 public class CopyConstructorEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Copy Constructor Example
+	 * 
+	 */
 	private String personName;
 	private int personAge;
 	
@@ -40,6 +48,5 @@ public class CopyConstructorEx
 		CopyConstructorEx conobj1=new CopyConstructorEx(conobj);
 		System.out.println("Name of the Person: "+conobj.showName());
 		System.out.println("Age Of the Person :"+conobj.showAge());
-		
 	}
 }

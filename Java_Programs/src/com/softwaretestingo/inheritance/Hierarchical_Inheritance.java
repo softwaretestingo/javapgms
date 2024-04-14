@@ -1,6 +1,14 @@
 package com.softwaretestingo.inheritance;
 class parent_class
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Check Hierarchical Inheritance Example 
+	 * 
+	 */
 	public void parent_method()
 	{
 		System.out.println("Parent Class Method");

@@ -1,6 +1,14 @@
 package com.softwaretestingo.packageexamples;
 public class PackageInfo 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Package Info Example
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		Package p=Package.getPackage("java.lang");  

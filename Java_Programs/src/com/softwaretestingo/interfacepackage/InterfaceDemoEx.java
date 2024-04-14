@@ -1,6 +1,14 @@
 package com.softwaretestingo.interfacepackage;
 interface MyInterface
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Interface Example
+	 * 
+	 */
 	/* compiler will treat them as:
 	 * public abstract void method1();
 	 * public abstract void method2();

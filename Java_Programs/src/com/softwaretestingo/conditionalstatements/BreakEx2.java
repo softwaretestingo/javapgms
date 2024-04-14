@@ -4,6 +4,14 @@ import java.util.Iterator;
 import java.util.List;
 public class BreakEx2 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Use Of Break Keyword
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		List<String> names = Arrays.asList("Alice", "Bob", "Charlie", "John", "Dave");

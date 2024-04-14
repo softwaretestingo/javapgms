@@ -1,6 +1,14 @@
 package com.softwaretestingo.basic;
 public class MultipleTableEx1
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Multiplication Table Example
+	 * @param args
+	 */
 	public static void main(String[] args) 
 	{
 		//Print the 5th table

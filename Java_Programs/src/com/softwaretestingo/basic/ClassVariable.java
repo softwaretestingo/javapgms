@@ -1,6 +1,13 @@
 package com.softwaretestingo.basic;
 public class ClassVariable 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Class Variable With Example
+	 */
 	public static int intVar=10;
 	public static void main(String[] args) 
 	{

@@ -1,6 +1,14 @@
 package com.softwaretestingo.polymorphism;
 class parent
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Method Hiding Example
+	 * 
+	 */
 	public static void foo() 
 	{
 		System.out.println("Inside foo method in parent class");

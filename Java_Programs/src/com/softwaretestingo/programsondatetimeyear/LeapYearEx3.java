@@ -2,6 +2,14 @@ package com.softwaretestingo.programsondatetimeyear;
 import java.util.Scanner;
 public class LeapYearEx3
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Leap Year Example
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		boolean leap;

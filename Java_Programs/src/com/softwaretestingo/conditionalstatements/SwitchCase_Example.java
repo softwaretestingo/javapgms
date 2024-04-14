@@ -1,6 +1,14 @@
 package com.softwaretestingo.conditionalstatements;
 public class SwitchCase_Example 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Switch Case Statement Example
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		int dayOfWeek = 2;
@@ -34,6 +42,5 @@ public class SwitchCase_Example
 		}
 
 		System.out.println("Today is " + dayString);
-
 	}
 }

@@ -1,11 +1,17 @@
 package com.softwaretestingo.collectedpgms.array;
-
 import java.util.Arrays;
-
-public class MoveNegativeElementToStart {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class MoveNegativeElementToStart 
+{
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Move All the Negative Values In the Beginning Of the Array
+	 *
+	 */
+	public static void main(String[] args) 
+	{
 		int [] arr = {-1,2,3,-4,-7,8};
 		for(int i=0;i<arr.length;i++)
 		{

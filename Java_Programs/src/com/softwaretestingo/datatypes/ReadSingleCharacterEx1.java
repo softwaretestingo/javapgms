@@ -4,6 +4,14 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 public class ReadSingleCharacterEx1 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Read Single Character From Keyboard
+	 * 
+	 */
 	public static void main(String[] args) throws IOException 
 	{
 		BufferedReader br= new BufferedReader(new InputStreamReader(System.in));

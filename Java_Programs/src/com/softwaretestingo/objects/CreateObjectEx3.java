@@ -4,6 +4,14 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 public class CreateObjectEx3  implements Serializable
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Create Object Using writeObject() method example
+	 * 
+	 */
 	// Member variables
 	private String name;
 	CreateObjectEx3(String name)
@@ -30,7 +38,6 @@ public class CreateObjectEx3  implements Serializable
 		{
 			e.printStackTrace();
 		}
-
 		System.out.println("Objects Created");
 	}
 }

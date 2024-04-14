@@ -1,6 +1,14 @@
 package com.softwaretestingo.programsonnumbers;
 public class OddandEvenNumbers1to100 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Print All The Even Numbers Present Between 1 to 100 
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		int n = 100;

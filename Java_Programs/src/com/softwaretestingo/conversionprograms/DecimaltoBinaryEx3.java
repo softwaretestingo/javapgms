@@ -3,6 +3,14 @@ import java.util.Scanner;
 import java.util.Stack;
 public class DecimaltoBinaryEx3 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Convert Decimal to Binary
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		// Create Stack object
@@ -19,7 +27,7 @@ public class DecimaltoBinaryEx3
 			stack.push(d);
 			num /= 2;
 		} 
-		System.out.print("\nBinary representation is:");
+		System.out.print("\nBinary representation is: ");
 		while (!(stack.isEmpty() ))
 		{
 			System.out.print(stack.pop());

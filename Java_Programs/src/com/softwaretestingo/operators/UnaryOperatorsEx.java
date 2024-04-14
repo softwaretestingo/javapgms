@@ -1,7 +1,14 @@
 package com.softwaretestingo.operators;
-
 public class UnaryOperatorsEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Unary Operator Example
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 	      int a = 11, b = 22, c = 33, d = 44; 

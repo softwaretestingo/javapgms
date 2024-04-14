@@ -1,7 +1,14 @@
 package com.softwaretestingo.constructor;
-
 public class ParameterizedConstructorEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Calling Parameterized Constructor
+	 * 
+	 */
 	String name, URL;
 	ParameterizedConstructorEx(String name,String URL)
 	{

@@ -1,6 +1,14 @@
 package com.softwaretestingo.basic;
 class Class_Rectangle
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Instance Method Example
+	 * @param args
+	 */
 	private int length;
 	private int width;
 

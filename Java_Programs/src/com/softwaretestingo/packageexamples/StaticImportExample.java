@@ -2,6 +2,14 @@ package com.softwaretestingo.packageexamples;
 import static java.lang.System.*; 
 public class StaticImportExample 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Static Import Example
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		// We don't need to use 'System.out'

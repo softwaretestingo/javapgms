@@ -1,6 +1,14 @@
 package com.softwaretestingo.basic;
 public class SimpleObjectComparisonExample 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Object Comparison Example
+	 * @param args
+	 */
 	public static void main(String[] args) 
 	{
 		// Creating Constructor of the Double class   

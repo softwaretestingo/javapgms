@@ -1,7 +1,14 @@
 package com.softwaretestingo.innerclass;
-//Java Anonymous class as argument of method / constructor
 public class AnonymousInnerClassEx3 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Java Anonymous class as argument of method / constructor
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		// Anonymous inner class as constructor argument

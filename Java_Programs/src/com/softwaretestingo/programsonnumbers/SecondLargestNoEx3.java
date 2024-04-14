@@ -1,6 +1,14 @@
 package com.softwaretestingo.programsonnumbers;
 public class SecondLargestNoEx3 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find The Second Largest Number From Array
+	 * 
+	 */
 	static void secondLargest(int arr[], int arr_size)
 	{
 		int i, first, second;

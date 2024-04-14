@@ -1,6 +1,14 @@
 package com.softwaretestingo.javapgms;
 public class PhoneNumberValidator 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Phone Number Validation Test
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		System.out.println("Phone number 1234567890 validation result: "+validatePhoneNumber("1234567890"));

@@ -1,7 +1,14 @@
 package com.softwaretestingo.array;
-
 public class ArrayInitializeUsingConstructorEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Initialize an Array By Using Constructor
+	 * 
+	 */
 	public static int arr[];
 
 	public ArrayInitializeUsingConstructorEx(int a[])

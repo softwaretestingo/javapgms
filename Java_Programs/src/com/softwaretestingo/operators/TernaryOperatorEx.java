@@ -2,6 +2,14 @@ package com.softwaretestingo.operators;
 import java.util.Scanner;
 public class TernaryOperatorEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Ternary Operator Example
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		int num1, num2, num3, result, temp;

@@ -1,7 +1,14 @@
 package com.softwaretestingo.inheritance;
-
 class MultiLevel_ParentClass
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Multi-Level Inheritance Example
+	 * 
+	 */
 	public void parent_method()
 	{
 		System.out.println("Parent Class Method");

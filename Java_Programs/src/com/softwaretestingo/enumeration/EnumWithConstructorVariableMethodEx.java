@@ -1,7 +1,14 @@
 package com.softwaretestingo.enumeration;
-
 public class EnumWithConstructorVariableMethodEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Get the value From Enum
+	 * 
+	 */
 	enum colors
 	{
 		RED(10),BLUE(20),GREEN(30),ORANGE(40);
