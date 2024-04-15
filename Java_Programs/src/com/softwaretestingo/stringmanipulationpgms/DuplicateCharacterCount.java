@@ -1,11 +1,17 @@
 package com.softwaretestingo.stringmanipulationpgms;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
 public class DuplicateCharacterCount 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find Character & Counts Of a String 
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		String str="You are Welcome to Software Testingo log For Learning";
@@ -28,7 +34,5 @@ public class DuplicateCharacterCount
 				System.out.println(c + " "+maps.get(c));
 			}
 		}
-
 	}
-
 }

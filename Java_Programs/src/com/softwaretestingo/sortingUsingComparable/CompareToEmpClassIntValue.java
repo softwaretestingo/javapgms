@@ -1,6 +1,14 @@
 package com.softwaretestingo.sortingUsingComparable;
 public class CompareToEmpClassIntValue implements Comparable
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Default Sorting Order By Using Comparable and CompareTo() Method
+	 * 
+	 */
 	int empno;
 	String ename;
 

@@ -4,9 +4,12 @@ import java.util.Set;
 public class PermutationsofaString 
 {
 	/**
-	 * Java Program to find all permutations of a String
-	 * @author SoftwareTestingo
-	 *
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find all permutations of a String
+	 * 
 	 */
 	public static class StringHelper 
 	{
@@ -48,7 +51,6 @@ public class PermutationsofaString
 			System.out.println("\nPermutations for " + s + " are: \n" + permutationFinder(s));
 			System.out.println("\nPermutations for " + s1 + " are: \n" + permutationFinder(s1));
 			System.out.println("\nPermutations for " + s2 + " are: \n" + permutationFinder(s2));
-
 		}
 	}
 }

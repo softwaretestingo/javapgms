@@ -1,6 +1,14 @@
 package com.softwaretestingo.string;
 class Super_Parent_Class 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Calling Parameterized Constructor From Child Class Using Super() keyword 
+	 * 
+	 */
 	Super_Parent_Class() 
 	{
 		System.out.println("Parent Class Default Constructor");
@@ -24,10 +32,7 @@ public class Super_Keyword_With_Param_Constructor extends Super_Parent_Class
 	}
 	public static void main(String[] args) 
 	{
-	
 		Super_Keyword_With_Param_Constructor obj=new Super_Keyword_With_Param_Constructor();
 		obj.display();
 	}
-
 }
-

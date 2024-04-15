@@ -1,7 +1,5 @@
 package com.softwaretestingo.sortingUsingComparator;
-
 import java.util.Comparator;
-
 public class EmpNoComparator implements Comparator
 {
 	public int compare(Object o1, Object o2)

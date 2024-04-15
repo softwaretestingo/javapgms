@@ -13,8 +13,8 @@ public class StringConcatUsingStringBuffer2
 		StringBuffer concatenate=newstring.append(s1).append(s2);
 
 		// printing
-		System.out.println("The String s1 Value:"+s1);
-		System.out.println("The String s1 Value:"+s2);
+		System.out.println("The String s1 Value: "+s1);
+		System.out.println("The String s2 Value: "+s2);
 		System.out.println("After Concate: "+concatenate);
 	}
 }

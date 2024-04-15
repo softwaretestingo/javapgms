@@ -1,6 +1,14 @@
 package com.softwaretestingo.string;
 public class StringToCharExample4 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Get Specific Character From a String With Help Of codePointAt()
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		String s="Softwaretestingo";  

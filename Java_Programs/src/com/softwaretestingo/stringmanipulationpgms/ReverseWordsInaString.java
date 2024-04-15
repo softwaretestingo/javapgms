@@ -1,7 +1,14 @@
 package com.softwaretestingo.stringmanipulationpgms;
-
-public class ReverseWordsInaString {
-
+public class ReverseWordsInaString 
+{
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Split The String and Print All The Values
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		String str="Welcome to Software Testingo Blog";
@@ -11,5 +18,4 @@ public class ReverseWordsInaString {
 			System.out.println(starr[i]);
 		}
 	}
-
 }

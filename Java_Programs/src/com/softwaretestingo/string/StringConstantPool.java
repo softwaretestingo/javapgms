@@ -1,7 +1,14 @@
 package com.softwaretestingo.string;
-
 public class StringConstantPool 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: String Constant Pool Example
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		//it will get stored in the string pool      

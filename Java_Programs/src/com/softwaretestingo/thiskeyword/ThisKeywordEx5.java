@@ -1,10 +1,18 @@
 package com.softwaretestingo.thiskeyword;
-class ex6
+class ex7
 {  
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Passing Object reference Using this keyword
+	 * 
+	 */
 	ThisKeywordEx5 obj;
 
 	// Declare an Parameterized Constructor and pass object of Class ThisKeywordEx5
-	ex6(ThisKeywordEx5 obj)
+	ex7(ThisKeywordEx5 obj)
 	{
 		this.obj=obj;
 	}
@@ -23,7 +31,7 @@ public class ThisKeywordEx5
 	{
 		/*Create an object of class ex5 and in that pass the current class (ThisKeywordEx5)
 		 * object reference by passing the keyword this */
-		ex6 ex=new ex6(this);
+		ex7 ex=new ex7(this);
 		ex.show();
 
 	}

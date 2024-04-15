@@ -1,7 +1,14 @@
 package com.softwaretestingo.string;
 public class InterviewStringProgram2 
 {
-	// Function to print all substring
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Print All Possible SubStrings
+	 * 
+	 */
 	public static void SubString(String str, int n)
 	{
 		for (int i = 0; i < n; i++)

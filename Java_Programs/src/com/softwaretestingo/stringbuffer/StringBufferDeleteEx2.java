@@ -1,6 +1,14 @@
 package com.softwaretestingo.stringbuffer;
 public class StringBufferDeleteEx2 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Delete Specific Character Of StringBuffer using deleteCharAt()
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		StringBuffer str = new StringBuffer("Welcome To SoftwareTestingo");

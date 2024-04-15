@@ -1,5 +1,4 @@
 package com.softwaretestingo.sortingUsingComparator;
-
 public class EmployeeClass 
 {
 	int empno;

@@ -1,9 +1,14 @@
 package com.softwaretestingo.stringmanipulationpgms;
-
-import java.util.Arrays;
-
-public class ReverseStringWithReserveSpace {
-
+public class ReverseStringWithReserveSpace 
+{
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Reverse String With Reserve The Space
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		String str="Welcome To Software Testingo Blog";
@@ -33,5 +38,4 @@ public class ReverseStringWithReserveSpace {
 		}
 		System.out.println("After Reverse: "+String.valueOf(resultArray));
 	}
-
 }

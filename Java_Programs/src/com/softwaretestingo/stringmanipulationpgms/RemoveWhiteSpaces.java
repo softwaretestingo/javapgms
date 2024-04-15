@@ -1,7 +1,14 @@
 package com.softwaretestingo.stringmanipulationpgms;
-
 public class RemoveWhiteSpaces 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Remove White Spaces From String
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		String str="You are Welcome to Software Testingo log For Learning";
@@ -26,7 +33,5 @@ public class RemoveWhiteSpaces
 		{
 			System.out.println(s);
 		}
-
 	}
-
 }

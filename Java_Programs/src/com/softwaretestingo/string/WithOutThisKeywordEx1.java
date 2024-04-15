@@ -1,6 +1,14 @@
 package com.softwaretestingo.string;
 class ex11
 {  
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Result With Out Using this Keyword
+	 * 
+	 */
 	int rollno;  
 	String name;  
 	int fee;  

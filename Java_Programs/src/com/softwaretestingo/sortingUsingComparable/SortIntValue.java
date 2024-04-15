@@ -3,6 +3,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 public class SortIntValue 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Sort int Value
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		ArrayList<CompareToEmpClassIntValue> al=new ArrayList<CompareToEmpClassIntValue>();

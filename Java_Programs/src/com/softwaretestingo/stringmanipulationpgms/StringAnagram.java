@@ -1,9 +1,15 @@
 package com.softwaretestingo.stringmanipulationpgms;
-
 import java.util.Arrays;
-
-public class StringAnagram {
-
+public class StringAnagram 
+{
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Compare Two String After Sorting
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		String str1="keEp";
@@ -21,7 +27,5 @@ public class StringAnagram {
 			boolean status=Arrays.equals(arr1, arr2);
 			System.out.println(status);
 		}
-
 	}
-
 }

@@ -1,6 +1,14 @@
 package com.softwaretestingo.string;
 public class ToStringMethodEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Use Of toString() method
+	 * 
+	 */
 	String firstName;
     String lastName;
     int age;

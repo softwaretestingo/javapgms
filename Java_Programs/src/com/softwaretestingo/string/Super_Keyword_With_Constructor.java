@@ -1,7 +1,14 @@
 package com.softwaretestingo.string;
-
 class ParentClass
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Super Keyword Constructor Calling With Super Keyword 
+	 * 
+	 */
 	public ParentClass() 
 	{
 		System.out.println("Parent Class No Arg Consructor Executed");

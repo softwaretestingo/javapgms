@@ -3,6 +3,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 public class SortingEmpName 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Sorting using Comparator of Name
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		ArrayList<EmployeeClass> al=new ArrayList<EmployeeClass>();

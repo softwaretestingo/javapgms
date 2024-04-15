@@ -2,6 +2,14 @@ package com.softwaretestingo.string;
 import java.util.Arrays;
 public class StringToCharExample6 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Get Substring From a String using getChars() Method
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		String str="Welcome to Softwaretestingo Blog";  

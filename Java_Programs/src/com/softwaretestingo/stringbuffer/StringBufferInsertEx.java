@@ -1,6 +1,14 @@
 package com.softwaretestingo.stringbuffer;
 public class StringBufferInsertEx
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Adding New String into String using insert() method
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		StringBuffer str = new StringBuffer("Welcome");

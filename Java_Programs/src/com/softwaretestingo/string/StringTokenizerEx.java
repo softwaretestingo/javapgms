@@ -7,6 +7,14 @@ import java.util.StringTokenizer;
 
 public class StringTokenizerEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Split a String With the Help Of StringTokenizer() 
+	 * 
+	 */
 	public static void main(String[] args) throws IOException
 	{
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));

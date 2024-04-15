@@ -2,6 +2,14 @@ package com.softwaretestingo.string;
 import java.util.GregorianCalendar;
 public class StringBuffervsStringBuilder 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Find the Difference Between StringBuffer and StringBuilder
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		System.gc();
@@ -16,7 +24,7 @@ public class StringBuffervsStringBuilder
 		}
 		long end=new GregorianCalendar().getTimeInMillis();
 		long endMemory=Runtime.getRuntime().freeMemory();
-		System.out.println("Time Taken:"+(end-start));
-		System.out.println("Memory used:"+(startMemory-endMemory));
+		System.out.println("Time Taken: "+(end-start));
+		System.out.println("Memory used: "+(startMemory-endMemory));
 	}
 }

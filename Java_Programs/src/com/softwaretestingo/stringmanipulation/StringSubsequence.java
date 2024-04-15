@@ -2,9 +2,12 @@ package com.softwaretestingo.stringmanipulation;
 public class StringSubsequence 
 {
 	/**
-	 * This class shows usage of String subSequence method
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
-	 * @param args
+	 * Problem Statement: This class shows usage of String subSequence method
+	 * 
 	 */
 	public static void main(String[] args) 
 	{

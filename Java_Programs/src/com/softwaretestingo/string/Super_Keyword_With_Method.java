@@ -1,7 +1,14 @@
 package com.softwaretestingo.string;
-
 class PClass
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Calling Parent Class Method With The Help Of Super Keyword
+	 * 
+	 */
 	void show()
 	{
 		System.out.println("Parent Class Show Method Called");

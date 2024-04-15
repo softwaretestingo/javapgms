@@ -3,9 +3,12 @@ import java.util.Arrays;
 public class JavaStringSplit 
 {
 	/**
-	 * Java String split example
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
-	 * @param args
+	 * Problem Statement: Split the String
+	 * 
 	 */
 	public static void main(String[] args) 
 	{

@@ -1,6 +1,14 @@
 package com.softwaretestingo.stringbuffer;
 public class StringBufferAppendEx 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: StringBuffer append() method Example
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		StringBuffer str = new StringBuffer("Software");

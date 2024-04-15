@@ -1,7 +1,14 @@
 package com.softwaretestingo.string;
-
 public class StringComparisonEx2 
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: String Comparison Using Equals() Method
+	 * 
+	 */
 	String str1="SoftwareTestingo";
 	String str2="SoftwareTestingo";
 	String str3=new String("SoftwareTestingo");
@@ -11,7 +18,6 @@ public class StringComparisonEx2
 	//Comparison Using equals() method
 	public void stringcomparison()
 	{
-
 		//return true, because the content of both string are same.
 		System.out.println(str1.equals(str2));
 		System.out.println(str2.equals(str3));
@@ -30,6 +36,5 @@ public class StringComparisonEx2
 	{
 		StringComparisonEx2 obj=new StringComparisonEx2();
 		obj.stringcomparison();
-
 	}
 }

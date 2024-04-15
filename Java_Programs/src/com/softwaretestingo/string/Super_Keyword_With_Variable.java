@@ -1,7 +1,14 @@
 package com.softwaretestingo.string;
-
 class Parent
 {
+	/**
+	 * Author: SoftwareTestingo Admin
+	 * Blog: www.softwaretestingo.com
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * 
+	 * Problem Statement: Access The Parent Class Variable Using Super Keyword
+	 * 
+	 */
 	//Super Class Variable
 	int var=111;
 }
