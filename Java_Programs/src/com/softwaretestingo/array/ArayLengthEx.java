@@ -1,4 +1,7 @@
 package com.softwaretestingo.array;
+
+import java.util.Arrays;
+
 public class ArayLengthEx 
 {
 	/**

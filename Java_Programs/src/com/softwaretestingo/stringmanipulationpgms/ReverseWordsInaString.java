@@ -15,7 +15,7 @@ public class ReverseWordsInaString
 		String starr[]=str.split(" ");
 		for(int i=starr.length-1;i>=0;i--)
 		{
-			System.out.println(starr[i]);
+			System.out.print(starr[i]+" ");
 		}
 	}
 }
