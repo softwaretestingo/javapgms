@@ -2,7 +2,7 @@ package com.softwaretestingo.thiskeyword;
 class ex1
 {  
 	/**
-	 * Author: SoftwareTestingo Admin
+	 * Author: SoftwareTestingo Admin User
 	 * Blog: www.softwaretestingo.com
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
