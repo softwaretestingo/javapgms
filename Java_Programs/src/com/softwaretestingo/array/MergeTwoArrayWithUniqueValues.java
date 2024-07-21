@@ -10,7 +10,7 @@ public class MergeTwoArrayWithUniqueValues
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
 	 * Problem Statement: Create a Unique Array (Without Duplicate) By Merging Two Arrays
-	 * @param args
+	 * 
 	 */
 	public static void main(String[] args) 
 	{

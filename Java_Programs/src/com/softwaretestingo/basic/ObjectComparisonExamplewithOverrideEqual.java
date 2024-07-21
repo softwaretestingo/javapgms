@@ -9,12 +9,12 @@ class employeer
 	 * Problem Statement: How to Compare Two Objects
 	 * @param args
 	 */
-	// attributes of class1
+	// attributes of employeer class
 	String name;
 	int age;
 	String location;
 
-	// constructor of class
+	// constructor of employeer class
 	employeer(String name, int age, String location)
 	{
 		// Assignment of current attributes using this keyword with same
@@ -28,6 +28,7 @@ class employeer
 			return true;
 		if (obj == null || this.getClass() != obj.getClass())
 			return false;
+		
 		employeer p1 = (employeer)obj;
 
 		// Checking only if attribute- name & age and ignore lcoation

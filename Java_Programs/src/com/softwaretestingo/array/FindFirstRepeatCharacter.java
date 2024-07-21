@@ -7,7 +7,7 @@ public class FindFirstRepeatCharacter
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
 	 * Problem Statement: Find the First Repeated Character Of the Array 
-	 * @param args
+	 * 
 	 */
 	public static void main(String[] args) 
 	{

@@ -16,7 +16,7 @@ public class InitilizeArrayEx2
 		//Array Initialization
 		array = new int[]{1,2,3,4,5};
 		//Printing the elements of array
-		for (int i =0;i < 5;i++)
+		for (int i =0;i < array.length;i++)
 		{
 			System.out.println(array[i]);
 		}

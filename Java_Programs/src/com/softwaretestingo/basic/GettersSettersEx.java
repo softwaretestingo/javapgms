@@ -35,6 +35,7 @@ public class GettersSettersEx
 		//setting new value
 		obj.setValue(30);
 		
+		//Retriving The Value
 		System.out.println("Your Value : "+obj.getValue());
 	}
 }

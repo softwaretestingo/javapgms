@@ -6,7 +6,8 @@ public class ClassVariable
 	 * Blog: www.softwaretestingo.com
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
-	 * Problem Statement: Class Variable With Example
+	 * Problem Statement: Class Variable (Static Variable) With Example
+	 * Read Here: https://www.softwaretestingo.com/static-keyword-in-java/#Static_Variables
 	 */
 	public static int intVar=10;
 	public static void main(String[] args) 

@@ -7,7 +7,7 @@ public class FindFirstNonRepeatCharacter
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
 	 * Problem Statement: Find the First Non repeat Character From an Array
-	 * @param args
+	 * 
 	 */
 	public static void main(String[] args) 
 	{

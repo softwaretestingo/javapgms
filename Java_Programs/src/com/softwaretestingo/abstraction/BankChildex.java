@@ -5,7 +5,9 @@ abstract class Rbi
 	/**
 	 * Author: SoftwareTestingo Admin
 	 * Blog: www.softwaretestingo.com
-	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
+	 * URL: https://www.softwaretestingo.com/core-java-tutorial//
+	 * 
+	 * Note: Parent Class Reference Can Access Overridden Method Of Child Class 
 	 */
 	// abstract method
 	public abstract void deposit();

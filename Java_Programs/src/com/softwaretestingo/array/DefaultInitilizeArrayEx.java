@@ -7,7 +7,7 @@ public class DefaultInitilizeArrayEx
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
 	 * Problem Statement: Initialize Array
-	 * @param args
+	 *
 	 */
 	public static void main(String[] args) 
 	{
@@ -17,6 +17,7 @@ public class DefaultInitilizeArrayEx
 		//Printing the elements of array
 		for (int i=0; i<5; i++)
 		{
+			array[i]=i;
 			System.out.println(array[i]);
 		}	
 	}

@@ -1,7 +1,4 @@
 package com.softwaretestingo.array;
-
-import java.util.Arrays;
-
 public class ArayLengthEx 
 {
 	/**
@@ -10,7 +7,7 @@ public class ArayLengthEx
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
 	 * Problem Statement: Find the Length Of The Element or Size Of the Array
-	 * @param args
+	 *
 	 */
 	public static void main(String[] args) 
 	{

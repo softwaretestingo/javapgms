@@ -7,7 +7,7 @@ public class ReadElementFromArrayEx
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
 	 * Problem Statement: Print All the Elements Of the Array
-	 * @param args
+	 * 
 	 */
 	public static void main(String[] args) 
 	{

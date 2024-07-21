@@ -9,8 +9,8 @@ public class DivideArrayIntoHalf_UsingInBuiltFunction
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
 	 * Problem Statement: Divide An Array Into Two equal SubArrays 
-	 * By Using Built in Methods Of Java
-	 * @param args
+	 * 					  By Using Built in Methods Of Java
+	 * 
 	 */
 	public static void main(String[] args) 
 	{

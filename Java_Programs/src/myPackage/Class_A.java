@@ -1,7 +1,7 @@
 package myPackage;
 public class Class_A 
 {
-	public void display() 
+	protected void display() 
 	{ 
 		System.out.println("Protected - Class A Display Method Of myPackage "); 
 	} 

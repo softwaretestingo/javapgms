@@ -7,8 +7,8 @@ public class MoveAllMinusValuesLeft
 	 * Blog: www.softwaretestingo.com
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
-	 * Problem Statement: Move all the Minus Values to Left Of the Array
-	 * @param args
+	 * Problem Statement: Move all the Minus Values to Starting Of the Array
+	 * 
 	 */
 	public static void main(String[] args) 
 	{
@@ -26,8 +26,5 @@ public class MoveAllMinusValuesLeft
 			}
 		}
 		System.out.println(Arrays.toString(arr));
-		int arr1[]= {1,2,3};
-		System.out.println(arr1.length);
-		System.out.println(arr1[1]);
 	}
 }

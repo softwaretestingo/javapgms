@@ -1,4 +1,5 @@
 package com.softwaretestingo.array;
+import java.util.Arrays;
 import java.util.Scanner;
 public class FindNumberOfOccurance 
 {
@@ -7,13 +8,15 @@ public class FindNumberOfOccurance
 	 * Blog: www.softwaretestingo.com
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
-	 * Problem Statement: From the Array Find the entered Value is present once or more then once
-	 * @param args
+	 * Problem Statement: From the Array Find the entered Value is present 
+	 * 					  once or more then once
+	 * 
 	 */
 	public static void main(String[] args) 
 	{
 		int arr[] = {1, 2, 2, 2, 2, 3, 4, 7 ,8 ,8 };
 		int result=0;
+		System.out.println("Original Array: "+Arrays.toString(arr));
 		System.out.println("Which Character Count You Want?, Enter The Character: ");
 		Scanner sc=new Scanner(System.in);
 		int no=sc.nextInt();

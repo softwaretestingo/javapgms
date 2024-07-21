@@ -7,7 +7,7 @@ public class ArraysSortByWithOutUsingBuiltInMethod
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
 	 * Problem Statement: Sort the Array With out using any Built in Methods of Java
-	 * @param args
+	 * 
 	 */
 	public static void main(String[] args) 
 	{

@@ -7,7 +7,7 @@ public class ArraySumOfOddandEvenNumbers
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
 	 * Problem Statement: From the array Find the Sum Of All Odd Number & Even Numbers 
-	 * @param args
+	 * 
 	 */
 	public static void main(String[] args) 
 	{

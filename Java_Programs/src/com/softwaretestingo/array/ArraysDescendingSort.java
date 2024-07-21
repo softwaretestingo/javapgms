@@ -9,7 +9,7 @@ public class ArraysDescendingSort
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
 	 * Problem Statement: Sort an Array By Using Built in Methods of Java Arrays.Sort() 
-	 * @param args
+	 *
 	 */
 	public static void main(String[] args) 
 	{

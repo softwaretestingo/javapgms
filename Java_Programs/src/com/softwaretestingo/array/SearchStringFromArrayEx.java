@@ -37,7 +37,7 @@ public class SearchStringFromArrayEx
 		{
 			if(arr[i].equalsIgnoreCase(searchStr))
 			{
-				System.out.println("Element Found in "+i+" position");
+				System.out.println("Element Found in "+(i+1)+" position");
 				value=true;
 			}
 		}

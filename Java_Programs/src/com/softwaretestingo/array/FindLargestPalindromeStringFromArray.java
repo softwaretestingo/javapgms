@@ -8,7 +8,7 @@ public class FindLargestPalindromeStringFromArray
 	 * 
 	 * 
 	 * Problem Statement: Find the Largest Palindrome String from Array
-	 * @param args
+	 *
 	 */
 	public static void main(String[] args) 
 	{

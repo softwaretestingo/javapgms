@@ -7,6 +7,10 @@ class parent
 	 * Blog: www.softwaretestingo.com
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
+	 * Method Hiding: If You Declare Same Static method in Parent and Child Class
+	 * 				  Then By Parent Class object or reference you can able to access
+	 * 				  Only Parent Class Static method, This is called Method Hiding and 
+	 * 				  Child Class Static method hide by the parent Class Static Method	  
 	 */
 	public static void foo() 
 	{

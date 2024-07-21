@@ -10,9 +10,8 @@ public class DivideArrayIntoHalf_WithoutUsingInBuiltFunction
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
 	 * Problem Statement: Divide An Array Into Two equal 
-	 * SubArrays Without Using Any Built in Methods Of Java
+	 * 					  SubArrays Without Using Any Built in Methods Of Java
 	 * 
-	 * @param args
 	 */
 	public static void main(String[] args) 
 	{

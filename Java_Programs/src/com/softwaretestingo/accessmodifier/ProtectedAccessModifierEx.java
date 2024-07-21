@@ -7,11 +7,12 @@ public class ProtectedAccessModifierEx extends Class_A
 	 * Blog: www.softwaretestingo.com
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
-	 * @param args
+	 * Protected: We Can Access Protected Method From Outside Of the Package
+	 * 			  But in a Subclass	
 	 */
 	public static void main(String[] args) 
 	{
-		Class_A obj=new Class_A();
+		ProtectedAccessModifierEx obj=new ProtectedAccessModifierEx();
 		obj.display();
 	}
 }

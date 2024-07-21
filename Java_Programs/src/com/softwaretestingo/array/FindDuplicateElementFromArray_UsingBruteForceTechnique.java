@@ -1,5 +1,6 @@
 package com.softwaretestingo.array;
-public class FindDuplicateElementFromArray1 
+import java.util.Arrays;
+public class FindDuplicateElementFromArray_UsingBruteForceTechnique 
 {
 	/**
 	 * Author: SoftwareTestingo Admin
@@ -7,12 +8,14 @@ public class FindDuplicateElementFromArray1
 	 * URL: https://www.softwaretestingo.com/core-java-tutorial/
 	 * 
 	 * Problem Statement: Find the Duplicates from an Array Using Brute Force Technique
-	 * @param args
+	 *
 	 */
 	public static void main(String[] args) 
 	{
-		String arrayElements[] = {"Testing","Manual Testing", "Java","Automation Testing", "Software Testing","Java", "Testing"};
+		String arrayElements[] = {"Testing","Manual Testing","Java","SoftwareTestingo","Java", "Testing"};
 		System.out.println("****Brute Force Technique ****");
+		System.out.println("Original Elements: "+ Arrays.toString(arrayElements));
+		System.out.println("Duplicate Elements are:");
 		for(int i=0;i<arrayElements.length;i++)
 		{
 			for(int j=i+1;j<arrayElements.length;j++)
