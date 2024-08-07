@@ -1,3 +1,4 @@
+
 package com.softwaretestingo.constructor;
 public class CopyConstructorEx 
 {
@@ -46,7 +47,7 @@ public class CopyConstructorEx
 		
 		//passing the parameters to the copy constructor  
 		CopyConstructorEx conobj1=new CopyConstructorEx(conobj);
-		System.out.println("Name of the Person: "+conobj.showName());
-		System.out.println("Age Of the Person :"+conobj.showAge());
+		System.out.println("Name of the Person: "+conobj1.showName());
+		System.out.println("Age Of the Person :"+conobj1.showAge());
 	}
 }

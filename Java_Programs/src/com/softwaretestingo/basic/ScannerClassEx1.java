@@ -12,7 +12,7 @@ public class ScannerClassEx1
 	 */
 	public static void main(String[] args) 
 	{
-		Scanner sc = new Scanner(System. in );
+		Scanner sc = new Scanner(System.in );
 		System.out.println("Taking inputs from user");
 		System.out.println("Enter name of the Employee:");
 		

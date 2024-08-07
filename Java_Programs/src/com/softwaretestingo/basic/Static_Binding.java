@@ -27,6 +27,6 @@ public class Static_Binding extends basevehicle
 		//obj1 is reference of base vehicle class and Object is of Static_Binding
 		basevehicle obj1=new Static_Binding();
 		obj.speed();
-		obj.speed();
+		obj1.speed();
 	}
 }

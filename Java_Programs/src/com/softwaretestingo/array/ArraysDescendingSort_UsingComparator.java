@@ -1,7 +1,7 @@
 package com.softwaretestingo.array;
 import java.util.Arrays;
 import java.util.Comparator;
-public class ArraysDescendingSort 
+public class ArraysDescendingSort_UsingComparator 
 {
 	/**
 	 * Author: SoftwareTestingo Admin
