@@ -1,4 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+
+import java.util.Arrays;
+
 public class STO0098_1_InterviewPrograms 
 {
 	static int findSplitPoint(int arr[], int n)
@@ -41,6 +44,7 @@ public class STO0098_1_InterviewPrograms
 			return;
 		}
 
+		System.out.println("Output: ");
 		for (int i = 0; i < n; i++)
 		{
 			if(splitPoint == i)
@@ -54,6 +58,7 @@ public class STO0098_1_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		int arr[] = {1 , 2 , 3 , 4 , 5 , 5 };
+		System.out.println("Input: "+Arrays.toString(arr));
 		int n = arr.length;
 		printTwoParts(arr, n);
 	}

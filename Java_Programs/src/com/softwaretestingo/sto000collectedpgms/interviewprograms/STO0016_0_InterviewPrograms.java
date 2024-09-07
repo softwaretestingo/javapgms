@@ -9,6 +9,7 @@ public class STO0016_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String input="he is a good boy";
+		System.out.println("Input: "+input);
 		String[] split=input.split(" ");
 		
 		StringBuilder sb=new StringBuilder(input.replaceAll(" ", ""));
@@ -21,6 +22,6 @@ public class STO0016_0_InterviewPrograms
 			sb.insert(count, " ");
 			count++;
 		}
-		System.out.println(sb);
+		System.out.println("Output: "+sb);
 	}
 }

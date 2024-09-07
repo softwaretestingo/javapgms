@@ -1,4 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+
+import java.util.Arrays;
+
 public class STO0010_0_InterviewPrograms 
 {
 	/*
@@ -8,6 +11,7 @@ public class STO0010_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		char[] ch = {'A', 'B', 'C', 'D'};
+		System.out.println("Input: "+Arrays.toString(ch));
 		append(ch);
 	}
 	static void append(char ch[]) 
@@ -24,6 +28,7 @@ public class STO0010_0_InterviewPrograms
 			sb.append(' ');
 			result = sb.toString().toCharArray();
 		}
-		System.out.println(result);
+		System.out.print("Output: ");
+		System.out.print(result);
 	}
 }

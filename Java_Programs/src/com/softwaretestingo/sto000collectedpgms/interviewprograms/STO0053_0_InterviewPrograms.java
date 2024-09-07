@@ -25,9 +25,9 @@ public class STO0053_0_InterviewPrograms
 		String input1 = "38";
 		String input2 = "1485631";
 		String input3 = "0";
-		System.out.println(input1+": "+add(input1));
-		System.out.println(input2+": "+add(input2));
-		System.out.println(input3+": "+add(input3));
+		System.out.println("Input: "+input1+": "+"Output: " +add(input1));
+		System.out.println("Input: "+input2+": "+"Output: " +add(input2));
+		System.out.println("Input: "+input3+": "+"Output: " +add(input3));
 	}
 	public static int add(String input) 
 	{

@@ -8,7 +8,9 @@ public class STO0043_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str = "abc";
+		System.out.println("Input: "+str);
 		int n = str.length();
+		System.out.print("Output: ");
 		merge(str, 0, n - 1);
 	}
 	private static void merge(String str, int lb, int ub)

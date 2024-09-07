@@ -3,7 +3,8 @@ public class STO0076_0_InterviewPrograms
 {	
 	public static void main(String[] args) 
 	{	
-		String s="%i a#m m@o$noj346";	
+		String s="%i a#m m@o$noj346";
+		System.out.println("Input: "+s);
 		int digits=0;
 		
 		for(int i=0;i<s.length();i++)
@@ -13,6 +14,6 @@ public class STO0076_0_InterviewPrograms
 				digits++;
 			}
 		}
-		System.out.println("Number of digits =" + digits);		
+		System.out.println("Number of digits (Output): " + digits);		
 	}
 }

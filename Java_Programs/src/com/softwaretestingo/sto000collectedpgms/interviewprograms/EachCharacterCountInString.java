@@ -1,7 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 import java.util.HashMap;
 import java.util.Map;
-public class STO0066_0_InterviewPrograms 
+public class EachCharacterCountInString 
 {
 	public static void m1(String s)
 	{

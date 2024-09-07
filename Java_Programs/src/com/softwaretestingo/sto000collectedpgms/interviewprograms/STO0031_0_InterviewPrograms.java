@@ -8,7 +8,8 @@ public class STO0031_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str = "amZgxY";
-		System.out.println(test(str));
+		System.out.println("Inout: "+str);
+		System.out.println("Output: "+test(str));
 	}
 	public static char test ( String str ) 
 	{

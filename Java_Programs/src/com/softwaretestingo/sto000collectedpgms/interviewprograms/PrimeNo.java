@@ -1,6 +1,6 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 import java.util.Scanner;
-public class STO0065_0_InterviewPrograms 
+public class PrimeNo 
 {
 	public static void main(String[] args) 
 	{

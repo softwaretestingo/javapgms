@@ -9,7 +9,9 @@ public class STO0019_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String s ="AAAABBCCCDDDDEEEG";
+		System.out.println("Input: "+s);
 		ArrayList<Character> list = new ArrayList<>();
+		System.out.print("Output: ");
 		for(int i=0;i<s.length();i++)
 		{
 			int count=1;

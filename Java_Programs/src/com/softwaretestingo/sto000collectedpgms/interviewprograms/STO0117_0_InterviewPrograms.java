@@ -18,8 +18,8 @@ public class STO0117_0_InterviewPrograms
 			String[] s2=strArray[i].split(" ");
 			reverse=reverse+reverse(s2)+",";
   		}
-		System.out.println("Inpur String: "+str);
-		System.out.println("Output String: "+reverse);
+		System.out.println("Inpur: "+str);
+		System.out.println("Output: "+reverse);
 	}
 
 	private static String reverse(String[] str) 

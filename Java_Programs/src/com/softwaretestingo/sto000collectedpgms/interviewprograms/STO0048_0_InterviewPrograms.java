@@ -8,6 +8,7 @@ public class STO0048_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str="test986java656hello";
+		System.out.println("Input: "+str);
 		disp(str);
 	}
 	public static void disp(String str)
@@ -23,7 +24,7 @@ public class STO0048_0_InterviewPrograms
 
 
 		String s2=String.join("", strarr);
-		System.out.println(s2);
+		System.out.println("Output: "+s2);
 	}
 
 	public static String rev(String str) 

@@ -9,6 +9,7 @@ public class STO0028_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str = "My n@me is 12Rahul";
+		System.out.println("Input: "+str);
 		String result="";
 		String[] py = str.split(" ");
 		int counter=0;
@@ -30,6 +31,6 @@ public class STO0028_0_InterviewPrograms
 			result = result+ " ";
 			counter=0;
 		}
-		System.out.println(result);
+		System.out.println("Output: "+result);
 	}
 }

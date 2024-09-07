@@ -1,5 +1,5 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
-public class STO0064_0_InterviewPrograms 
+public class PalindromeNumber 
 {	
 	/*
 	 * 1 

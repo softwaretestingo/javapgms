@@ -4,7 +4,9 @@ public class STO0109_0_InterviewPrograms
 {
 	public static void main(String[] args) 
 	{
-		System.out.println(modifyString("aBcA1bC2"));
+		String str="aBcA1bC2";
+		System.out.println("Input: "+str);
+		System.out.println("Output: "+ modifyString(str));
 	}
 
 	public static String modifyString(String s) 

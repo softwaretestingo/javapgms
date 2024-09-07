@@ -21,6 +21,7 @@ public class STO0022_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String s = "01IND02AUS03ENG";
+		System.out.println("Input: "+s);
 		STO0022_0_InterviewPrograms solution = new STO0022_0_InterviewPrograms();
 		solution.getSolution(s);
 	}
@@ -37,6 +38,6 @@ public class STO0022_0_InterviewPrograms
 			}
 		} 
 		JSONObject data = new JSONObject(hasmMap);
-		System.out.println(data);
+		System.out.println("Output: "+data);
 	}
 }

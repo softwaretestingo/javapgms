@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class STO0101_0_InterviewPrograms 
 {
 	/*
-	 * Write a java program to given array arr [ 1,2,3,4 ] to multiple thee number 
+	 * Write a java program to given array arr [ 1,2,3,4 ] to multiple the number 
 	 * and ignore one for next ignore another one  number and continue 
 	 * same so  we will get out put [ 24,12,8,6 ] 
 	 */
@@ -57,8 +57,8 @@ public class STO0101_0_InterviewPrograms
 		STO0101_0_InterviewPrograms pa = new STO0101_0_InterviewPrograms();
 		int arr[] = { 1,2,3,4 };
 		int n = arr.length;
-		System.out.println("Inputted Array Is: "+Arrays.toString(arr));
-		System.out.println("The product array is : ");
+		System.out.println("Input: "+Arrays.toString(arr));
+		System.out.print("Output: ");
 		pa.multipleValue(arr, n);
 	}
 }

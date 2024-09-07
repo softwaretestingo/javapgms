@@ -2,7 +2,7 @@ package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 
 import java.util.Scanner;
 
-public class STO0088_1_InterviewPrograms 
+public class Patternprogram 
 {
 	public static void main(String[] args)
 	{

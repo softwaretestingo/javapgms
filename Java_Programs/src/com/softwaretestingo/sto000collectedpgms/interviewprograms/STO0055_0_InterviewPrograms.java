@@ -1,4 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+
+import java.util.Arrays;
+
 public class STO0055_0_InterviewPrograms 
 {
 	/*
@@ -11,6 +14,7 @@ public class STO0055_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		int a[]= {1,2,3,4,9,5,6,7,8,10,0};
+		System.out.println("Input: "+Arrays.toString(a));
 		System.out.println("The Combinations in the array whose sum is 10 are:");
 		STO0055_0_InterviewPrograms.combinator(a);
 	}

@@ -4,8 +4,8 @@ import java.util.Map;
 public class STO0047_0_InterviewPrograms 
 {
 	/*
-	 * String input="1222bbbbcccaaaammmmm" 
-	 * String output="1222cccbbbbaaaammmmm"
+	 * input="1222bbbbcccaaaammmmm" 
+	 * output="1222cccbbbbaaaammmmm"
 	 * 
 	 * We need to sort the string base on character size
 	 */

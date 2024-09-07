@@ -1,4 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+
+import java.util.Arrays;
+
 public class STO0021_0_InterviewPrograms 
 {
 	/*
@@ -9,6 +12,7 @@ public class STO0021_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		int[] array = {5,0,4,6,0,7,0};
+		System.out.println("Input:"+Arrays.toString(array));
 		int current = array.length - 1;
 		for (int i = array.length - 1; i >= 0; i--) 
 		{
@@ -22,6 +26,7 @@ public class STO0021_0_InterviewPrograms
 			array[current] = 0;
 			current--;
 		}
+		System.out.print("Output: ");
 		for (int i = 0; i < array.length; i++) 
 		{
 			System.out.print(array[i] + " ");

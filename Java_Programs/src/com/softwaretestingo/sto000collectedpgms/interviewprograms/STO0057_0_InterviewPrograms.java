@@ -11,6 +11,7 @@ public class STO0057_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String name="Monojjonon";
+		System.out.println("Input: "+name);
 		char []ch=name.toCharArray();
 		Map<Character,Integer > bmap = new HashMap<Character, Integer>();
 		Map<Character, Integer> sortedMap = new LinkedHashMap<>();

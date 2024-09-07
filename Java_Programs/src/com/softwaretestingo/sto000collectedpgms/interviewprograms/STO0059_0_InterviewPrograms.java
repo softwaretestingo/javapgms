@@ -7,7 +7,7 @@ public class STO0059_0_InterviewPrograms
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number ");
 		int num=sc.nextInt();
-		
+		System.out.println("Input:"+num);
 		int rev=0;
 		
 		while(num!=0)
@@ -15,6 +15,6 @@ public class STO0059_0_InterviewPrograms
 			rev=rev*10+num%10;
 			num=num/10;
 		}
-		System.out.println(rev);
+		System.out.println("Output: "+rev);
 	}
 }

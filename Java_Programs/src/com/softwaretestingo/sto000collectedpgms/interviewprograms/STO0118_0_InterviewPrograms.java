@@ -10,8 +10,9 @@ public class STO0118_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String input = "NewMumbai";
+		System.out.println("Input: "+input);
 		String output = getMiddleThreeLetters(input);
-		System.out.println(output);
+		System.out.println("Output: "+output);
 	}
 
 	public static String getMiddleThreeLetters(String input) 

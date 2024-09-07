@@ -4,6 +4,7 @@ public class STO0074_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str="this interview is for CBA";
+		System.out.println("Input: "+str);
 		String temp;
 		String []sw=str.split(" ");
 
@@ -19,6 +20,7 @@ public class STO0074_0_InterviewPrograms
 				}
 			}
 		}
+		System.out.print("Output: ");
 		for (int i = 0; i < sw.length; i++) 
 		{
 			System.out.print(sw[i]+ " ");

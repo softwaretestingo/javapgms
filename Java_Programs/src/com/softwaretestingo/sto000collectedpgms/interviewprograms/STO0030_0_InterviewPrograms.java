@@ -9,6 +9,7 @@ public class STO0030_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str1 = "Hello world,welcome to my world,my world";
+		System.out.println("Input: "+str1);
 		String arr[] = str1.split(",");
 		String res = "";
 		for(int i=0;i<arr.length;i++) 
@@ -21,6 +22,6 @@ public class STO0030_0_InterviewPrograms
 			res = res + ",";
 		}
 		res = res.substring(0,res.length()-1);
-		System.out.println(res);
+		System.out.println("Output: "+res);
 	}
 }

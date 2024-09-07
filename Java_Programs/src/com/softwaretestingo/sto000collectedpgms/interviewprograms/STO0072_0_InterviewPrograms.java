@@ -1,9 +1,13 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+
+import java.util.Arrays;
+
 public class STO0072_0_InterviewPrograms 
 {	
 	public static void main(String[] args) 
 	{	
 		int numArr[]= {99,2,55,6,88,-1};
+		System.out.println("Input: "+Arrays.toString(numArr));
 		int small=numArr[0];
 		int larg=numArr[0];
 		
@@ -18,6 +22,6 @@ public class STO0072_0_InterviewPrograms
 				small=numArr[i];
 			}
 		}
-		System.err.println(small +" " +larg);
+		System.err.println("Small No: "+small +" " +"Big No: "+larg);
 	}
 }

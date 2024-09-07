@@ -4,6 +4,7 @@ public class STO0056_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String s="Automation Testing";
+		System.out.println("Input: "+s);
 		char[] ch=s.toCharArray();
 
 		StringBuffer sb= new StringBuffer(s);
@@ -20,6 +21,6 @@ public class STO0056_0_InterviewPrograms
 				sb.setCharAt(i, Character.toLowerCase(s.charAt(i)));
 			}
 		}
-		System.out.println("String after case conversion : " + sb);
+		System.out.println("Output: " + sb);
 	}
 }

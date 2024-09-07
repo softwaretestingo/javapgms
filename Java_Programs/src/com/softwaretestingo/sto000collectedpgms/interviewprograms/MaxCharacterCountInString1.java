@@ -1,6 +1,6 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 // Print duplicate character in a string //
-public class STO0077_0_InterviewPrograms 
+public class MaxCharacterCountInString1 
 {
 	public static void main(String[] args) 
 	{

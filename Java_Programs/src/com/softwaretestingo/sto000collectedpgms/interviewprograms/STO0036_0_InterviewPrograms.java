@@ -12,6 +12,7 @@ public class STO0036_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String equ = "[()]{}{[()()]()}";
+		System.out.println("Input: "+equ);
 		Stack<Character> stack = new Stack<>();
 		for (int i =0 ; i< equ.length() ; i++) 
 		{

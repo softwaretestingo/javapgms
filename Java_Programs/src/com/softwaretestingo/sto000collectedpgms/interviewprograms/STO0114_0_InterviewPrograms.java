@@ -15,9 +15,11 @@ public class STO0114_0_InterviewPrograms {
 	public static void main(String[] args) 
 	{
 		String s1 = "automation";
+		System.out.println("First String: "+s1);
 		HashSet<Character> a1 = new HashSet<Character>();
 		char[] ch1 = s1.toCharArray();
 		String s2 = "testing";
+		System.out.println("Second String: "+s1);
 		char[] ch2 = s2.toCharArray();
 		for (int i = 0; i < ch1.length; i++) 
 		{
@@ -29,6 +31,6 @@ public class STO0114_0_InterviewPrograms {
 				}
 			}
 		}
-		System.out.println(a1);
+		System.out.println("Final: " + a1);
 	}
 }

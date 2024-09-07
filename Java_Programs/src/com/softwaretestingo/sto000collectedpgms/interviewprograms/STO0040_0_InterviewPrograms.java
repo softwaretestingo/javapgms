@@ -9,6 +9,7 @@ public class STO0040_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String s = "Aut@oma#tion@#";
+		System.out.println("Input: "+s);
 		String [ ] newstring = s.split("");
 		int count = 0 ;
 		String last = "";
@@ -24,6 +25,6 @@ public class STO0040_0_InterviewPrograms
 				break;
 			}
 		}
-		System.out.print(s.substring(0, s.length()-count)+last);	
+		System.out.print("Output: "+s.substring(0, s.length()-count)+last);	
 	}
 }

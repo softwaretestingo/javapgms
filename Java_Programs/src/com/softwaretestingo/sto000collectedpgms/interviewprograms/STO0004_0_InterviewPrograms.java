@@ -10,6 +10,7 @@ public class STO0004_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String s="dadeadrs";
+		System.out.println("Input: "+s);
 		List <Character> ls = new LinkedList<>( );
 		for(int i=0;i<s.length();i++)
 		{
@@ -25,9 +26,11 @@ public class STO0004_0_InterviewPrograms
 				}
 			}
 		}
+		String finals="";
 		for ( Character character : ls)
 		{
-			System.out.print (character) ;
+			finals=finals+character;
 		}
+		System.out.print ("Output: "+finals);
 	}
 }

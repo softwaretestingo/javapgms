@@ -9,7 +9,9 @@ public class STO0027_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str = "reverse me without split";
+		System.out.println("Input: "+str);
 		Stack st=new Stack<Character>();
+		System.out.print("Output: ");
 		for (int i = 0; i < str.length(); ++i) 
 		{
 			if (str.charAt(i) != ' ')

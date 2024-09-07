@@ -1,5 +1,6 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 public class STO0013_0_InterviewPrograms 
 {
@@ -10,6 +11,7 @@ public class STO0013_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		int Input[] = {1,2,2,3,4,5,5,3};
+		System.out.println("Input: "+Arrays.toString(Input));
 		List<Integer> list= new ArrayList<>();
 		List<Integer> list1= new ArrayList<>();
 		for (int i = 0; i <= Input.length-1; i++) 
@@ -42,6 +44,7 @@ public class STO0013_0_InterviewPrograms
 				list1.add(list.get(j));
 			}
 		}
+		System.out.print("Output: ");
 		for(Integer d:list1)
 		{
 			System.out.print(d+",");

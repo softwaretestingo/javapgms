@@ -27,7 +27,7 @@ public class STO0096_0_InterviewPrograms
 		System.out.println("Enter the string");
 		str=br.readLine();
 
-		System.out.println("After Reverse the String: "+str);
+		System.out.println("Before Reverse the String: "+str);
 		System.out.println("After Reverse the String: "+reverseString(str));
 		br.close();
 	}

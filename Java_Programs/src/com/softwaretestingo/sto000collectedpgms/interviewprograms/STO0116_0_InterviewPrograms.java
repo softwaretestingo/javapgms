@@ -33,7 +33,7 @@ public class STO0116_0_InterviewPrograms
 			}
 		}
 		
-		System.out.println("The Truncated String is: ");
+		System.out.print("The Truncated String is: ");
 		for(i=j; i<=k; i++)
 		{
 			System.out.print(str.charAt(i));

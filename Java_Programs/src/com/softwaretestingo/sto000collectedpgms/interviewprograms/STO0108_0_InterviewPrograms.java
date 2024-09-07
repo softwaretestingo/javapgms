@@ -17,6 +17,7 @@ public class STO0108_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str = "1a b23cd e45f";
+		System.out.println("Input: "+str);
 		int sum = 0;
 		String pattern = "\\d+";
 		Pattern p = Pattern.compile(pattern);
@@ -25,6 +26,6 @@ public class STO0108_0_InterviewPrograms
 		{
 			sum = sum + Integer.parseInt(m.group());
 		}
-		System.out.println("SumOf Numbers: "+sum);
+		System.out.println("Output: "+sum);
 	}
 }

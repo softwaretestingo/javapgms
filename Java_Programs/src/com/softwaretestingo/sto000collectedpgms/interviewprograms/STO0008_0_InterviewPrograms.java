@@ -10,6 +10,7 @@ public class STO0008_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String input = "Today is January 5th";
+		System.out.println("Input: "+input);
 		String[] output = input.split(" ");
 		StringBuffer sb = new StringBuffer();
 		List<Integer> spaceIndex = new ArrayList<>();
@@ -24,6 +25,6 @@ public class STO0008_0_InterviewPrograms
 		}
 		for ( int i : spaceIndex ) 
 			sb.insert(i," ");
-		System.out.println(sb);
+		System.out.println("Output: "+sb);
 	}
 }

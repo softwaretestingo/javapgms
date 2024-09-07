@@ -8,6 +8,7 @@ public class STO0011_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String s = "AAAADDDCCCA";
+		System.out.println("Input: "+s);
 		int count = 1;
 		String re = "" ;
 		for (int i = 0 ; i <=s.length()-1; i++ )
@@ -28,6 +29,6 @@ public class STO0011_0_InterviewPrograms
 			}
 
 		}
-		System.out.println ( re ) ;
+		System.out.println ("Output: "+re);
 	}
 }

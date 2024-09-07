@@ -36,6 +36,7 @@ public class STO0082_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		List<Integer> ints = Arrays.asList(17, 24, 6, 3, 39, 1);
+		System.out.println("Input: "+ints);
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the value of k : ");
 		int k = sc.nextInt();

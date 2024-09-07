@@ -15,6 +15,7 @@ public class STO0034_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		Integer arr[]= {2,1,1,4,5,5,6,7};
+		System.out.println("Input: "+Arrays.toString(arr));
 		List <Integer> ar = Arrays.asList(arr);
 		HashMap<Integer,Integer> hm = new HashMap<>();
 		ar.forEach(e ->{if(hm.containsKey(e))
@@ -26,6 +27,6 @@ public class STO0034_0_InterviewPrograms
 			hm.put(e,1);
 		}});
 		ar = new ArrayList<>(hm.keySet());
-		System.out.println(ar);
+		System.out.println("Output: "+ar);
 	}
 }

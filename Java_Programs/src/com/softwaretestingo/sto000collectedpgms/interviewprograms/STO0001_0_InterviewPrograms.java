@@ -1,5 +1,6 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Map;
 public class STO0001_0_InterviewPrograms 
@@ -7,11 +8,11 @@ public class STO0001_0_InterviewPrograms
 	// For More Programs Visit: https://www.softwaretestingo.com/
 	
 	/*Input String arr[] = {"Rama", "Test", "Type", "Tata"}
-	Output should be  - "RTTTaeypmsptatea" */
+	  Output should be  - "RTTTaeypmsptatea" */
 	public static void main(String[] args) 
 	{
 		String arr[] = {"Rama", "Test", "Type", "Tata"};
-		System.out.println("Inpu Array Is: "+ "{\"Rama\", \"Test\", \"Type\", \"Tata\"}");
+		System.out.println("Input: "+ Arrays.toString(arr));
 		LinkedHashMap<Integer, ArrayList<String>> map= new LinkedHashMap<>();
 		String ans="";
 		for (int i = 0; i<=arr.length-1; i++) {
@@ -38,7 +39,7 @@ public class STO0001_0_InterviewPrograms
 				ans=ans+l1.get(i);
 			}
 		}
-		System.out.println("Expected Output Is: "+ans);
+		System.out.println("Expected: "+ans);
 		String sy="RTTTaeypmsptatea";
 	}
 }

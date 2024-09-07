@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 public class STO0094_0_InterviewPrograms 
 {
-	//Write a program for removing white spaces in a String.
+	//Write a program for Find the First Index Of a Specific Character.
 	public static void main(String[] args) throws IOException 
 	{
 		String str;

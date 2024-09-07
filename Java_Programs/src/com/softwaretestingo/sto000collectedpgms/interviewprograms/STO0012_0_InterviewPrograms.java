@@ -9,11 +9,12 @@ public class STO0012_0_InterviewPrograms
 	{
 		StringBuilder charactersToAppend = new StringBuilder("#");
 		String input = "tomorrow";
+		System.out.println("Input: "+input);
 		while (input.contains("o")) 
 		{
 			input = input.replaceFirst("o", charactersToAppend.toString());
 			charactersToAppend.append("#");
 		}
-		System.out.println(input);
+		System.out.println("Output: "+input);
 	}
 }

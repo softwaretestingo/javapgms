@@ -14,6 +14,7 @@ public class STO0020_0_InterviewPrograms
 	public static void main(String[] args)
 	{
 		String s = "1B3A2D4C";
+		System.out.println("Input: "+s);
 		String[] sArray = s.split("");
 		List<String> intList = new ArrayList<>();
 		List<String> sList = new ArrayList<>();
@@ -33,6 +34,7 @@ public class STO0020_0_InterviewPrograms
 		{
 			map.put(itr1.next(), Integer.parseInt(itr2.next()));
 		}
+		System.out.print("Output: ");
 		for(Map.Entry<String, Integer> m : map.entrySet()) 
 		{
 			for(int i=0;i<m.getValue();i++)

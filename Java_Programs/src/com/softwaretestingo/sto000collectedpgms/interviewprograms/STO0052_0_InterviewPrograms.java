@@ -9,7 +9,7 @@ public class STO0052_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String ip[]={"Hi","maven","selenium","java"};
-
+		System.out.println("Input: "+Arrays.toString(ip));
 		for(int i=0;i<ip.length;i++)
 		{
 			for(int j=i+1;j<ip.length;j++)
@@ -22,6 +22,6 @@ public class STO0052_0_InterviewPrograms
 				}
 			}
 		}
-		System.out.println(Arrays.toString(ip));
+		System.out.println("Output: "+Arrays.toString(ip));
 	}
 }

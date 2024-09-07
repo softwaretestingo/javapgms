@@ -1,4 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+
+import java.util.Arrays;
+
 public class STO0041_0_InterviewPrograms 
 {
 	/*
@@ -8,6 +11,7 @@ public class STO0041_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String s = "AB2C99423A";
+		System.out.println("Input: "+s);
 		char[] cArr = s.toCharArray();
 		char resultArr[] = new char [cArr.length*2];
 		int evenCount = 0 ;
@@ -25,6 +29,7 @@ public class STO0041_0_InterviewPrograms
 				oddcount = oddcount+2 ;
 			}
 		}
-		System.out.println(resultArr);
+		System.out.print("Output: ");
+		System.out.print(resultArr);
 	}
 }

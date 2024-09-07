@@ -8,7 +8,9 @@ public class STO0045_0_InterviewPrograms
 	 */
 	public static void main(String[] args) 
 	{
-		findDuplicate("INDIA");
+		String str="INDIA";
+		System.out.println("Input: "+str);
+		findDuplicate(str);
 	}
 	public static void findDuplicate(String str)
 	{
@@ -27,6 +29,6 @@ public class STO0045_0_InterviewPrograms
 				hm.put(str.charAt(i),1);
 			}
 		}
-		System.out.println(newStr);
+		System.out.println("Output: "+newStr);
 	}
 }

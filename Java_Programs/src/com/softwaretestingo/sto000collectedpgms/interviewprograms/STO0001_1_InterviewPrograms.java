@@ -1,4 +1,8 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class STO0001_1_InterviewPrograms 
 {
 	public static void main(String[] args) 
@@ -20,6 +24,7 @@ public class STO0001_1_InterviewPrograms
 				}
 			}
 		}
-		System.out.println(result);//RTTTaeyamsptatea
+		System.out.println("Input: "+Arrays.toString(strArray));
+		System.out.println("Outpur: "+result);//RTTTaeyamsptatea
 	}
 }

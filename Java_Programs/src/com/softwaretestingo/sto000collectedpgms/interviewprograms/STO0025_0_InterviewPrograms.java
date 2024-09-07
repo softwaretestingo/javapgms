@@ -9,7 +9,7 @@ public class STO0025_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		int [] a = {1 , 2 , 3 , 4 , 5 };
-		System.out.println("Original Array" + Arrays.toString(a));
+		System.out.println("Input: " + Arrays.toString(a));
 		int nor = 2 ; // no of Rotations
 		for ( int i=0; i<nor; i++ ) 
 		{

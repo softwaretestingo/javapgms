@@ -4,6 +4,7 @@ public class STO0075_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String s ="Mono1j2";
+		System.out.println("Input: "+s);
 		char ch[]=s.toCharArray();
 
 		StringBuilder sb = new StringBuilder();
@@ -14,7 +15,7 @@ public class STO0075_0_InterviewPrograms
 				sb.append(ch1);
 			}
 		}
-		System.out.println(sb);
+		System.out.println("Output: "+sb);
 	}
 }
 //Output- 12

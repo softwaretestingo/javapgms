@@ -11,6 +11,7 @@ public class STO0009_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String num = "1234";
+		System.out.println("Input: "+num);
 		String finals = "";
 		char arr[] = num.toCharArray();
 		List<String> list = new ArrayList<String>();
@@ -26,6 +27,6 @@ public class STO0009_0_InterviewPrograms
 			list.add(finals);
 			finals = "";
 		}
-		System.out.println(list);
+		System.out.println("Output: "+list);
 	}
 }

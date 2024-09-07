@@ -9,6 +9,7 @@ public class STO0032_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String s="GDP in 2016 has fallen from 6.8% to 4.5%";
+		System.out.println("Input: "+s);
 		StringBuffer rev=new StringBuffer();
 		StringBuffer number=new StringBuffer();
 		int length=s.length();
@@ -33,6 +34,6 @@ public class STO0032_0_InterviewPrograms
 				rev.append(c);
 			}
 		}
-		System.out.print(rev);
+		System.out.print("Output: "+rev);
 	}
 }
