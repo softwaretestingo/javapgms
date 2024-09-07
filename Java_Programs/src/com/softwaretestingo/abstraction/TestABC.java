@@ -7,7 +7,6 @@ public class TestABC
 		String input = "I Love Dogs";
 		generatePairs(input);
 	}
-	//Test
 
 	private static void generatePairs(String str) 
 	{
