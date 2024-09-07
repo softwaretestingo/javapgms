@@ -1,6 +1,7 @@
 package com.softwaretestingo.abstraction;
 public class AllSubsets 
 {
+	//Test
 	public static void main(String[] args) 
 	{
 		String str = "FUN";
