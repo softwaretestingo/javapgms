@@ -14,7 +14,7 @@ application.log
 *.war
 *.ear
 *.nar
-.classpath
+*.classpath
 Java_Programs/.settings/org.eclipse.jdt.core.prefs
 hs_err_pid*
 activityLog.log
