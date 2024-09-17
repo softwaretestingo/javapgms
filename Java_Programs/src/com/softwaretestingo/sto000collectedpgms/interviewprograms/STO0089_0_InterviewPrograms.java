@@ -34,6 +34,6 @@ public class STO0089_0_InterviewPrograms
 			arr[i] = sc.nextInt();
 		}
 
-		System.out.println(validMountArray(arr));
+		System.out.println("Is a Mount Array: "+validMountArray(arr));
 	}
 }

@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Map;
 import java.util.TreeMap;
-public class STO0097_0_InterviewPrograms 
+public class STO0090_2_InterviewPrograms 
 {
 	//Write a program to print the frequency of words in a paragraph
 	private static void countfreqword(String str) 
@@ -34,9 +34,8 @@ public class STO0097_0_InterviewPrograms
 		String str;
 
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Enter the string");
+		System.out.print("Enter the string: ");
 		str=br.readLine();
-
 		countfreqword(str);
 	}
 }

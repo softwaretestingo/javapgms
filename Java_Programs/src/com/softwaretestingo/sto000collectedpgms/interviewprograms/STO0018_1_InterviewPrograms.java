@@ -1,5 +1,6 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
@@ -11,13 +12,15 @@ public class STO0018_1_InterviewPrograms
 	 */
 	public static void main ( String args [ ] ) 
 	{
-		int arr[] = { 1 , 1 , 0 , 0 , 1 , 1 , 0 , 1 , 0 , 1 , 1 , 0 , 0 , 1 } ;
+		int arr[] = { 1 , 1 , 0 , 0 , 1 , 1 , 0 , 1 , 0 , 1 , 1 , 0 , 0 , 1 };
+		System.out.println("Input: "+Arrays.toString(arr));
 		HashMap< Integer , Integer > h = new LinkedHashMap<>();
 		for ( int i = 0 ; i < arr.length ; i ++ ) 
 		{
 			h.put(arr[i] , h.getOrDefault(arr[i] , 0 ) + 1);
 		}
 		int reset = 0 ;
+		System.out.print("Output: ");
 		for ( int x : h.values()) 
 		{
 			for ( int i = 1 ; i <= x ; i ++ ) 

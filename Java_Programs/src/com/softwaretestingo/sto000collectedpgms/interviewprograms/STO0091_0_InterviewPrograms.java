@@ -22,8 +22,9 @@ public class STO0091_0_InterviewPrograms
 		try
 		{
 			//Creating BufferedReader object
-
-			reader = new BufferedReader(new FileReader("C:\\Users\\ZeroCool\\git\\javapgms\\Java_Programs\\testdata.txt"));
+			String path=System.getProperty("user.dir")+"\\Resources\\testdata.txt";
+			//System.out.println(path);
+			reader = new BufferedReader(new FileReader(path));
 
 			//Reading the first line into currentLine
 			String currentLine = reader.readLine();

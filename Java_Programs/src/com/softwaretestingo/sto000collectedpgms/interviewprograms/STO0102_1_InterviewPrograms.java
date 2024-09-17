@@ -5,6 +5,7 @@ public class STO0102_1_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str = "www.softwaretestingo.com";
+		System.out.println("Input: "+str);
 		str = str.toLowerCase();
 		int count = 0;
 		String vow ="aeiou";

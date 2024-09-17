@@ -9,12 +9,13 @@ public class STO0035_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String name = "Ramakant";
+		System.out.println("Input: "+name);
 		String text = "";
 		for (int i = 0; i < name.length(); i++) 
 		{
 			char[] ch = name.toCharArray();
 			text = text + ch[i] + ((name.substring(0, i).length())-(name.substring(0, i).replace(String.valueOf(ch[i]),"").length())+1);
 		}
-		System.out.println(text);
+		System.out.println("Output: "+text);
 	}
 }

@@ -4,8 +4,9 @@ public class STO0081_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String s="softwaretestingo";
+		System.out.println("Input: "+s);
 		int count;
-
+		System.out.print("Output: ");
 		for (int i = 0; i < s.length(); i++) 
 		{
 			count =0;

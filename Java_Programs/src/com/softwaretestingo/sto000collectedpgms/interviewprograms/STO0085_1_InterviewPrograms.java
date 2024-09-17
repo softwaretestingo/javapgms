@@ -36,13 +36,13 @@ public class STO0085_1_InterviewPrograms
 	public static void main(String[] args) throws IOException 
 	{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Enter the String: ");
+		System.out.print("Enter the String: ");
 
 		String str=br.readLine();
 
-		System.out.println("Enter The K Value: ");
+		System.out.print("Enter The K Value: ");
 		int k = Integer.parseInt(br.readLine());
-
+		System.out.println(k);
 
 		char[] charArray=str.toCharArray();
 

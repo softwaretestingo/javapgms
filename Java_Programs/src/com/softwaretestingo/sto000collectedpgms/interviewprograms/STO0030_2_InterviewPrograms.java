@@ -1,5 +1,5 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
-public class STO0117_0_InterviewPrograms 
+public class STO0030_2_InterviewPrograms 
 {
 	/**
 	 * Write Java code for

@@ -1,9 +1,6 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
-
-import java.util.ArrayList;
-import java.util.List;
-
-public class STO0112_1_InterviewPrograms {
+public class STO0112_1_InterviewPrograms 
+{
 	/**
 	 * Author: SoftwareTestingo Admin Blog: www.softwaretestingo.com Problem
 	 * Statement: Reverse Alphabets only With Out Changing the Digits?

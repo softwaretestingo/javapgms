@@ -27,6 +27,7 @@ public class STO0099_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str = "abbcccddddcc";
+		System.out.println("Input: "+str);
 		Map<Character, Integer> charCountMap = new HashMap<>();
 		// Populate the character count map
 		for (char c : str.toCharArray()) {

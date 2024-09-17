@@ -1,5 +1,5 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
-public class STO0116_0_InterviewPrograms 
+public class STO0092_3_InterviewPrograms 
 {
 	/**
 	 * Write Java code to remove trailing spaces from string

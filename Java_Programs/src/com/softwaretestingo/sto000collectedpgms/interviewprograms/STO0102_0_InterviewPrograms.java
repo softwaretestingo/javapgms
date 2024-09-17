@@ -4,6 +4,7 @@ public class STO0102_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str = "SoftwareTestingo";
+		System.out.println("Input: "+str);
 		str = str.toLowerCase();
 		int count = 0;
 
@@ -21,7 +22,6 @@ public class STO0102_0_InterviewPrograms
 		}
 
 		// display total count of vowels in string
-		System.out.println(
-				"Total no of vowels in string are: " + count);
+		System.out.println("Total no of vowels in string are: " + count);
 	}
 }

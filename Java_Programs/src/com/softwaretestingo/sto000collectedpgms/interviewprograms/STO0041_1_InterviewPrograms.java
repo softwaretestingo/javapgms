@@ -8,6 +8,7 @@ public class STO0041_1_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String inpu = "AB2C99423A";
+		System.out.println("Input: "+inpu);
 		String charac = "";
 		String intege = "";
 		String result="";
@@ -39,6 +40,6 @@ public class STO0041_1_InterviewPrograms
 				}
 			}
 		}
-		System.out.println(result);
+		System.out.println("Output: "+result);
 	}
 }

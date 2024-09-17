@@ -1,6 +1,6 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 import java.util.Arrays;
-public class STO0052_0_InterviewPrograms 
+public class STO0026_1_InterviewPrograms 
 {
 	/*
 	 * Input { "Hi" , "maven" , "selenium " , "java" } 

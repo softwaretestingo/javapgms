@@ -4,7 +4,7 @@ package com.softwaretestingo.sto000collectedpgms.interviewprograms;
  * @author SoftwareTesting.com
  *
  */
-public class STO0108_1_InterviewPrograms 
+public class STO0045_2_InterviewPrograms 
 {
 	/*
 	 * Write a program that calculate the sum of all numbers present in alphanumeric
@@ -16,6 +16,7 @@ public class STO0108_1_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str = "1a b23cd e45f";
+		System.out.println("Input: "+str);
 		int sum = 0;
 
 		String number = "";

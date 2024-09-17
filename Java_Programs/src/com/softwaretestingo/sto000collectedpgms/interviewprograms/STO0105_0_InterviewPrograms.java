@@ -5,9 +5,10 @@ public class STO0105_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter the Name : ");
+		System.out.print("Enter the Name : ");
 		String name = sc.nextLine();
 		String word = "";
+		System.out.print("Short Form: ");
 		for (int i = 0; i < name.length(); i++) 
 		{
 			char ch = name.charAt(i);

@@ -41,8 +41,7 @@ public class STO0087_1_InterviewPrograms
 		if (longest.length() == 0) {
 			longest = str.substring(0, 1);
 		}
-		System.out.println(
-				"Longest palindrome substring is: " + longest);
+		System.out.println("Longest palindrome substring is: " + longest);
 
 		// Return length of LPS
 		return longest.length();
@@ -50,6 +49,7 @@ public class STO0087_1_InterviewPrograms
 	public static void main(String[] args)
 	{
 		String str = "abcdcbe";
-		System.out.print("\nLength is: "+ findLongSubstr(str));
+		System.out.println("Input: "+str);
+		System.out.print("Length is: "+ findLongSubstr(str));
 	}
 }

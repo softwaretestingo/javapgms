@@ -1,23 +1,27 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 import java.util.Scanner;
-public class STO0121_4_InterviewPrograms 
+public class STO0003_4_InterviewPrograms 
 {
 	public static void main(String[] args) 
 	{
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Enter a sentence please:");
+		System.out.print("Enter a sentence please:");
 		String str = scanner.nextLine();
-		System.out.println("Enter a sentence please:");
+		System.out.print("Enter a sentence please:");
 		String sub=scanner.next();
-
-		int lastIndex = 0;
+		int atIndex = 0;
 		int count = 0;
 
-		while((lastIndex = str.indexOf(sub, lastIndex)) != -1)
+		while (atIndex != -1)
 		{
-			count++;
-			lastIndex += sub.length() - 1;
+			atIndex = str.indexOf(sub, atIndex);
+
+			if(atIndex != -1)
+			{
+				count++;
+				atIndex += sub.length();
+			}
 		}
 		System.out.println("Original String: "+str);
 		System.out.println("Sub String: "+sub);

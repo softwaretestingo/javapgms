@@ -8,6 +8,7 @@ public class STO0029_1_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String input = "Hi I am Naveen i need and answer";
+		System.out.println("Input: "+input);
 		String[] inputArr=input.split(" ");
 		String outputStr = "" ;
 		int j = 0 ;
@@ -28,6 +29,6 @@ public class STO0029_1_InterviewPrograms
 			}
 			outputStr = outputStr + " " + indexedStr;
 		}
-		System.out.println(outputStr.trim());
+		System.out.println("Output: "+outputStr.trim());
 	}
 }

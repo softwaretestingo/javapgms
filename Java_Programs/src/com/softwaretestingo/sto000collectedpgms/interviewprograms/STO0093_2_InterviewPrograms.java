@@ -26,7 +26,7 @@ public class STO0093_2_InterviewPrograms
 		char[] str=input.toCharArray();
 		int i=remoteWhiteSpace(str);
 		
-		System.out.println(String.valueOf(str).subSequence(0, i));
+		System.out.println("After Removing Spaces: "+String.valueOf(str).subSequence(0, i));
 		sc.close();
 	}
 }

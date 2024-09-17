@@ -19,15 +19,15 @@ public class STO0106_0_InterviewPrograms
 		map.put("one Twenty", 120);
 		
 		// print the map
-		System.out.println(map);
+		System.out.println("Original Map: "+map);
 		
 		//sorting
 		LinkedHashMap<String, Integer> smap = map.entrySet().stream().sorted((t1,t2)->t1.getValue().compareTo(t2.getValue())).
 		collect(Collectors.toMap(Map.Entry::getKey ,Map.Entry::getValue,(t1,t2)->t1,LinkedHashMap::new));
-		System.out.println(smap);
+		System.out.println("Sorted Map: "+smap);
 		
 		int size = smap.size();
-		System.out.println(size);
+		//System.out.println(size);
 		
 		int max = Collections.max(smap.values()); int SecondMax = 0;
 		for (int value : smap.values())
@@ -41,18 +41,18 @@ public class STO0106_0_InterviewPrograms
 					SecondMax = value;
 				}
 		}
-		System.out.println(SecondMax);
+		//System.out.println(SecondMax);
 		Integer Value = SecondMax;
 		
 		for(Entry<String, Integer> entry: smap.entrySet())
 		{
 				if(entry.getValue() == Value) 
 				{
-					System.out.println("\nThe key of the: " + Value + " is " + entry.getKey());
+					//System.out.println("The key of the: " + Value + " is " + entry.getKey());
 					smap.remove(entry.getKey());
 					break;
 				}
 		}
-		System.out.println(smap); 
+		System.out.println("After Removing Second Max Number: "+smap); 
 	}
 }

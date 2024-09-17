@@ -11,9 +11,12 @@ public class STO0047_0_InterviewPrograms
 	 */
 	public static void main(String[] args) 
 	{
-		System.out.println(sortFreq("1222bbbbcccaaaammmmm"));
+		String str="1222bbbbcccaaaammmmm";
+		System.out.println("Input: "+str);
+		System.out.println("Output: "+sortFreq(str));
 	}
-	public static String sortFreq(String str) {
+	public static String sortFreq(String str) 
+	{
 		StringBuilder sb = new StringBuilder();
 
 		Map<Character, Integer> hm = new HashMap<>();
@@ -21,17 +24,17 @@ public class STO0047_0_InterviewPrograms
 		{
 			hm.put(c, hm.getOrDefault(c, 0) + 1);
 		}
-		System.out.println("frequency map of the String is " + hm);
+		//System.out.println("frequency map of the String is " + hm);
 
 		hm.entrySet().stream()
-		.sorted(Map.Entry. <Character, Integer>comparingByValue())
-		.forEach(a -> {Character key = a.getKey();
+						.sorted(Map.Entry. <Character, Integer>comparingByValue())
+						.forEach(a -> {Character key = a.getKey();
 		int value = a.getValue();
 		for (int i = 0; i < value; i++) {
 			sb.append(key);
 		}
 		});
-		System.out.println(sb);
+		//System.out.println(sb);
 
 		return sb.toString();
 	}

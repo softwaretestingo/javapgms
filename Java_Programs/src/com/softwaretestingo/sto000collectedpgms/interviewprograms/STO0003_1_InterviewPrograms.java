@@ -9,6 +9,7 @@ public class STO0003_1_InterviewPrograms
 	{
 
 		String s = "lekhale";
+		System.out.println("Input: "+s);
 		int count = 0;
 		int index = s.indexOf("le");
 		while (index != -1) 
@@ -16,6 +17,6 @@ public class STO0003_1_InterviewPrograms
 			count++;
 			index = s.indexOf("le", index + 1);
 		}
-		System.out.println("The substring 'le' is repeated " + count + " times in the given string.");
+		System.out.println("Output: "+"The substring 'le' is repeated " + count + " times in the given string.");
 	}
 }

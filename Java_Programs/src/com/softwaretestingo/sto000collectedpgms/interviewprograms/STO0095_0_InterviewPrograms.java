@@ -5,7 +5,6 @@ import java.io.InputStreamReader;
 public class STO0095_0_InterviewPrograms 
 {
 	//Write a program to find out First repeated character in a string
-
 	private static char findFirstRepeatedChar(String str) 
 	{
 		int n = str.length();
@@ -41,7 +40,7 @@ public class STO0095_0_InterviewPrograms
 
 		// create an object of Scanner
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Enter the string");
+		System.out.print("Enter the string: ");
 		str=br.readLine();
 
 		System.out.println("The First Repeated Character: "+findFirstRepeatedChar(str));

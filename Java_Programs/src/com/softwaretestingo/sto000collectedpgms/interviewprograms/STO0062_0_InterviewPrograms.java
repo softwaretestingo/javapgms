@@ -5,6 +5,7 @@ public class STO0062_0_InterviewPrograms
 	{	
 		int sum=0,temp;
 		int n=5405;
+		System.out.println("Input: "+n);
 		temp=n;
 		
 		while(n>0)
@@ -13,8 +14,8 @@ public class STO0062_0_InterviewPrograms
 			n=n/10;
 		}
 		if(temp==sum)
-			System.out.println("palindrome number ");  
+			System.out.println("Output: "+ "Palindrome Number ");  
 		else
-			System.out.println("Not a palindrome number ");  
+			System.out.println("Output: "+ "Not a Palindrome Number ");  
 	}
 }

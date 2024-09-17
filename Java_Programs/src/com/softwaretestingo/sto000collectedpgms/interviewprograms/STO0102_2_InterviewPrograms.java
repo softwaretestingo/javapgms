@@ -4,11 +4,11 @@ public class STO0102_2_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str = "Welcome To SoftwareTestingo";
-
+		System.out.println("Input: "+str);
 		str = str.toLowerCase();
 
-		System.out.println("Total number of vowels in string are:");
-		System.out.println(vowelno(str, str.length()));
+		System.out.print("Total number of vowels in string are: ");
+		System.out.print(vowelno(str, str.length()));
 	}
 
 	// isVowel() function returns 1 if the

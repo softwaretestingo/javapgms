@@ -20,7 +20,7 @@ public class STO0025_0_InterviewPrograms
 			}
 			a[a.length-1]=fE ; // put first element at last position
 		}
-		System.out.println("Array after " + nor + " rotations " + Arrays.toString(a));
+		System.out.println("Output: "+"Array after " + nor + " rotations " + Arrays.toString(a));
 	}
 
 }

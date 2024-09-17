@@ -12,7 +12,8 @@ public class STO0018_2_InterviewPrograms
 	public static void main ( String args [ ] ) 
 	{
 		int [] arr = { 1,1,0,0,1,0,1,0,1,1 };
+		System.out.println("Input: "+Arrays.toString(arr));
 		int [ ] arr1= Arrays.stream(arr).boxed(). sorted(Comparator.reverseOrder()).mapToInt(Integer::intValue).toArray();
-		System.out.println(Arrays.toString(arr1));
+		System.out.println("Output: "+Arrays.toString(arr1));
 	}
 }

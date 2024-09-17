@@ -13,10 +13,12 @@ public class STO0051_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String input = "tomorrow";
+		System.out.println("Input: "+input);
 		Map<Character, Integer> map = StringManipulation(input);
 		// sort and print
 		List<Map.Entry<Character, Integer>> toSort = new ArrayList<>(map.entrySet());
 		toSort.sort(Map.Entry.comparingByValue(Comparator.reverseOrder()));
+		System.out.print("Output: ");
 		for ( Map.Entry<Character, Integer> x : toSort ) 
 		{
 			int count = x.getValue();

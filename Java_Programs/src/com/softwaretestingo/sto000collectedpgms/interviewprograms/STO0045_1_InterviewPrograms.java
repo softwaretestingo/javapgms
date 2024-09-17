@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
  * @author SoftwareTestingo.com
  *
  */
-public class STO0108_0_InterviewPrograms 
+public class STO0045_1_InterviewPrograms 
 {
 	/*
 	 * Write a program that calculate the sum of all numbers present in alphanumeric

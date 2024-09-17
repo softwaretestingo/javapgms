@@ -17,6 +17,7 @@ public class STO0018_3_InterviewPrograms
 	 */	public static void main ( String args [ ] ) 
 	{
 		int arr[] = new int[]{ 0,1,0, 1, 0, 1, 1, 1 };
+		System.out.println("Input: "+Arrays.toString(arr));
 		int n = arr.length;
 		int count = 0;
 
@@ -34,6 +35,7 @@ public class STO0018_3_InterviewPrograms
 		{
 			arr[k] = 1;
 		}
+		System.out.print("Output: ");
 		for (int q = 0; q < n; q++)
 		{
 			System.out.print(arr[q] + " ");    

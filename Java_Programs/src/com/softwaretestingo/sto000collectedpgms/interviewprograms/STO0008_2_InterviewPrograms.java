@@ -1,7 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 import java.util.ArrayList;
 import java.util.Scanner;
-public class STO0016_1_InterviewPrograms 
+public class STO0008_2_InterviewPrograms 
 {
 	/*
 	 * Input : he is a good boy 
@@ -10,6 +10,7 @@ public class STO0016_1_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String a = " he is a good boy " ;
+		System.out.println("Input: "+a);
 		// Output : yo bd o ogas ieh
 		String a1 = " " ;
 		String result = " " ;
@@ -32,6 +33,6 @@ public class STO0016_1_InterviewPrograms
 			}
 			result = result + " " ;
 		}
-		System.out.println(result);
+		System.out.println("Output: "+result);
 	}
 }

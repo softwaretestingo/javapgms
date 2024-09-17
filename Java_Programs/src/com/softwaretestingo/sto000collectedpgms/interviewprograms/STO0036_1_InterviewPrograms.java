@@ -16,6 +16,7 @@ public class STO0036_1_InterviewPrograms
 	{
 		storeBracketStartAndEnd();
 		String testString = "[{()}](){()}";
+		System.out.println("Input: "+testString);
 		boolean status = true ;
 		LinkedList<String> l1 = new LinkedList<String>();
 		testString = testString.replaceAll("[^\\(\\{\\[\\)\\}\\]]", "");
@@ -42,11 +43,11 @@ public class STO0036_1_InterviewPrograms
 		}
 		if (status) 
 		{
-			System.out.println ("All brackets are balanced");
+			System.out.println("Output: "+"Balanced");
 		} 
 		else 
 		{
-			System.out.println("Brackets are not balanced");
+			System.out.println("Output: "+"Not Balanced");
 		}
 	}
 	public static void storeBracketStartAndEnd() 

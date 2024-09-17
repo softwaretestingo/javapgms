@@ -5,6 +5,7 @@ public class STO0090_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String input="Welcome to Java Session Session Session";  
+		System.out.println("Input: "+input);
 		String[] words=input.split(" ");
 		int wrc=1;
 
@@ -20,7 +21,7 @@ public class STO0090_0_InterviewPrograms
 				}
 			}
 			if(words[i]!="0")
-				System.out.println(words[i]+"--"+wrc);
+				System.out.println(words[i]+"- "+wrc);
 			wrc=1;
 		}  
 	}

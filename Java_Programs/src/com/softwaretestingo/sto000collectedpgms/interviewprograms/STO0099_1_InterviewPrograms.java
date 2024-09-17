@@ -47,7 +47,7 @@ public class STO0099_1_InterviewPrograms
 				ch=m.getKey();
 			}
 		}
-		System.out.println("Second Large Character Value From String" + str +" is: "+secondLarge + " & Character Is: "+ch);
+		System.out.println("Second Large Character Value From String " + str +" is: "+" Character "+ch +" And Count is: "+secondLarge);
 		return map;
 	}
 	public static void main(String[] args) 

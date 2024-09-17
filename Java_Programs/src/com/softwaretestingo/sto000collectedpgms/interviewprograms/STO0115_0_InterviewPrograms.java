@@ -1,5 +1,6 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 
+import java.util.Arrays;
 import java.util.HashSet;
 
 public class STO0115_0_InterviewPrograms {
@@ -15,10 +16,12 @@ public class STO0115_0_InterviewPrograms {
 	public static void main(String[] args) 
 	{
 		int[] array = {1, 2, 3, 4, 5};
+		System.out.println("Input: "+Arrays.toString(array));
         int numberToRemove = 5;
         array = removeNumberFromArray(array, numberToRemove);
         
         // Print the array after removal
+        System.out.print("Output: ");
         for (int num : array) {
             System.out.print(num + " ");
         }

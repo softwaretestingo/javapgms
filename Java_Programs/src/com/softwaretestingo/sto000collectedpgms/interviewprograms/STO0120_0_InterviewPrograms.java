@@ -31,6 +31,7 @@ public class STO0120_0_InterviewPrograms
 		 * greater than 1. All duplicate chars would be 
 		 * having value greater than 1.
 		 */
+		System.out.println("Output:");
 		for(Character ch:keys)
 		{
 			if(map.get(ch) > 1)
@@ -42,7 +43,9 @@ public class STO0120_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		STO0120_0_InterviewPrograms obj = new STO0120_0_InterviewPrograms();
-		obj.countDupChars("softwaretestingo");
+		String str="softwaretestingo";
+		System.out.println("Input: "+str);
+		obj.countDupChars(str);
 
 	}
 }

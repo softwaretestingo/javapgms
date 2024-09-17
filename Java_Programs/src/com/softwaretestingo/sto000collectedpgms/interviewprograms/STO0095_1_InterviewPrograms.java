@@ -31,7 +31,7 @@ public class STO0095_1_InterviewPrograms
 
 		// create an object of Scanner
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Enter the string");
+		System.out.print("Enter the string: ");
 		str=br.readLine();
 
 		System.out.println("The First Repeated Character: "+findFirstRepeatedChar(str));

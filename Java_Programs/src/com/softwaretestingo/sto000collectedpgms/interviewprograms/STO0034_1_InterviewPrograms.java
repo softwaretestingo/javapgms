@@ -1,4 +1,5 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+import java.util.Arrays;
 import java.util.HashSet;
 public class STO0034_1_InterviewPrograms
 {
@@ -11,6 +12,7 @@ public class STO0034_1_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		Integer ar[]= {2,1,1,4,5,5,6,7};
+		System.out.println("Input: "+Arrays.toString(ar));
 		HashSet<Integer> hs= new HashSet<Integer>();
 		
 		for(int s1:ar)
@@ -20,6 +22,6 @@ public class STO0034_1_InterviewPrograms
 				hs.remove(s1);
 			}
 		}
-		System.out.println(hs);
+		System.out.println("Output: "+hs);
 	}
 }

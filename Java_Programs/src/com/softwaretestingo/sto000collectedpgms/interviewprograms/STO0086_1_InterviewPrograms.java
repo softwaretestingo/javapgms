@@ -6,7 +6,7 @@ public class STO0086_1_InterviewPrograms
 	{
 		int x, y, flag;
 		// Printing display message
-		System.out.println("All the Prime numbers within 1 and " + n+ " are: ");
+		System.out.print("All the Prime numbers within 1 and " + n+ " are: ");
 
 		// Traversing all numbers from 1 to N
 		for (x = 1; x <= n; x++) 
@@ -36,7 +36,7 @@ public class STO0086_1_InterviewPrograms
 	public static void main(String[] args)
 	{
 		int n;
-		System.out.println("Enter the Value of N: ");
+		System.out.print("Enter the Value of N: ");
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();	
 		findprimeno(n);

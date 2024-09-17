@@ -24,7 +24,7 @@ public class STO0096_0_InterviewPrograms
 		String str;
 
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Enter the string");
+		System.out.print("Enter the string: ");
 		str=br.readLine();
 
 		System.out.println("Before Reverse the String: "+str);

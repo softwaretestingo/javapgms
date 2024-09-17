@@ -19,7 +19,7 @@ public class STO0114_0_InterviewPrograms {
 		HashSet<Character> a1 = new HashSet<Character>();
 		char[] ch1 = s1.toCharArray();
 		String s2 = "testing";
-		System.out.println("Second String: "+s1);
+		System.out.println("Second String: "+s2);
 		char[] ch2 = s2.toCharArray();
 		for (int i = 0; i < ch1.length; i++) 
 		{

@@ -5,7 +5,7 @@ public class STO0060_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		Scanner num = new Scanner(System.in);
-		System.out.println("Enter a number");
+		System.out.print("Enter a number: ");
 
 		int n = num.nextInt();
 

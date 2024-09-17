@@ -1,6 +1,6 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 import java.util.Scanner;
-public class STO0121_5_InterviewPrograms 
+public class STO0003_8_InterviewPrograms 
 {
 	public  static  int getCountSubString(String str , String sub)
 	{
@@ -32,11 +32,11 @@ public class STO0121_5_InterviewPrograms
 	{
 		int count;
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter a sentence please:");
+		System.out.print("Enter a sentence please:");
 		String str = scanner.nextLine();
-		System.out.println("Enter a sentence please:");
+		System.out.print("Enter a sentence please:");
 		String sub=scanner.next();
-		STO0121_5_InterviewPrograms obj=new STO0121_5_InterviewPrograms();
+		STO0003_8_InterviewPrograms obj=new STO0003_8_InterviewPrograms();
 		count=obj.getCountSubString(str, sub);
 
 		System.out.println("Original String: "+str);

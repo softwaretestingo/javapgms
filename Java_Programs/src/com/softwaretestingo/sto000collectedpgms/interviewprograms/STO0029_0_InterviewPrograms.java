@@ -1,4 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+
+import java.util.Arrays;
+
 public class STO0029_0_InterviewPrograms 
 {
 	/*
@@ -8,8 +11,9 @@ public class STO0029_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str = "Hi I am Naveen I need and answer";
+		System.out.println("Input: "+str);
 		String[] sp=getPattern(str);
-		
+		System.out.print("Output: ");
 		// print Array
 		for(int j=sp.length-1; j>=0; j--) 
 		{

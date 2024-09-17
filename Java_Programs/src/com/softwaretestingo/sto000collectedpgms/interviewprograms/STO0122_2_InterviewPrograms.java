@@ -1,4 +1,5 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 public class STO0122_2_InterviewPrograms 
@@ -6,11 +7,11 @@ public class STO0122_2_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		int[] arr = { 4, 3, 6, 2, 1, 1, 2 };
-
+		System.out.println("Input: "+Arrays.toString(arr));
 		Map<Integer, Boolean> numberMap = new HashMap<>();
 
 		int max = arr.length;
-		
+		System.out.println("Output: ");
 		for (Integer i : arr) 
 		{
 

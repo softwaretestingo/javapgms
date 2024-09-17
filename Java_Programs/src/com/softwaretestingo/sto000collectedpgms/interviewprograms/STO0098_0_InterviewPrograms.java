@@ -1,5 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 
+import java.util.Arrays;
+
 public class STO0098_0_InterviewPrograms 
 {
 	// This Questions Asked In Unify technologies
@@ -9,6 +11,7 @@ public class STO0098_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		int a[] = {2,3,4,1,4,5};
+		System.out.println("Input: "+Arrays.toString(a));
 		int sum1=0;
 		int sum2=0;
 		int ans=0;
@@ -25,6 +28,6 @@ public class STO0098_0_InterviewPrograms
 			}
 			sum2=0;
 		}
-		System.out.print(ans);
+		System.out.print("Output: "+ans);
 	}
 }

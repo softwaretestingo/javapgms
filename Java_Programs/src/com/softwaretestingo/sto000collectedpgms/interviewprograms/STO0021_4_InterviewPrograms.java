@@ -1,4 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+
+import java.util.Arrays;
+
 public class STO0021_4_InterviewPrograms 
 {
 	/*
@@ -11,6 +14,7 @@ public class STO0021_4_InterviewPrograms
 	{
 		int zeroCount = 0 ;
 		int [ ] arr = { 5 , 0 , 4 , 6 , 0 , 7 , 0 };
+		System.out.println("Input: "+Arrays.toString(arr));
 		for (int i =0 ; i<arr.length ; i++ ) 
 		{
 			if (arr[i] == 0)
@@ -18,7 +22,6 @@ public class STO0021_4_InterviewPrograms
 				zeroCount ++ ;
 			}
 		}
-		System.out.println ("Zero count is : " +zeroCount);
 		int arr1 [] = new int[arr.length];
 		for ( int i=0 ; i<zeroCount; i++) {
 			arr1[i]=0;
@@ -34,9 +37,12 @@ public class STO0021_4_InterviewPrograms
 			}
 
 		}
+		System.out.print("Output: ");
 		for ( int i=0 ; i<arr1.length; i++ ) 
 		{
 			System.out.print(arr1[i]+",");
 		}
+		System.out.println();
+		System.out.println ("Zero count is : " +zeroCount);
 	}
 }

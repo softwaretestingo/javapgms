@@ -14,6 +14,7 @@ public class STO0034_2_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		ArrayList<Integer> intList= new ArrayList<>(Arrays.asList(2,1,1,4,5,5,6,7));
+		System.out.println("Input: "+intList);
 		HashMap<Integer,Integer> getCount=new HashMap<Integer,Integer>();
 		for ( int c : intList ) 
 		{
@@ -34,6 +35,6 @@ public class STO0034_2_InterviewPrograms
 				newIntList.add (c);
 			}
 		}
-		System.out.println(newIntList);
+		System.out.println("Output: "+newIntList);
 	}
 }

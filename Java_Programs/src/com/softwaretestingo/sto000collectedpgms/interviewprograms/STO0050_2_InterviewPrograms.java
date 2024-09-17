@@ -12,7 +12,7 @@ public class STO0050_2_InterviewPrograms
 		long n=10;
 		int a[]=new int[10]; 
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter a digits of phone number");
+		System.out.println("Enter The digits of phone number");
 		for(int i=0;i<n;i++)
 		{
 

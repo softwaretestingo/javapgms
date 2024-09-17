@@ -9,6 +9,7 @@ public class STO0050_1_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		long phoneFmt = 123456789L;
+		System.out.println("Input: "+phoneFmt);
 		//get a 12 digits String, filling with left '0' (on the prefix)   
 		DecimalFormat phoneDecimalFmt = new DecimalFormat("0000000000");
 		String phoneRawString= phoneDecimalFmt.format(phoneFmt);
@@ -19,6 +20,6 @@ public class STO0050_1_InterviewPrograms
 				phoneRawString.substring(3,6),
 				phoneRawString.substring(6)};
 
-		System.out.println(phoneMsgFmt.format(phoneNumArr));
+		System.out.println("Output: "+phoneMsgFmt.format(phoneNumArr));
 	}
 }

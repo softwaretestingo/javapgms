@@ -9,7 +9,7 @@ public class STO0092_0_InterviewPrograms
 		
 		Scanner sc = new Scanner(System.in);
 		// Accept any String to remove numbers
-		System.out.print("Enter any String to remove numbers: ");
+		System.out.print("Enter a String with numbers: ");
 		str = sc.nextLine();
 
 		// Replace all numbers from given String

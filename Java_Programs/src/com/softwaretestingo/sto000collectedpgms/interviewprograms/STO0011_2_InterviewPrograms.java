@@ -1,6 +1,6 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 import java.util.ArrayList;
-public class STO0019_0_InterviewPrograms 
+public class STO0011_2_InterviewPrograms 
 {
 	/*
 	 * Input string "AAAABBCCCDDDDEEEG" 

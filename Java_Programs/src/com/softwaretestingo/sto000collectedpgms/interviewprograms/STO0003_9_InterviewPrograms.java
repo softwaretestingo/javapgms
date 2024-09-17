@@ -1,14 +1,14 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 import java.util.Scanner;
-public class STO0121_6_InterviewPrograms 
+public class STO0003_9_InterviewPrograms 
 {
 	public static void main(String[] args) 
 	{
 
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter a sentence please:");
+		System.out.print("Enter a sentence please:");
 		String str = scanner.nextLine();
-		System.out.println("Enter a sentence please:");
+		System.out.print("Enter a sentence please:");
 		String sub=scanner.next();
 
 		int count =0;

@@ -10,6 +10,7 @@ public class STO0039_1_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String s = " weelccoomme hhommeee " ;
+		System.out.println("Input: "+s);
 		Pattern pattern = Pattern.compile("(.)\\1*");
 		Matcher m= pattern.matcher ( s ) ;
 		String output = "";
@@ -17,6 +18,6 @@ public class STO0039_1_InterviewPrograms
 		{
 			output= output + m.group().charAt(0);
 		}
-		System.out.println ( output ) ;
+		System.out.println ("Output: "+output ) ;
 	}
 }

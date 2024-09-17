@@ -19,22 +19,24 @@ public class STO0110_0_InterviewPrograms
 
         List<String> uniqueElements = findUniqueElements(list1, list2);
 
-        System.out.println("Values in list2 that are not present in list1:");
-        for (String element : uniqueElements) {
+        System.out.print("Values in list2 that are not present in list1: ");
+        for (String element : uniqueElements) 
+        {
             System.out.println(element);
         }
 
 	}
-	public static List<String> findUniqueElements(List<String> list1, List<String> list2) {
+	public static List<String> findUniqueElements(List<String> list1, List<String> list2) 
+	{
         List<String> uniqueElements = new ArrayList<>();
         
-        for (String element : list2) {
-            if (!list1.contains(element)) {
+        for (String element : list2) 
+        {
+            if (!list1.contains(element)) 
+            {
                 uniqueElements.add(element);
             }
-        }
-        
+        }    
         return uniqueElements;
     }
-
 }

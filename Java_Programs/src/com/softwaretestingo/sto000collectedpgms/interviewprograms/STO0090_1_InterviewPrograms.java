@@ -4,12 +4,13 @@ import java.util.Map;
 import java.util.Scanner;
 public class STO0090_1_InterviewPrograms 
 {
-	//Java Program to Count repeated words in String
+	//Java Program to Display  repeated/Duplicate words in String
 	public static void main(String[] args) 
 	{
 		System.out.print("Enter string to analyse:");
 		Scanner sn = new Scanner(System.in);
 		String input = sn.nextLine();
+		System.out.println("Input: "+input);
 
 		// first let us split string into words
 		String[] words = input.split(" ");

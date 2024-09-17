@@ -1,6 +1,6 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 import java.util.Arrays;
-public class STO0016_0_InterviewPrograms 
+public class STO0008_1_InterviewPrograms 
 {
 	/*
 	 * Input : he is a good boy 

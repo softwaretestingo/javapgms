@@ -17,6 +17,7 @@ public class STO0046_0_InterviewPrograms
 	{
 		STO0046_0_InterviewPrograms main = new STO0046_0_InterviewPrograms();
 		String testData = "Welcome[21], Java1How are you78";
+		System.out.println("Input: "+testData);
 		List<Integer> integers = main.getIntegers(testData);
 		System.out.println("Sum of numbers : " + integers.stream().reduce(0, (n1, n2) -> n1 + n2));
 		System.out.println("Sum of digits of numbers : " + integers.stream().filter(num->num>0).map(num -> main.sumOfDigits(num)).reduce(0, (n1, n2) -> n1 + n2));

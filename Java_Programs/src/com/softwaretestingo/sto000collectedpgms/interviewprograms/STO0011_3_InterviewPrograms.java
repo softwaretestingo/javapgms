@@ -1,7 +1,8 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
-public class STO0019_1_InterviewPrograms 
+public class STO0011_3_InterviewPrograms 
 {
 	/*
 	 * Input string "AAAABBCCCDDDDEEEG" 
@@ -10,6 +11,7 @@ public class STO0019_1_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String s = "AAAABBCCCDDDDEEEG";
+		System.out.println("Input: "+s);
 		String[] sArray = s.split("");
 		Map<String, Integer> map = new HashMap<>();
 		for(String temp : sArray) {
@@ -20,6 +22,6 @@ public class STO0019_1_InterviewPrograms
 				map.put(temp, 1);
 			}
 		}
-		System.out.println(map.toString().replaceAll("\\W",""));
+		System.out.println("Output: "+map.toString().replaceAll("\\W",""));
 	}
 }

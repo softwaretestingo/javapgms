@@ -17,7 +17,7 @@ public class STO0030_1_InterviewPrograms
 		int len1= str_array.length;
 
 		//System.out.println("Level 1 array length "+len1);
-		System.out.println("Input String == "+input);
+		System.out.println("Input String:  "+input);
 		for (String s : str_array)
 		{
 			//System.out.println("Level words "+s);
@@ -50,7 +50,7 @@ public class STO0030_1_InterviewPrograms
 			else
 				output= output+",";
 		} //End of 1st for loop
-		System.out.println("Output String == "+output);
+		System.out.println("Output String: "+output);
 	} //main function
 	//class end
 }

@@ -5,7 +5,7 @@ public class STO0063_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		Scanner sc= new Scanner(System.in);
-		System.out.println("please enter num");
+		System.out.print("Please Enter Num: ");
 		int num=sc.nextInt();
 		int rev=0,temp;
 
@@ -16,13 +16,13 @@ public class STO0063_0_InterviewPrograms
 			rev=rev*10+num%10;
 			num=num/10;
 		}
-		System.out.println(rev);
+		//System.out.println(rev);
 
 		if(temp==rev)
 		{
-			System.out.println("Palindrome Num");
+			System.out.println("Output: "+ "Palindrome Number ");  
 		}
 		else 
-			System.out.println("not Palindrome Num");
+			System.out.println("Output: "+ "Not a Palindrome Number ");  
 	}
 }

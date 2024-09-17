@@ -39,7 +39,7 @@ public class STO0001_0_InterviewPrograms
 				ans=ans+l1.get(i);
 			}
 		}
-		System.out.println("Expected: "+ans);
+		System.out.println("Output: "+ans);
 		String sy="RTTTaeypmsptatea";
 	}
 }

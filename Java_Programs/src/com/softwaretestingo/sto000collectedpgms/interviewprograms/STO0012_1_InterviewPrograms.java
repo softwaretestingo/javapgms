@@ -26,11 +26,12 @@ public class STO0012_1_InterviewPrograms
 				output = output+Character.toString(ch[i]);
 			}
 		}
-		System.out.println(output);
+		System.out.println("Output: "+output);
 	}
 	public static void main(String[] args) 
 	{
 		String s = "tomorrow";
+		System.out.println("Input: "+s);
 		STO0012_1_InterviewPrograms soluSoultionTest = new STO0012_1_InterviewPrograms();
 		soluSoultionTest.getSolution(s);
 	}

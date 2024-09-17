@@ -25,7 +25,9 @@ public class STO0012_2_InterviewPrograms
 
 	public static void main(String[] args) 
 	{
-		String result=replaceWithString("tomorrow",'o',"#");
-		System.out.println(result);
+		String str="tomorrow";
+		System.out.println("Input: "+str);
+		String result=replaceWithString(str,'o',"#");
+		System.out.println("Output: "+result);
 	}
 }

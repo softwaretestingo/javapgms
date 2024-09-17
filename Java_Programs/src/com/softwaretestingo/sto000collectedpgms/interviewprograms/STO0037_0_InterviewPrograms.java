@@ -1,15 +1,19 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+
+import java.util.Arrays;
+
 public class STO0037_0_InterviewPrograms 
 {
 	public static void main(String[] args) 
 	{
 		char[] JavaCharArray = { 'a', 'b', 'c', 'd', 'e' };
+		System.out.println("Input: "+Arrays.toString(JavaCharArray));
 		int val[]=new int[5];
 		for(int i=0;i<5;i++)
 		{
 			val[i]=(int)JavaCharArray[i];
 		}
-		System.out.println(checker(val));
+		System.out.println("Output: "+checker(val));
 	}
 
 	public static boolean checker(int[] array) 

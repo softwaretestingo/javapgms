@@ -19,7 +19,7 @@ public class STO0020_1_InterviewPrograms
 			}
 			i=i+1;
 		}
-		System.out.println("The Inputted Parameter Is: "+s);
-		System.out.print("Expected output Is: "+ans);
+		System.out.println("Input: "+s);
+		System.out.print("Output: "+ans);
 	}
 }

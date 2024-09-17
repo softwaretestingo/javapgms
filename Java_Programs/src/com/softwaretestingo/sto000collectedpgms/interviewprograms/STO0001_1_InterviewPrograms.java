@@ -25,6 +25,6 @@ public class STO0001_1_InterviewPrograms
 			}
 		}
 		System.out.println("Input: "+Arrays.toString(strArray));
-		System.out.println("Outpur: "+result);//RTTTaeyamsptatea
+		System.out.println("Output: "+result);//RTTTaeyamsptatea
 	}
 }

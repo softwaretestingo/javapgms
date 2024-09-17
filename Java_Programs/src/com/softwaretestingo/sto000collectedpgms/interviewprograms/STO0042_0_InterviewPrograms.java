@@ -9,7 +9,9 @@ public class STO0042_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String st = "abCdefGHijkl";
+		System.out.println("Input: "+st);
 		String[] r = st.split("(?=\\p{Upper})");
+		System.out.print("Output: ");
 		Arrays.stream(r).forEach(System.out::println);
 	}
 }

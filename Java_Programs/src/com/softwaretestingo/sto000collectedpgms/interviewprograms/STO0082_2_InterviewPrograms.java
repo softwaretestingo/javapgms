@@ -9,7 +9,7 @@ public class STO0082_2_InterviewPrograms
 		int i ;
 		// taking the inputs
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter the number of elements : ");
+		System.out.print("Enter the Size Of The Array : ");
 		n = sc.nextInt();
 		System.out.print ("Enter the array elements : ");
 		for (i=0; i<n; i++ )

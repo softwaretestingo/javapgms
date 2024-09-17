@@ -5,11 +5,11 @@ public class STO0086_0_InterviewPrograms
 	public static void main(String[] args)
 	{
 		int i,n,count;
-		System.out.println("Enter the Value of N: ");
+		System.out.print("Enter the Value of N: ");
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
 
-		System.out.println("Prime Numbers Between 1 to "+n+" are: ");
+		System.out.print("Prime Numbers Between 1 to "+n+" are: ");
 		for(int j=2;j<=n;j++)
 		{
 			count=0;

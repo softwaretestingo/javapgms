@@ -1,5 +1,5 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
-public class STO0121_0_InterviewPrograms 
+public class STO0003_3_InterviewPrograms 
 {
 	public static void main(String[] args) 
 	{

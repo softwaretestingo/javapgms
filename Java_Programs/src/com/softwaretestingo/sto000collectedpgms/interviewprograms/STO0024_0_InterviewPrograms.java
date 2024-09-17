@@ -27,10 +27,14 @@ public class STO0024_0_InterviewPrograms
 	 */
 	public static void main(String[] args) throws IOException 
 	{
-		String str = ReadFileAsString("C:\\Users\\ZeroCool\\git\\javapgms\\Java_Programs\\src\\com\\softwaretestingo\\interviewprograms\\getString");
+		String path = System.getProperty("user.dir")+"\\Resources\\getString";
+		System.out.println(path);
+		String str = ReadFileAsString(path);
+		System.out.println("Input: "+str);
 		List<String> matchList = new ArrayList<String>();
 		Pattern regex = Pattern.compile("[^\\s\"']+|\"([^\"]*)\"|'([^']*)'");
 		Matcher regexMatcher = regex.matcher(str);
+		System.out.println("Output: ");
 		while (regexMatcher.find())
 		{
 			if (regexMatcher.group(1) != null ) 

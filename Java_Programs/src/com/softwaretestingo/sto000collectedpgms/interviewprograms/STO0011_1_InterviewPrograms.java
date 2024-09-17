@@ -9,6 +9,7 @@ public class STO0011_1_InterviewPrograms
 	{
 		StringBuilder sb = new StringBuilder();
 		String str = "abbcccdeee";
+		System.out.println("Input: "+str);
 		String[] strArray = str.split("");
 		int i = 0 ;
 		while ( i < strArray.length ) 
@@ -25,6 +26,6 @@ public class STO0011_1_InterviewPrograms
 			sb.append ( strArray [ i ] ) . append ( counter ) ;
 			i = j ;
 		}
-		System.out.println (sb.toString());
+		System.out.println ("Output: "+sb.toString());
 	}
 }

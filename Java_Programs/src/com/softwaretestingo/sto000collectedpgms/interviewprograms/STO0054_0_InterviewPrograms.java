@@ -26,7 +26,10 @@ public class STO0054_0_InterviewPrograms
 	 */
 	public static void main(String[] args) 
 	{
-		System.out.println(areIsomorphic("egg","add"));
+		String str1="egg";
+		String str2="add";
+		System.out.println("Input: "+str1+", "+str2);
+		System.out.println("Output: "+areIsomorphic(str1,str2));
 	}
 	static boolean areIsomorphic(String str1, String str2)
 	{

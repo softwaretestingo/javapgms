@@ -11,9 +11,10 @@ public class STO0028_1_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str = "My n@me is 12Rahul";
+		System.out.println("Input: "+str);
 		String resultString = Stream.of(str.split(" ")).map(String::toCharArray).map(STO0028_1_InterviewPrograms::reverse)
 				.collect(Collectors.joining(" "));
-		System.out.println(resultString);
+		System.out.println("Output: "+resultString);
 	}
 	public static String reverse ( char str [ ] )
 	{

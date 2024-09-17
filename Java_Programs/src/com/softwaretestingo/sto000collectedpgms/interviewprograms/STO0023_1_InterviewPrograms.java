@@ -38,7 +38,7 @@ public class STO0023_1_InterviewPrograms
 			lstSorted.add(stringLst[b]);
 		}
 
-		System.out.println("Given List: "+lst);
-		System.out.println("Sorted List: "+lstSorted);
+		System.out.println("Input: "+lst);
+		System.out.println("Output: "+lstSorted);
 	}
 }

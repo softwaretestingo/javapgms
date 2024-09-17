@@ -31,13 +31,13 @@ public class STO0036_0_InterviewPrograms
 		}
 		if (stack.empty())
 		{
-			System.out.println(stack.toString());
-			System.out.println("balanced");
+			//System.out.println(stack.toString());
+			System.out.println("Output: "+"Balanced");
 		}
 		else 
 		{
-			System.out.println(stack.toString());
-			System.out.println("Not balanced");
+			//System.out.println(stack.toString());
+			System.out.println("Output: "+"Not Balanced");
 		}
 	}
 }

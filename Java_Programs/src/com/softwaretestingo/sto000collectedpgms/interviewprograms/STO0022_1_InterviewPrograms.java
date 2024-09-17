@@ -17,6 +17,7 @@ public class STO0022_1_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String input = "01IND02AUS03ENG";
+		System.out.println("Input: "+input);
 		HashMap <String ,String> map= new HashMap <String,String>( );
 		String [ ] intArr = input.split("([0-9])+");
 		String [ ] StrArr = input.split("([a-z]|[A-Z])+");
@@ -26,6 +27,6 @@ public class STO0022_1_InterviewPrograms
 			map.put(b,intArr[iCount]);
 			iCount++;
 		}
-		System.out.println(map);
+		System.out.println("Output: "+map);
 	}
 }

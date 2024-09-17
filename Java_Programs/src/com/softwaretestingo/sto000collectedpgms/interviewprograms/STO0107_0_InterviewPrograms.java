@@ -23,7 +23,7 @@ public class STO0107_0_InterviewPrograms
 		}
 		
 		// Alternatively, you can use iterators
-		System.out.println("\nPrinting TreeMap elements using iterators:");
+		System.out.println("Printing TreeMap elements using iterators:");
 		Iterator<Map.Entry<Integer, String>> iterator = treeMap.entrySet().iterator();
 
 		while (iterator.hasNext()) 

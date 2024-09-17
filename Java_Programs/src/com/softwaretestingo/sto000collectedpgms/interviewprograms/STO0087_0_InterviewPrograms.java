@@ -45,6 +45,7 @@ public class STO0087_0_InterviewPrograms
 	public static void main(String[] args)
 	{
 		String str = "abcdcbe";
+		System.out.println("Input: "+str);
 		System.out.print("\nLength is: "+ findLongSubstr(str));
 	}
 }

@@ -1,9 +1,10 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-public class STO0019_2_InterviewPrograms 
+public class STO0011_4_InterviewPrograms 
 {
 	/*
 	 * Input string "AAAABBCCCDDDDEEEG" 
@@ -12,6 +13,7 @@ public class STO0019_2_InterviewPrograms
 	public static void main (String [] args)
 	{
 		String str = "AAAABBCCCDDDDEEEG";
+		System.out.println("Input: "+str);
 		occurences (str);
 	}
 	public static void occurences(String str)
@@ -32,6 +34,7 @@ public class STO0019_2_InterviewPrograms
 			}
 		}
 		Set<Map.Entry <Character, Integer>> s = hs.entrySet();
+		System.out.print("Output: ");
 		for (Entry<Character,Integer> s1 : s ) 
 		{
 			System.out.print (s1.getKey()+ ""+s1.getValue());  

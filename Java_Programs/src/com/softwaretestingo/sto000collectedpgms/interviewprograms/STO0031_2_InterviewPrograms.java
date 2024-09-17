@@ -10,10 +10,11 @@ public class STO0031_2_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String str = "amZgxY";
+		System.out.println("Input: "+str);
 
 		// Using Stream
 		char c = (char)str.chars().max().getAsInt();
-		System.out.println ( c ) ;
+		System.out.println ("Output Using Stream: "+ c ) ;
 
 
 		// using for each loop
@@ -21,11 +22,11 @@ public class STO0031_2_InterviewPrograms
 		for (char char_val : str.toCharArray())
 			if ( char_val > max )
 				max = char_val ;
-		System.out.println ((char)max);
+		System.out.println ("Output Using For Each Loop: "+(char)max);
 
 
 		// Using Collections class
 		char c1 = (char)Collections.max(str.chars().boxed().collect(Collectors.toList())).intValue();
-		System.out.println(c1);
+		System.out.println("Output Using Collection Class: "+c1);
 	}
 }

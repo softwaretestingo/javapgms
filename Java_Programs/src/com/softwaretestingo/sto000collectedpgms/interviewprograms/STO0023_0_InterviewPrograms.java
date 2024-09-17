@@ -8,8 +8,10 @@ public class STO0023_0_InterviewPrograms
 	 */
 	public static void main(String[] args) 
 	{
-		String[] arr = pushAllCharToRight(new String[] {"3" ,"R", "M" , "4" , "89" , "f"});
-		System.out.println(Arrays.toString(arr));
+		String[] inputArr=new String[] {"3" ,"R", "M" , "4" , "89" , "f"};
+		System.out.println("Input: "+Arrays.toString(inputArr));
+		String[] arr = pushAllCharToRight(inputArr);
+		System.out.println("Input: "+Arrays.toString(arr));
 	}
 	public static String[] pushAllCharToRight(String[] array)
 	{

@@ -1,4 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+
+import java.util.Arrays;
+
 public class STO0122_0_InterviewPrograms 
 {
 	static void printTwoElements(int[] arr, int n)
@@ -33,7 +36,9 @@ public class STO0122_0_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		int[] arr = { 7, 3, 4, 5, 5, 6, 2 };
+		System.out.println("Input: "+Arrays.toString(arr));
         int n = arr.length;
+        System.out.println("Output: ");
         printTwoElements(arr, n);
 	}
 }

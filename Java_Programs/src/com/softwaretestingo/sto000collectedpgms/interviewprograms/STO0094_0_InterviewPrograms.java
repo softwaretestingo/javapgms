@@ -12,10 +12,10 @@ public class STO0094_0_InterviewPrograms
 
 		// create an object of Scanner
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Enter the string");
+		System.out.print("Enter the string: ");
 		str=br.readLine();
 
-		System.out.println("Enter the Character you want to search");
+		System.out.print("Enter the Character you want to search: ");
 		c=(char)br.read();
 
 		int index = str.indexOf(c);

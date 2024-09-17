@@ -55,7 +55,7 @@ public class STO0101_1_InterviewPrograms
 		int arr[] = { 1,2,3,4 };
 		int n = arr.length;
 		System.out.println("Inputted Array Is: "+Arrays.toString(arr));
-		System.out.println("The product array is : ");
+		System.out.print("The product array is : ");
 		pa.multipleValue(arr, n);
 	}
 }

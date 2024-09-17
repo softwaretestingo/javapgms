@@ -1,6 +1,6 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 import java.util.Scanner;
-public class STO0103_0_InterviewPrograms 
+public class STO0059_2_InterviewPrograms 
 {
 	public static void main(String[] args) 
 	{

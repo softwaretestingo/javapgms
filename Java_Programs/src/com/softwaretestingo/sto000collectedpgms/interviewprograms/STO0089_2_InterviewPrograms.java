@@ -1,4 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
+
+import java.util.Arrays;
+
 public class STO0089_2_InterviewPrograms 
 {
 	//Find the Peak Element Index Of the Mountain Array
@@ -24,6 +27,7 @@ public class STO0089_2_InterviewPrograms
 	public static void main(String[] args)
 	{
 		int mountainArray[] = { 4, 8, 16, 32, 27, 9, 3 };
+		System.out.println("Input: "+Arrays.toString(mountainArray));
 		int peak = getPeakIndex(mountainArray);
 		System.out.println("Peak index is:" + peak);
 	}

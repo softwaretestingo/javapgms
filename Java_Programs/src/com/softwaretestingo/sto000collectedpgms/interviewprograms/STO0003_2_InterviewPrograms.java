@@ -9,9 +9,10 @@ public class STO0003_2_InterviewPrograms
 	public static void main(String[] args) 
 	{
 		String s = "lekhale";
+		System.out.println("Input: "+s);
 		int occurence = s.split("le").length; 
 
-		System.out.println("The substring 'le' is repeated " + occurence + " times in the given string.");
+		System.out.println("Output: "+"The substring 'le' is repeated " + occurence + " times in the given string.");
 	}
 
 }
