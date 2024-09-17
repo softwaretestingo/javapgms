@@ -1,15 +1,15 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms;
-
 import java.util.Arrays;
-
 public class STO0037_0_InterviewPrograms 
 {
+	static int arraySize;
 	public static void main(String[] args) 
 	{
-		char[] JavaCharArray = { 'a', 'b', 'c', 'd', 'e' };
+		char[] JavaCharArray = { 'a', 'b','d', 'e' };
 		System.out.println("Input: "+Arrays.toString(JavaCharArray));
-		int val[]=new int[5];
-		for(int i=0;i<5;i++)
+		arraySize=JavaCharArray.length;
+		int val[]=new int[JavaCharArray.length];
+		for(int i=0;i<val.length;i++)
 		{
 			val[i]=(int)JavaCharArray[i];
 		}
@@ -21,7 +21,7 @@ public class STO0037_0_InterviewPrograms
 		int array_element_count=array.length;
 		int f_val=array[0];
 		int count=0;
-		for(int i=0;i<5;i++)
+		for(int i=0;i<arraySize;i++)
 		{
 			if(array[i]==(f_val+i)) 
 			{
