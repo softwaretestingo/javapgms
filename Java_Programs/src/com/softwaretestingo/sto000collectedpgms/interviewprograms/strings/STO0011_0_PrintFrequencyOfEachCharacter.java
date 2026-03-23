@@ -1,7 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
 public class STO0011_0_PrintFrequencyOfEachCharacter 
 {
-	/*
+	/**
 	 * Input string =AAAADDDCCCA 
 	 * Output= A4D3C3A1
 	 */

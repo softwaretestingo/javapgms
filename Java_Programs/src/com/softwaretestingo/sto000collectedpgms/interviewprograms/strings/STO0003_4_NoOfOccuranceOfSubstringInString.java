@@ -2,6 +2,13 @@ package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
 import java.util.Scanner;
 public class STO0003_4_NoOfOccuranceOfSubstringInString 
 {
+	/**
+	 * Enter a sentence please: ab ba abc ba ba
+	 * Enter a Substringba
+	 * Original String:  ab ba abc ba ba
+	 * Sub String: ba
+	 * Total Number Of Substring Appears: 3
+	 */
 	public  static  int getCountSubString(String str , String sub)
 	{
 		int n = 0, m = 0, counter = 0, counterSub = 0;

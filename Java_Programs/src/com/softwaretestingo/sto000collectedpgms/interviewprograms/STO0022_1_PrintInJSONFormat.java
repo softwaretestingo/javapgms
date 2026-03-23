@@ -2,7 +2,7 @@ package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 import java.util.HashMap;
 public class STO0022_1_PrintInJSONFormat
 {
-	/*
+	/**
 	 * Input:{01IND02AUS03ENG} 
 	 * Output: 
 	 * { 

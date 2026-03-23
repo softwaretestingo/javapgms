@@ -2,7 +2,7 @@ package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
 import java.util.ArrayList;
 public class STO0011_2_PrintFrequencyOfEachCharacter 
 {
-	/*
+	/**
 	 * Input string "AAAABBCCCDDDDEEEG" 
 	 * Output string "A4B2C3D4E3G1"
 	 */ 

@@ -1,7 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
 public class STO0012_2_ReplacingSubstringswithIncrementalOrder 
 {
-	/*
+	/**
 	 * Input: tomorrow 
 	 * Output: t#m##rr###w
 	 */

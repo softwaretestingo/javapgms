@@ -1,6 +1,12 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
 public class STO0003_2_NoOfOccuranceOfSubstringInString 
 {
+	/**
+	 * Original String: abababababaabb
+	 * Sub String: bab
+	 * Total Number Of Substring Appears: 4
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 		String str="abababababaabb";

@@ -4,7 +4,7 @@ import java.util.Map;
 import org.json.simple.JSONObject;
 public class STO0022_0_PrintInJSONFormat
 {
-	/*
+	/**
 	 * Input:{01IND02AUS03ENG} 
 	 * Output: 
 	 * { 

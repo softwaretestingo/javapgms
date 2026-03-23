@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 public class STO0007_0_CountNoOfOccuranceOfCharacter 
 {
-	/*
+	/**
 	 * Input= abbcccdeee 
 	 * Output= a1b2c3d1e3
 	 */

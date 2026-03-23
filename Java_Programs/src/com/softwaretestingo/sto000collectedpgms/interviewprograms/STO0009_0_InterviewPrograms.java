@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 public class STO0009_0_InterviewPrograms 
 {
-	/*
+	/**
 	 * Input: 1234
 	 * Output:{1234, 11223344, 111222333444, 1111222233334444}
 	 */

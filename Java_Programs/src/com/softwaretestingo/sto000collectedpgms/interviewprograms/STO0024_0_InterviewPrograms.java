@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 public class STO0024_0_InterviewPrograms 
 {
 
-	/*
+	/**
 	 * Input:- asd fgh dgf "asgh qtyr yty" uiyu "qwe yui" 
 	 * Output:- 
 	 * asd 

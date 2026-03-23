@@ -2,6 +2,14 @@ package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
 import java.util.Scanner;
 public class STO0003_5_NoOfOccuranceOfSubstringInString 
 {
+	/**
+	 * Enter a sentence please:manual testing automation testing
+	 * Enter a sentence please:testing
+	 * Original String: manual testing automation testing
+	 * Sub String: testing
+	 * Total Number Of Substring Appears: 2
+	 * 
+	 */
 	public static void main(String[] args) 
 	{
 

@@ -1,10 +1,9 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 public class STO0011_3_PrintFrequencyOfEachCharacter 
 {
-	/*
+	/**
 	 * Input string "AAAABBCCCDDDDEEEG" 
 	 * Output string "A4B2C3D4E3G1"
 	 */ 

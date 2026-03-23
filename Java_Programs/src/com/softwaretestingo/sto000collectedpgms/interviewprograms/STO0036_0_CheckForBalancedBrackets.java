@@ -2,13 +2,16 @@ package com.softwaretestingo.sto000collectedpgms.interviewprograms;
 import java.util.Stack;
 public class STO0036_0_CheckForBalancedBrackets 
 {
-	// Given an expression string exp, write a program to examine whether the pairs and the orders of “{“, “}”, “(“, “)”, “[“, “]” are correct in exp.
-	// Example: 
-	// Input: exp = “[()]{}{[()()]()}” 
-	// Output: Balanced
-	// {},[],{]
-	// Input: exp = “[(])” 
-	// Output: Not Balanced
+	/**
+	 * Given an expression string exp, write a program to examine whether the pairs and the 
+	 * orders of “{“, “}”, “(“, “)”, “[“, “]” are correct in exp.
+	 * Example: 
+	 * Input: exp = “[()]{}{[()()]()}” 
+	 * Output: Balanced
+	 * {},[],{]
+	 * Input: exp = “[(])” 
+	 * Output: Not Balanced
+	 */ 
 	public static void main(String[] args) 
 	{
 		String equ = "[()]{}{[()()]()}";

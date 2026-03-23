@@ -4,6 +4,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 public class STO0003_3_NoOfOccuranceOfSubstringInString 
 {
+	/**
+	 * Enter a sentence please:ab ab ba ba ab
+	 * Enter a SubString:ab
+	 * No Of Times Sub String Appears: 3
+	 */
 	static int countMatches(Pattern pattern, String string)
 	{
 		Matcher matcher = pattern.matcher(string);

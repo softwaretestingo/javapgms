@@ -3,13 +3,16 @@ import java.util.HashMap;
 import java.util.LinkedList;
 public class STO0036_1_CheckForBalancedBrackets 
 {
-	// Given an expression string exp, write a program to examine whether the pairs and the orders of “{“, “}”, “(“, “)”, “[“, “]” are correct in exp.
-	// Example: 
-	// Input: exp = “[()]{}{[()()]()}” 
-	// Output: Balanced
-	// {},[],{]
-	// Input: exp = “[(])” 
-	// Output: Not Balanced
+	/**
+	 * Given an expression string exp, write a program to examine whether the pairs 
+	 * and the orders of “{“, “}”, “(“, “)”, “[“, “]” are correct in exp.
+	 * Example: 
+	 * Input: exp = “[()]{}{[()()]()}”
+	 * Output: Balanced
+	 * {},[],{]
+	 * Input: exp = “[(])”
+	 * Output: Not Balanced
+	 */ 
 
 	static HashMap<String, String> bracketDetails=new HashMap<String, String>();
 	public static void main(String[] args) 

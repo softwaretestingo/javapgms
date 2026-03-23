@@ -3,9 +3,10 @@ import java.util.LinkedList;
 import java.util.List;
 public class STO0004_0_SortingAsPerFrequency 
 {
-	/*
-	 * Input string: "dadeadrs" 
-	 * Output: "dddaaers"
+	/**
+	 * 
+	 * Input: dadeadrs
+	 * Output: dddaaers
 	 */
 	public static void main(String[] args) 
 	{
