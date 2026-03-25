@@ -2,30 +2,24 @@ package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
 import java.util.Scanner;
 public class STO0040_1_RemoveDigitsFromString 
 {
-	//Remove numbers from a String Java using charAt( ) method
+	//Remove numbers from a String Java using the replaceAll( ) method
 	/**
-	 * Enter a String With numbers: Sof65t22w98ar34e
+	 * Enter a String with numbers: Sof65t22w98ar34e
 	 * String after removing all numbers: Software
 	 * 
 	 */
 	public static void main(String[] args) 
 	{
-		String str, res="";
-
+		String str;
+		
 		Scanner sc = new Scanner(System.in);
 		// Accept any String to remove numbers
-		System.out.print("Enter a String With numbers: ");
+		System.out.print("Enter a String with numbers: ");
 		str = sc.nextLine();
 
-		for(int i=0; i<str.length(); i++)
-		{
-			if(!Character.isDigit(str.charAt(i))) 
-			{
-				res += str.charAt(i);
-			}
-		}
+		// Replace all numbers from given String
+		str = str.replaceAll("[0123456789]", "");
 		// Display String without numbers
-		System.out.print("String after removing all numbers: " + res);
-
+		System.out.print("String after removing all numbers: " + str);
 	}
 }

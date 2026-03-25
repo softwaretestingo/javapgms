@@ -1,0 +1,31 @@
+package com.softwaretestingo.sto000collectedpgms.interviewprograms.array;
+
+import java.util.Arrays;
+public class STO0011_0_FindMinMax 
+{	
+	/**
+	 * Input: [99, 2, 55, 6, 88, -1]
+	 * Small No: -1 Big No: 99
+	 * 
+	 */
+	public static void main(String[] args) 
+	{	
+		int numArr[]= {99,2,55,6,88,-1};
+		System.out.println("Input: "+Arrays.toString(numArr));
+		int small=numArr[0];
+		int larg=numArr[0];
+		
+		for(int i=0;i<numArr.length;i++)
+		{
+			if(numArr[i]>larg)
+			{
+				larg=numArr[i];
+			}	
+			else if(numArr[i]<small)
+			{
+				small=numArr[i];
+			}
+		}
+		System.out.println("Small No: "+small +" " +"Big No: "+larg);
+	}
+}

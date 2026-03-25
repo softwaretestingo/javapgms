@@ -16,12 +16,19 @@ public class STO0041_0_RemoveWhiteSpace
 		System.out.println("Enter the string");
 
 		// take the input
-		String input = sc.nextLine();
-		System.out.println("Original String: " + input);
+		String str = sc.nextLine();
+		System.out.println("Original String: " + str);
 
-		// remove white spaces
-		input = input.replaceAll("\\s", "");
-		System.out.println("Final String: " + input);
-		sc.close();
+		char[] strArray = str.toCharArray();  
+		StringBuffer stringBuffer = new StringBuffer();  
+		for (int i = 0; i < strArray.length; i++) 
+		{  
+			if ((strArray[i] != ' ') && (strArray[i] != '\t')) 
+			{  
+				stringBuffer.append(strArray[i]);  
+			}  
+		}  
+		String noSpaceStr2 = stringBuffer.toString();  
+		System.out.println("After Removing the Spaces: "+noSpaceStr2);  
 	}
 }

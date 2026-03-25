@@ -1,6 +1,4 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.numbers;
-import java.util.Arrays;
-import java.util.stream.IntStream;
 public class STO0002_0_SumOfDigitsUntilSumIsSingleDigit
 {
 	/**
@@ -22,24 +20,31 @@ public class STO0002_0_SumOfDigitsUntilSumIsSingleDigit
 
 	public static void main(String[] args) 
 	{
-		String input1 = "38";
-		String input2 = "1485631";
-		String input3 = "0";
-		System.out.println("Input: "+input1+": "+"Output: " +add(input1));
-		System.out.println("Input: "+input2+": "+"Output: " +add(input2));
-		System.out.println("Input: "+input3+": "+"Output: " +add(input3));
+		int input1 = 38;
+		int input2 = 1485631;
+		int input3 = 0;
+		System.out.println(input1+": "+add(input1));
+		System.out.println(input2+": "+add(input2));
+		System.out.println(input3+": "+add(input3));
 	}
-	public static int add(String input) 
+	public static int add(int num) 
 	{
-		int[] array = Arrays.asList(input.split("")).stream().mapToInt(Integer::parseInt).toArray();
-		int sum = IntStream.of(array).sum();
-		if (sum / 10 == 0)
-		{
-			return sum;
-		} 
-		else 
-		{
-			return add(String.valueOf(sum));
-		}
+		//variable to store sum of digits  
+		int sum = 0;  
+		//loop to do sum while sum is not less than or equal to 9  
+		while (num > 0 || sum > 9)  
+		{  
+			if (num == 0)   
+			{  
+				num = sum;  
+				sum = 0;  
+			}  
+			//determines the last digit of the number and add that digit to the sum variable   
+			sum = sum + num % 10;  
+			//remove the last digit of the number  
+			num = num / 10;  
+		}  
+		//returns the number   
+		return sum;  
 	}
 }
