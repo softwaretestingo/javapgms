@@ -1,6 +1,6 @@
 
 package com.softwaretestingo.sto016_CONSTRUCTORS;
-public class CopyConstructorEx 
+public class Test 
 {
 	/**
 	 * Author: SoftwareTestingo Admin
@@ -14,14 +14,14 @@ public class CopyConstructorEx
 	private int personAge;
 	
 	//constructor to initialize personName and personAge  
-	CopyConstructorEx(String name, int age)
+	Test(String name, int age)
 	{
 		personName=name;
 		personAge=age;
 	}
 	
 	//creating a copy constructor  
-	CopyConstructorEx(CopyConstructorEx obj)
+	Test(Test obj)
 	{
 		System.out.println("Invoking the Copy Constructor:");
 		personName=obj.personName;
@@ -41,12 +41,12 @@ public class CopyConstructorEx
 	}  
 	public static void main(String[] args) 
 	{
-		CopyConstructorEx conobj=new CopyConstructorEx("Ramesh",23);
+		Test conobj=new Test("Ramesh",23);
 		System.out.println("Name of the Person: "+conobj.showName());
 		System.out.println("Age Of the Person :"+conobj.showAge());
 		
 		//passing the parameters to the copy constructor  
-		CopyConstructorEx conobj1=new CopyConstructorEx(conobj);
+		Test conobj1=new Test(conobj);
 		System.out.println("Name of the Person: "+conobj1.showName());
 		System.out.println("Age Of the Person :"+conobj1.showAge());
 	}

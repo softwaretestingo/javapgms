@@ -6,7 +6,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
-public class STO0032_0_CharCountMinMax 
+public class STO0001_2_CharCountMinMax 
 {
 	/**
 	 * Input: Monojjonon

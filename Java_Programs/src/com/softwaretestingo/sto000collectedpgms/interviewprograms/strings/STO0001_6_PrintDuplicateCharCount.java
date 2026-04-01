@@ -2,7 +2,7 @@ package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-public class STO0055_0_PrintDuplicateCharCount 
+public class STO0001_6_PrintDuplicateCharCount 
 {
 	/**
 	 * Input: softwaretestingo
@@ -51,7 +51,7 @@ public class STO0055_0_PrintDuplicateCharCount
 	}
 	public static void main(String[] args) 
 	{
-		STO0055_0_PrintDuplicateCharCount obj = new STO0055_0_PrintDuplicateCharCount();
+		STO0001_6_PrintDuplicateCharCount obj = new STO0001_6_PrintDuplicateCharCount();
 		String str="softwaretestingo";
 		System.out.println("Input: "+str);
 		obj.countDupChars(str);

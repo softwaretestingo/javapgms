@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Map;
 import java.util.TreeMap;
-public class STO0038_0_PrintWordFrequency 
+public class STO0001_3_PrintWordFrequency 
 {
 	//Write a program to print the frequency of words in a paragraph
 	/**

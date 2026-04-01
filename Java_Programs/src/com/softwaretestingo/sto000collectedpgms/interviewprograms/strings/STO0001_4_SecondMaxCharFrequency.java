@@ -2,7 +2,7 @@ package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
-public class STO0044_0_SecondMaxCharFrequency 
+public class STO0001_4_SecondMaxCharFrequency 
 {
 	/**
 	 * How to find 2nd largest duplicate character from given String using map? Ex:
@@ -54,7 +54,7 @@ public class STO0044_0_SecondMaxCharFrequency
 	{
 		String str="abbcccddddcc";
 		String str1="annnyrggrrrrrrr";
-		STO0044_0_SecondMaxCharFrequency.solution(str);
-		STO0044_0_SecondMaxCharFrequency.solution(str1);
+		STO0001_4_SecondMaxCharFrequency.solution(str);
+		STO0001_4_SecondMaxCharFrequency.solution(str1);
 	}
 }

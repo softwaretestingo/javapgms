@@ -2,7 +2,7 @@ package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-public class STO0055_1_PrintDuplicateCharCount 
+public class STO0001_7_PrintDuplicateCharCount 
 {
 	/**
 	 * Entered Substring: Softwaretestimgo

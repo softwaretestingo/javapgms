@@ -1,5 +1,5 @@
 package com.softwaretestingo.sto015_OBJECTS;
-import java.io.FileInputStream;
+import java.io.*;
 import java.io.ObjectInputStream;
 public class STO0002_0_Deserialization 
 {

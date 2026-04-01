@@ -1,7 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
 import java.util.HashMap;
 import java.util.Map;
-public class STO0009_0_EachCharacterCountInString 
+public class STO0001_1_MaxCharFrequency 
 {
 	/**
 	 * Input: SoftwareTestingo

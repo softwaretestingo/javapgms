@@ -1,5 +1,5 @@
-package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
-public class STO0014_1_SortEachWordsByLength 
+package com.softwaretestingo.sto000collectedpgms.interviewprograms.array;
+public class STO0026_1_SortEachWordsByLength 
 {
 	/**
 	 * Input: this interview is for CBA

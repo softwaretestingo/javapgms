@@ -1,5 +1,5 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
-public class STO0045_0_ConvertUpperToLower 
+public class STO0031_1_ConvertUpperToLower 
 {
 	/**
 	 * Given a string and return the string after replacing every uppercase letter

@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-public class STO0029_0_SortByCharFrequencyDesc 
+public class STO0004_01_SortByCharFrequencyDesc 
 {
 	/**
 	 * Input: tomorrow 

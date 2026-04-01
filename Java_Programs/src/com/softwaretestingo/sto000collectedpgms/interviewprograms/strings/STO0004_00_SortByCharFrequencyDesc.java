@@ -1,7 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
 import java.util.LinkedList;
 import java.util.List;
-public class STO0004_0_SortByCharFrequencyDesc 
+public class STO0004_00_SortByCharFrequencyDesc 
 {
 	/**
 	 * 

@@ -1,6 +1,6 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
 // Print duplicate character in a string //
-public class STO0062_0_PrintDuplicateCharCount 
+public class STO0001_8_PrintDuplicateCharCount 
 {
 	/**
 	 * Input: softwaretestingo

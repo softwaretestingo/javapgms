@@ -1,5 +1,7 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
-public class STO0058_1_SumOfNumbersInString 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+public class STO0027_1_SumOfNumbersInString 
 {
 	/**
 	 * Write a program that calculate the sum of all numbers present in alphanumeric
@@ -13,20 +15,13 @@ public class STO0058_1_SumOfNumbersInString
 		String str = "1a b23cd e45f";
 		System.out.println("Input: "+str);
 		int sum = 0;
-
-		String number = "";
-		for (int i = 0; i <=str.length()-1; i++) 
+		String pattern = "\\d+";
+		Pattern p = Pattern.compile(pattern);
+		Matcher m = p.matcher(str);
+		while (m.find()) 
 		{
-			if (Character.isDigit(str.charAt(i))) 
-			{
-				number += str.charAt(i);
-			} 
-			else if (!number.isEmpty()) 
-			{
-				sum += Integer.parseInt(number);
-				number = "";
-			}
+			sum = sum + Integer.parseInt(m.group());
 		}
-		System.out.println("Sum Of All Numbers: "+sum);
+		System.out.println("Output: "+sum);
 	}
 }

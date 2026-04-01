@@ -1,6 +1,6 @@
-package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
+package com.softwaretestingo.sto000collectedpgms.interviewprograms.array;
 import java.util.Arrays;
-public class STO0014_0_SortEachWordsByLength 
+public class STO0026_0_SortEachWordsByLength 
 {
 	/**
 	 * Input { "Hi" , "maven" , "selenium " , "java" } 

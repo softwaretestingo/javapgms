@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class STO0044_1_SecondMaxCharFrequency 
+public class STO0001_5_SecondMaxCharFrequency 
 {
 	/**
 	 * How to find 2nd largest duplicate character from given String using map? Ex:
