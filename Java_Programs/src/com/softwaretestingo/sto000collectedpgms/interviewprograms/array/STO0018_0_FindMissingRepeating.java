@@ -4,36 +4,41 @@ public class STO0018_0_FindMissingRepeating
 {
 	/**
 	 * Input: [7, 3, 4, 5, 5, 6, 2]
-	 * Output: 
-	 * The repeating element is 5
-	 * and the missing element is 1
-	 * 
+	 * The repeating number is 5
+	 * The missing number is 1
 	 */
-	static void printTwoElements(int arr[], int size)
+	static void printTwoElements(int[] arr, int n)
     {
-        int i;
-        System.out.print("The repeating element is ");
+        int[] temp = new int[n]; // Creating temp array of size n
+        
+        // with initial values as 0.
+        int repeatingNumber = -1;
+        int missingNumber = -1;
  
-        for (i = 0; i < size; i++) 
+        for (int i = 0; i < n; i++) 
         {
-            int abs_val = Math.abs(arr[i]);
-            if (arr[abs_val - 1] > 0)
-                arr[abs_val - 1] = -arr[abs_val - 1];
-            else
-                System.out.println(abs_val);
+            temp[arr[i] - 1]++;
+            if (temp[arr[i] - 1] > 1) 
+            {
+                repeatingNumber = arr[i];
+            }
+        }
+        for (int i = 0; i < n; i++) 
+        {
+            if (temp[i] == 0) 
+            {
+                missingNumber = i + 1;
+                break;
+            }
         }
  
-        System.out.print("and the missing element is ");
-        for (i = 0; i < size; i++) 
-        {
-            if (arr[i] > 0)
-                System.out.println(i + 1);
-        }
+        System.out.println("The repeating number is " + repeatingNumber);
+        System.out.println("The missing number is " + missingNumber);
     }
 
 	public static void main(String[] args) 
 	{
-		int arr[] = { 7, 3, 4, 5, 5, 6, 2 };
+		int[] arr = { 7, 3, 4, 5, 5, 6, 2 };
 		System.out.println("Input: "+Arrays.toString(arr));
         int n = arr.length;
         printTwoElements(arr, n);

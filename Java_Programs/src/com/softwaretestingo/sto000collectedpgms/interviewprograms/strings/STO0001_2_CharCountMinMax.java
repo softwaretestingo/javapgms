@@ -6,6 +6,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 public class STO0001_2_CharCountMinMax 
 {
 	/**
@@ -42,21 +43,21 @@ public class STO0001_2_CharCountMinMax
 		Integer maxValue=Collections.max(bmap.values());
 
 		System.out.println("Min Value : " + minValue + " Max Value : " + maxValue);
+		Set<Entry<Character, Integer>> entry = bmap.entrySet();
 
-
-		for (Entry<Character, Integer> entry : bmap.entrySet()) 
+		for (Entry<Character, Integer> val : entry) 
 		{
-			list.add(entry.getValue());
+			list.add(val.getValue());
 		}
 		Collections.sort(list);
 
 		for (Integer num : list) 
 		{
-			for (Entry<Character, Integer> entry : bmap.entrySet()) 
+			for (Entry<Character, Integer> val : entry) 
 			{
-				if(entry.getValue().equals(num))
+				if(val.getValue().equals(num))
 				{
-					sortedMap.put(entry.getKey(), num);
+					sortedMap.put(val.getKey(), num);
 				}
 			}
 		}

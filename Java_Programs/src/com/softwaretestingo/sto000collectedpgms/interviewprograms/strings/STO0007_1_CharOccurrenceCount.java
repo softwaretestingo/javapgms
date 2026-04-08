@@ -1,5 +1,5 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
-public class STO0013_1_ExpandCharByCount 
+public class STO0007_1_CharOccurrenceCount 
 {
 	/**
 	 * Interview Questions Asked In Unify technologies

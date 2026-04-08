@@ -1,30 +1,47 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
-import java.util.ArrayList;
-import java.util.List;
 public class STO0008_1_ReverseByKeepSpaces 
 {
 	/**
-	 * Input:  Today is January 5th 
-	 * Output: 5thja nu aryisTo day
+	 * Input : he is a good boy 
+	 * Output: yo bd o ogas ieh
 	 */
 	public static void main(String[] args) 
 	{
-		String input = "Today is January 5th";
+		String input = "he is a good boy";
 		System.out.println("Input: "+input);
-		String[] output = input.split(" ");
-		StringBuffer sb = new StringBuffer();
-		List<Integer> spaceIndex = new ArrayList<>();
-		for (int i=0; i<output.length-1; i++ ) 
-		{
-			spaceIndex.add(input.indexOf(" ")+i);
-			input=input.replaceFirst(" ","");
-		}
-		for ( int i=output.length-1; i>=0 ;i--)
-		{
-			sb.append(output[i]);
-		}
-		for ( int i : spaceIndex ) 
-			sb.insert(i," ");
-		System.out.println("Output: "+sb);
+
+        char[] arr = input.toCharArray();
+        char[] result = new char[arr.length];
+
+        // Step 1: mark spaces in result
+        for (int i = 0; i < arr.length; i++)
+        {
+            if (arr[i] == ' ') 
+            {
+                result[i] = ' ';
+            }
+        }
+
+        // Step 2: reverse characters manually
+        int j = arr.length - 1;
+
+        for (int i = 0; i < arr.length; i++) 
+        {
+            if (arr[i] != ' ') 
+            {
+                while (arr[j] == ' ') 
+                {
+                    j--;
+                }
+                result[j] = arr[i];
+                j--;
+            }
+        }
+        System.out.print("Output: ");
+        // Step 3: print result
+        for (int i = 0; i < result.length; i++) 
+        {
+            System.out.print(result[i]);
+        }
 	}
 }

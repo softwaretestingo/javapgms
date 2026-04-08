@@ -1,31 +1,36 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
 public class STO0010_0_ReplaceSpecificCharIncrementally 
 {
-	/*
-	 * input: "HELLO WORLD" 
-	 * Output: "HExxxO WORxxxD"
+	/**
+	 * Input: tomorrow 
+	 * Output: t#m##rr###w
 	 */
 	public static void main(String[] args) 
 	{
-		String s="HELLO WORLD";
-		System.out.println("Input: "+s);
-		String z="";
-		int count=1;
-		for(int i=0;i<s.length();i++)
-		{
-			if(s.charAt(i)=='L') 
-			{
-				for(int j=0;j<count;j++) 
-				{
-					z=z+'x';
-				}
-				count++;
-			}
-			else 
-			{
-				z=z+s.charAt(i);
-			}
-		}
-		System.out.println("Output: "+z);
+		String input = "tomorrow";
+		System.out.println("Input: "+input);
+        char target = 'o';
+
+        int hashCount = 1;
+
+        // Traverse each character manually
+        System.out.print("Output: ");
+        for (int i = 0; i < input.length(); i++) 
+        {
+            char ch = input.charAt(i);
+            if (ch == target) 
+            {
+                // Print incremental #
+                for (int j = 0; j < hashCount; j++) 
+                {
+                    System.out.print("#");
+                }
+                hashCount++;
+            }
+            else
+            {
+                System.out.print(ch);
+            }
+        }
 	}
 }

@@ -1,22 +1,26 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
+
 public class STO0003_0_SubstringCount 
 {
 	/**
-	 * Input: lekhale
-	 * Output: The substring 'le' is repeated 2 times in the given string.
+	 * Input: lekhale Output: The substring 'le' is repeated 2 times in the given
+	 * string.
 	 */
-	public static void main(String[] args) 
+	public static void main(String[] args)
 	{
 
 		String s = "lekhale";
-		System.out.println("Input: "+s);
 		int count = 0;
-		int index = s.indexOf("le");
-		while (index != -1) 
+
+		for (int i = 0; i < s.length()-1; i++) 
 		{
-			count++;
-			index = s.indexOf("le", index + 1);
+			if (s.charAt(i) == 'l' && s.charAt(i + 1) == 'e') 
+			{
+				count++;
+			}
 		}
-		System.out.println("Output: "+"The substring 'le' is repeated " + count + " times in the given string.");
+
+		System.out.println("Found 'le' " + count + " times");
+
 	}
 }

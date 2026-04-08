@@ -2,6 +2,7 @@ package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 public class STO0001_4_SecondMaxCharFrequency 
 {
 	/**
@@ -15,6 +16,7 @@ public class STO0001_4_SecondMaxCharFrequency
 
 	public static Map<Character,Integer> solution(String str) 
 	{
+		System.out.println("Input String is: "+str);
 		Object ch=null;
 		Map<Character,Integer> map = new HashMap<>();
 		char[] charArray = str.toCharArray();
@@ -22,8 +24,7 @@ public class STO0001_4_SecondMaxCharFrequency
 		{
 			if(map.containsKey(charArray[i]))
 			{
-				int count=map.get(charArray[i]);
-				map.put(charArray[i],count + 1);           
+				map.put(charArray[i],map.get(charArray[i])+ 1);           
 			}
 			else 
 			{
@@ -33,7 +34,8 @@ public class STO0001_4_SecondMaxCharFrequency
 		int largest = -1 ;
 		int secondLarge = -1 ;
 
-		for(Entry<Character,Integer> m : map.entrySet()) 
+		Set<Entry<Character,Integer>> entry = map.entrySet();
+		for(Entry<Character,Integer> m : entry ) 
 		{
 			if(m.getValue()>largest ) 
 			{
@@ -53,8 +55,6 @@ public class STO0001_4_SecondMaxCharFrequency
 	public static void main(String[] args) 
 	{
 		String str="abbcccddddcc";
-		String str1="annnyrggrrrrrrr";
 		STO0001_4_SecondMaxCharFrequency.solution(str);
-		STO0001_4_SecondMaxCharFrequency.solution(str1);
 	}
 }

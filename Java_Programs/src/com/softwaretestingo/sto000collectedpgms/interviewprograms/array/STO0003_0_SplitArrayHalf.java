@@ -13,7 +13,7 @@ public class STO0003_0_SplitArrayHalf
 	 */
 	public static void main(String[] args) throws UnsupportedEncodingException 
 	{
-	   int arr[]= {1,2,3,4,5,6};
+	   int arr[]= {1,2,3,4,5,6,7};
 	   int size=(arr.length)/2;
 	   int arr1[]=new int[size];
 	   int arr2[]=new int[arr.length-size];

@@ -1,5 +1,5 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.strings;
-public class STO0027_2_SumOfNumbersInString 
+public class STO0027_0_SumOfNumbersInString 
 {
 	/**
 	 * Write a program that calculate the sum of all numbers present in alphanumeric

@@ -18,12 +18,12 @@ public class STO0011_1_AdjacentCharCount
 			int j = i ;
 			while ( j < strArray . length ) 
 			{
-				if ( ! strArray [ i ] .equals ( strArray [ j ] ) )
+				if ( ! strArray[i].equals(strArray[j]) )
 					break;
 				counter++ ;
 				j++;
 			}
-			sb.append ( strArray [ i ] ) . append ( counter ) ;
+			sb.append ( strArray[i]).append(counter) ;
 			i = j ;
 		}
 		System.out.println ("Output: "+sb.toString());

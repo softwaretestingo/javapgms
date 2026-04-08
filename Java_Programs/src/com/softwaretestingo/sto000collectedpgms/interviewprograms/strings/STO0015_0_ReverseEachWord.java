@@ -16,7 +16,8 @@ public class STO0015_0_ReverseEachWord
 		{
 			if (str.charAt(i) != ' ')
 				st.push(str.charAt(i));
-			else {
+			else 
+			{
 				while (st.empty() == false) 
 				{
 					System.out.print(st.pop());
