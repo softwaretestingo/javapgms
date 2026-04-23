@@ -8,7 +8,7 @@ public class STO0006_0_SortByLength
 	 */
 	public static void main(String[] args) 
 	{
-		String ip[]={"Hi","maven","selenium","java"};
+		String ip[]={"Hi","maven","selenium","jaa"};
 		System.out.println("Input: "+Arrays.toString(ip));
 		for(int i=0;i<ip.length;i++)
 		{

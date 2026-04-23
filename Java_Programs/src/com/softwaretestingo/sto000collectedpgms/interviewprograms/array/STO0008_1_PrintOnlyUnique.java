@@ -1,9 +1,4 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.array;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
 public class STO0008_1_PrintOnlyUnique
 {
 	/**
@@ -14,19 +9,25 @@ public class STO0008_1_PrintOnlyUnique
 	 */
 	public static void main(String[] args) 
 	{
-		Integer arr[]= {2,1,1,4,5,5,6,7};
-		System.out.println("Input: "+Arrays.toString(arr));
-		List <Integer> ar = Arrays.asList(arr);
-		HashMap<Integer,Integer> hm = new HashMap<>();
-		ar.forEach(e ->{if(hm.containsKey(e))
-		{
-			hm.remove(e);
-		}
-		else
-		{
-			hm.put(e,1);
-		}});
-		ar = new ArrayList<>(hm.keySet());
-		System.out.println("Output: "+ar);
+		int arr[] = {2, 1, 1, 4, 5, 5, 6, 7};
+        System.out.print("Unique Elements = ");
+
+        for (int i = 0; i < arr.length; i++) 
+        {
+            boolean isDuplicate = false;
+            for (int j = 0; j < arr.length; j++)
+            {
+                if (i != j && arr[i] == arr[j])
+                {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+
+            if (!isDuplicate)
+            {
+                System.out.print(arr[i] + " ");
+            }
+        }
 	}
 }

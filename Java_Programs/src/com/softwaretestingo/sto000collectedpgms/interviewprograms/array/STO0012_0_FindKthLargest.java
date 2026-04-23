@@ -10,34 +10,35 @@ public class STO0012_0_FindKthLargest
 	 * Enter the value of k : 2
 	 * 2 largest array element From Array is 24
 	 */
-    public static int findKthLargest(List<Integer> ints, int k)
-    {
-        if (ints == null || ints.size() < k) 
+	public static int findKthLargest(int[] arr, int k) 
+	{
+
+        int n = arr.length;
+
+        // Bubble sort in ascending order
+        for (int i = 0; i < n - 1; i++) 
         {
-            System.exit(-1);
-        }
- 
-        PriorityQueue<Integer> pq = new PriorityQueue<>(ints.subList(0, k));
- 
-        for (int i = k; i < ints.size(); i++)
-        {
-            if (ints.get(i) > pq.peek())
-            {
-                pq.poll();
-                pq.add(ints.get(i));
+            for (int j = 0; j < n - i - 1; j++)
+{
+                if (arr[j] > arr[j + 1]) 
+                {
+                    // swap
+                    int temp  = arr[j];
+                    arr[j]    = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
             }
         }
-        return pq.peek();
+
+        return arr[n - k]; // kth largest
     }
 
-	public static void main(String[] args) 
-	{
-		List<Integer> ints = Arrays.asList(17, 24, 6, 3, 39, 1);
-		System.out.println("Input: "+ints);
-		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter the value of k : ");
-		int k = sc.nextInt();
- 
-        System.out.println(k+" largest array element From Array is " + findKthLargest(ints, k));
-	}
+    public static void main(String[] args) {
+
+        int[] arr = {17, 24, 6, 3, 39, 1};
+        int k = 3;
+
+        System.out.println("K           : " + k);
+        System.out.println("Kth Largest : " + findKthLargest(arr, k));
+    }
 }

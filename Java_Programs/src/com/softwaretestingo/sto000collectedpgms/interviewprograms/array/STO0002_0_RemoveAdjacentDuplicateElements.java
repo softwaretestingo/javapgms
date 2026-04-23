@@ -1,6 +1,5 @@
 package com.softwaretestingo.sto000collectedpgms.interviewprograms.array;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 import java.util.List;
 public class STO0002_0_RemoveAdjacentDuplicateElements 
 {
@@ -31,7 +30,7 @@ public class STO0002_0_RemoveAdjacentDuplicateElements
 				}
 				break;
 			}
-			if(list.get(j).equals(list.get(j+1)))
+			else if(list.get(j).equals(list.get(j+1)))
 			{
 				j=j+1;
 			}
